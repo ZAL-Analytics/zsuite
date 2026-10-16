@@ -1,0 +1,81 @@
+<script lang="ts" module>
+  export type Ask = {
+    title: string;
+    text?: string;
+    value?: string;
+    action: string;
+    destructive?: boolean;
+    options?: string[];
+    run: (value: string, option: number) => Promise<void>;
+  };
+
+  export type AskLabels = { cancel: string; name: string; option: string };
+</script>
+
+<script lang="ts">
+  import { untrack } from "svelte";
+  import { Button } from "../button/index.js";
+  import * as Dialog from "../dialog/index.js";
+  import { Input } from "../input/index.js";
+  import Picker from "../picker/picker.svelte";
+
+  let {
+    ask,
+    labels,
+    failed = (error: unknown) => (error instanceof Error ? error.message : String(error)),
+    onclose,
+  }: { ask: Ask; labels: AskLabels; failed?: (error: unknown) => string; onclose: () => void } = $props();
+
+  let value = $state(untrack(() => ask.value ?? ""));
+  let option = $state(0);
+  let failure = $state<string | null>(null);
+  let busy = $state(false);
+
+  async function submit(event: SubmitEvent) {
+    event.preventDefault();
+    busy = true;
+    try {
+      await ask.run(value, option);
+      onclose();
+    } catch (error) {
+      failure = failed(error);
+    } finally {
+      busy = false;
+    }
+  }
+</script>
+
+<Dialog.Root
+  open
+  onOpenChange={(open) => {
+    if (!open) onclose();
+  }}
+>
+  <Dialog.Content showCloseButton={false}>
+    <form class="grid gap-4" onsubmit={submit}>
+      <Dialog.Header>
+        <Dialog.Title>{ask.title}</Dialog.Title>
+        {#if ask.text}<Dialog.Description>{ask.text}</Dialog.Description>{/if}
+      </Dialog.Header>
+      {#if ask.value !== undefined}
+        <Input bind:value aria-label={labels.name} aria-invalid={failure !== null} autocomplete="off" />
+      {/if}
+      {#if ask.options}
+        <Picker
+          aria-label={labels.option}
+          class="w-full"
+          value={option}
+          options={ask.options.map((label, value) => ({ value, label }))}
+          onchange={(chosen) => (option = chosen)}
+        />
+      {/if}
+      {#if failure}<p class="text-sm whitespace-pre-line text-destructive" role="alert">{failure}</p>{/if}
+      <Dialog.Footer>
+        <Button type="button" variant="outline" onclick={onclose}>{labels.cancel}</Button>
+        <Button type="submit" variant={ask.destructive ? "destructive" : "default"} disabled={busy}>
+          {ask.action}
+        </Button>
+      </Dialog.Footer>
+    </form>
+  </Dialog.Content>
+</Dialog.Root>

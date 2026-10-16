@@ -1,0 +1,22 @@
+[package]
+name = "zsuite-typst"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "One Typst world for a page: preview as SVG, and export to PDF, PowerPoint and Word from the same compile."
+repository = "https://github.com/ZAL-Analytics/zsuite"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+typst = "0.15.1"
+typst-html = "0.15.1"
+typst-kit = { version = "0.15.1", features = ["embedded-fonts", "scan-fonts", "system-packages", "system-downloader", "datetime"] }
+typst-layout = "0.15.1"
+typst-pdf = "0.15.1"
+typst-render = "0.15.1"
+typst-svg = "0.15.1"
+zip = { version = "9", default-features = false, features = ["deflate"] }
+zsuite-theme = { path = "../zsuite-theme" }
+
+[dev-dependencies]
+roxmltree = "0.21"

@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-privacy-overrides"
+description = "Enables the privacy_overrides command without any pre-configured scope."
+commands.allow = ["privacy_overrides"]
+
+[[permission]]
+identifier = "deny-privacy-overrides"
+description = "Denies the privacy_overrides command without any pre-configured scope."
+commands.deny = ["privacy_overrides"]

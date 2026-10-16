@@ -1,0 +1,28 @@
+[package]
+name = "zsuite-sealed"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "An encrypted SQLCipher file that keeps a glossary, the tokens of hidden text and a search index of notes."
+repository = "https://github.com/ZAL-Analytics/zsuite"
+
+[dependencies]
+keyring = "4"
+# No features: its regex features also turn on tokenizers' C++ esaxx, built with the static CRT,
+# which clashes with onnxruntime's dynamic CRT when linking on Windows. zsuite-finder's
+# tokenizers supplies fancy-regex.
+model2vec-rs = { version = "0.3", default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+zsuite-finder = { path = "../zsuite-finder" }
+zsuite-veil = { path = "../zsuite-veil" }
+
+[target.'cfg(windows)'.dependencies]
+rusqlite = { version = "0.40", features = ["bundled-sqlcipher-vendored-openssl"] }
+
+[target.'cfg(not(windows))'.dependencies]
+rusqlite = { version = "0.40", features = ["bundled-sqlcipher"] }
+
+[features]
+typst = ["zsuite-veil/typst"]

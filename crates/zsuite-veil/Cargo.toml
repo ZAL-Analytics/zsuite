@@ -1,0 +1,20 @@
+[package]
+name = "zsuite-veil"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Finds names, numbers and glossary terms in text and swaps them for tokens that can be swapped back."
+repository = "https://github.com/ZAL-Analytics/zsuite"
+
+[features]
+typst = ["dep:typst"]
+
+[dependencies]
+aho-corasick = "1"
+oxrdf = "0.3"
+oxrdfio = "0.2"
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+typst = { version = "0.15.1", optional = true }
+unicode-normalization = "0.1"

@@ -1,0 +1,606 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PermissionFile",
+  "description": "Permission file that can define a default permission, a set of permissions or a list of inlined permissions.",
+  "type": "object",
+  "properties": {
+    "default": {
+      "description": "The default permission set for the plugin",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/DefaultPermission"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "set": {
+      "description": "A list of permissions sets defined",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/PermissionSet"
+      }
+    },
+    "permission": {
+      "description": "A list of inlined permissions",
+      "default": [],
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Permission"
+      }
+    }
+  },
+  "definitions": {
+    "DefaultPermission": {
+      "description": "The default permission set of the plugin.\n\nWorks similarly to a permission with the \"default\" identifier.",
+      "type": "object",
+      "required": [
+        "permissions"
+      ],
+      "properties": {
+        "version": {
+          "description": "The version of the permission.",
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint64",
+          "minimum": 1.0
+        },
+        "description": {
+          "description": "Human-readable description of what the permission does. Tauri convention is to use `<h4>` headings in markdown content for Tauri documentation generation purposes.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "permissions": {
+          "description": "All permissions this set contains.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "PermissionSet": {
+      "description": "A set of direct permissions grouped together under a new name.",
+      "type": "object",
+      "required": [
+        "description",
+        "identifier",
+        "permissions"
+      ],
+      "properties": {
+        "identifier": {
+          "description": "A unique identifier for the permission.",
+          "type": "string"
+        },
+        "description": {
+          "description": "Human-readable description of what the permission does.",
+          "type": "string"
+        },
+        "permissions": {
+          "description": "All permissions this set contains.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/PermissionKind"
+          }
+        }
+      }
+    },
+    "Permission": {
+      "description": "Descriptions of explicit privileges of commands.\n\nIt can enable commands to be accessible in the frontend of the application.\n\nIf the scope is defined it can be used to fine grain control the access of individual or multiple commands.",
+      "type": "object",
+      "required": [
+        "identifier"
+      ],
+      "properties": {
+        "version": {
+          "description": "The version of the permission.",
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint64",
+          "minimum": 1.0
+        },
+        "identifier": {
+          "description": "A unique identifier for the permission.",
+          "type": "string"
+        },
+        "description": {
+          "description": "Human-readable description of what the permission does. Tauri internal convention is to use `<h4>` headings in markdown content for Tauri documentation generation purposes.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "commands": {
+          "description": "Allowed or denied commands when using this permission.",
+          "default": {
+            "allow": [],
+            "deny": []
+          },
+          "allOf": [
+            {
+              "$ref": "#/definitions/Commands"
+            }
+          ]
+        },
+        "scope": {
+          "description": "Allowed or denied scoped when using this permission.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Scopes"
+            }
+          ]
+        },
+        "platforms": {
+          "description": "Target platforms this permission applies. By default all platforms are affected by this permission.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Target"
+          }
+        }
+      }
+    },
+    "Commands": {
+      "description": "Allowed and denied commands inside a permission.\n\nIf two commands clash inside of `allow` and `deny`, it should be denied by default.",
+      "type": "object",
+      "properties": {
+        "allow": {
+          "description": "Allowed command.",
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deny": {
+          "description": "Denied command, which takes priority.",
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Scopes": {
+      "description": "An argument for fine grained behavior control of Tauri commands.\n\nIt can be of any serde serializable type and is used to allow or prevent certain actions inside a Tauri command. The configured scope is passed to the command and will be enforced by the command implementation.\n\n## Example\n\n```json { \"allow\": [{ \"path\": \"$HOME/**\" }], \"deny\": [{ \"path\": \"$HOME/secret.txt\" }] } ```",
+      "type": "object",
+      "properties": {
+        "allow": {
+          "description": "Data that defines what is allowed by the scope.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Value"
+          }
+        },
+        "deny": {
+          "description": "Data that defines what is denied by the scope. This should be prioritized by validation logic.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Value"
+          }
+        }
+      }
+    },
+    "Value": {
+      "description": "All supported ACL values.",
+      "anyOf": [
+        {
+          "description": "Represents a null JSON value.",
+          "type": "null"
+        },
+        {
+          "description": "Represents a [`bool`].",
+          "type": "boolean"
+        },
+        {
+          "description": "Represents a valid ACL [`Number`].",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Number"
+            }
+          ]
+        },
+        {
+          "description": "Represents a [`String`].",
+          "type": "string"
+        },
+        {
+          "description": "Represents a list of other [`Value`]s.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Value"
+          }
+        },
+        {
+          "description": "Represents a map of [`String`] keys to [`Value`]s.",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/Value"
+          }
+        }
+      ]
+    },
+    "Number": {
+      "description": "A valid ACL number.",
+      "anyOf": [
+        {
+          "description": "Represents an [`i64`].",
+          "type": "integer",
+          "format": "int64"
+        },
+        {
+          "description": "Represents a [`f64`].",
+          "type": "number",
+          "format": "double"
+        }
+      ]
+    },
+    "Target": {
+      "description": "Platform target.",
+      "oneOf": [
+        {
+          "description": "MacOS.",
+          "type": "string",
+          "enum": [
+            "macOS"
+          ]
+        },
+        {
+          "description": "Windows.",
+          "type": "string",
+          "enum": [
+            "windows"
+          ]
+        },
+        {
+          "description": "Linux.",
+          "type": "string",
+          "enum": [
+            "linux"
+          ]
+        },
+        {
+          "description": "Android.",
+          "type": "string",
+          "enum": [
+            "android"
+          ]
+        },
+        {
+          "description": "iOS.",
+          "type": "string",
+          "enum": [
+            "iOS"
+          ]
+        }
+      ]
+    },
+    "PermissionKind": {
+      "type": "string",
+      "oneOf": [
+        {
+          "description": "Enables the agent_attach command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-attach",
+          "markdownDescription": "Enables the agent_attach command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_attach command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-attach",
+          "markdownDescription": "Denies the agent_attach command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_cancel command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-cancel",
+          "markdownDescription": "Enables the agent_cancel command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_cancel command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-cancel",
+          "markdownDescription": "Denies the agent_cancel command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_code command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-code",
+          "markdownDescription": "Enables the agent_code command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_code command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-code",
+          "markdownDescription": "Denies the agent_code command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_connect command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-connect",
+          "markdownDescription": "Enables the agent_connect command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_connect command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-connect",
+          "markdownDescription": "Denies the agent_connect command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_detach command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-detach",
+          "markdownDescription": "Enables the agent_detach command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_detach command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-detach",
+          "markdownDescription": "Denies the agent_detach command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_disconnect command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-disconnect",
+          "markdownDescription": "Enables the agent_disconnect command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_disconnect command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-disconnect",
+          "markdownDescription": "Denies the agent_disconnect command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_files command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-files",
+          "markdownDescription": "Enables the agent_files command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_files command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-files",
+          "markdownDescription": "Denies the agent_files command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_forget command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-forget",
+          "markdownDescription": "Enables the agent_forget command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_forget command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-forget",
+          "markdownDescription": "Denies the agent_forget command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_in_scope command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-in-scope",
+          "markdownDescription": "Enables the agent_in_scope command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_in_scope command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-in-scope",
+          "markdownDescription": "Denies the agent_in_scope command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_install command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-install",
+          "markdownDescription": "Enables the agent_install command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_install command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-install",
+          "markdownDescription": "Denies the agent_install command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_level command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-level",
+          "markdownDescription": "Enables the agent_level command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_level command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-level",
+          "markdownDescription": "Denies the agent_level command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_run command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-run",
+          "markdownDescription": "Enables the agent_run command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_run command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-run",
+          "markdownDescription": "Denies the agent_run command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_seen command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-seen",
+          "markdownDescription": "Enables the agent_seen command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_seen command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-seen",
+          "markdownDescription": "Denies the agent_seen command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the agent_status command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-agent-status",
+          "markdownDescription": "Enables the agent_status command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the agent_status command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-agent-status",
+          "markdownDescription": "Denies the agent_status command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the chat_save command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-chat-save",
+          "markdownDescription": "Enables the chat_save command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the chat_save command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-chat-save",
+          "markdownDescription": "Denies the chat_save command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the chats_list command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-chats-list",
+          "markdownDescription": "Enables the chats_list command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the chats_list command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-chats-list",
+          "markdownDescription": "Denies the chats_list command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_forget command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-forget",
+          "markdownDescription": "Enables the privacy_forget command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_forget command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-forget",
+          "markdownDescription": "Denies the privacy_forget command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_options command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-options",
+          "markdownDescription": "Enables the privacy_options command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_options command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-options",
+          "markdownDescription": "Denies the privacy_options command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_override command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-override",
+          "markdownDescription": "Enables the privacy_override command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_override command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-override",
+          "markdownDescription": "Denies the privacy_override command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_overrides command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-overrides",
+          "markdownDescription": "Enables the privacy_overrides command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_overrides command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-overrides",
+          "markdownDescription": "Denies the privacy_overrides command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_pages command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-pages",
+          "markdownDescription": "Enables the privacy_pages command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_pages command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-pages",
+          "markdownDescription": "Denies the privacy_pages command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_policy command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-policy",
+          "markdownDescription": "Enables the privacy_policy command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_policy command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-policy",
+          "markdownDescription": "Denies the privacy_policy command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the privacy_view command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-privacy-view",
+          "markdownDescription": "Enables the privacy_view command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the privacy_view command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-privacy-view",
+          "markdownDescription": "Denies the privacy_view command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the provider_connect command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-provider-connect",
+          "markdownDescription": "Enables the provider_connect command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the provider_connect command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-provider-connect",
+          "markdownDescription": "Denies the provider_connect command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the provider_models command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-provider-models",
+          "markdownDescription": "Enables the provider_models command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the provider_models command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-provider-models",
+          "markdownDescription": "Denies the provider_models command without any pre-configured scope."
+        },
+        {
+          "description": "Every command of the assistant and its privacy settings.\n#### This default permission set includes:\n\n- `allow-agent-status`\n- `allow-agent-install`\n- `allow-agent-connect`\n- `allow-agent-code`\n- `allow-agent-disconnect`\n- `allow-agent-cancel`\n- `allow-agent-run`\n- `allow-agent-attach`\n- `allow-agent-files`\n- `allow-agent-seen`\n- `allow-agent-level`\n- `allow-agent-detach`\n- `allow-agent-in-scope`\n- `allow-agent-forget`\n- `allow-provider-connect`\n- `allow-provider-models`\n- `allow-chats-list`\n- `allow-chat-save`\n- `allow-privacy-policy`\n- `allow-privacy-options`\n- `allow-privacy-pages`\n- `allow-privacy-view`\n- `allow-privacy-override`\n- `allow-privacy-overrides`\n- `allow-privacy-forget`",
+          "type": "string",
+          "const": "default",
+          "markdownDescription": "Every command of the assistant and its privacy settings.\n#### This default permission set includes:\n\n- `allow-agent-status`\n- `allow-agent-install`\n- `allow-agent-connect`\n- `allow-agent-code`\n- `allow-agent-disconnect`\n- `allow-agent-cancel`\n- `allow-agent-run`\n- `allow-agent-attach`\n- `allow-agent-files`\n- `allow-agent-seen`\n- `allow-agent-level`\n- `allow-agent-detach`\n- `allow-agent-in-scope`\n- `allow-agent-forget`\n- `allow-provider-connect`\n- `allow-provider-models`\n- `allow-chats-list`\n- `allow-chat-save`\n- `allow-privacy-policy`\n- `allow-privacy-options`\n- `allow-privacy-pages`\n- `allow-privacy-view`\n- `allow-privacy-override`\n- `allow-privacy-overrides`\n- `allow-privacy-forget`"
+        }
+      ]
+    }
+  }
+}

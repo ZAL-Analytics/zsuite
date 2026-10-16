@@ -1,0 +1,22 @@
+[package]
+name = "zsuite-agent"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "An assistant that reads and edits a folder of pages through Claude Code or an OpenAI-compatible server, with names hidden by zsuite-veil."
+repository = "https://github.com/ZAL-Analytics/zsuite"
+
+[dependencies]
+keyring = "4"
+lopdf = { version = "0.45", default-features = false }
+native-tls = "0.2"
+roxmltree = "0.21"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", default-features = false, features = ["native-tls"] }
+zip = { version = "9", default-features = false, features = ["deflate"] }
+zsuite-sealed = { path = "../zsuite-sealed", features = ["typst"] }
+zsuite-veil = { path = "../zsuite-veil", features = ["typst"] }
+
+[dev-dependencies]
+zsuite-typst = { path = "../zsuite-typst" }

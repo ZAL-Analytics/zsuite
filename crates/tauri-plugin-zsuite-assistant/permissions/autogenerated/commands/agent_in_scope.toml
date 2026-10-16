@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-agent-in-scope"
+description = "Enables the agent_in_scope command without any pre-configured scope."
+commands.allow = ["agent_in_scope"]
+
+[[permission]]
+identifier = "deny-agent-in-scope"
+description = "Denies the agent_in_scope command without any pre-configured scope."
+commands.deny = ["agent_in_scope"]

@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-agent-files"
+description = "Enables the agent_files command without any pre-configured scope."
+commands.allow = ["agent_files"]
+
+[[permission]]
+identifier = "deny-agent-files"
+description = "Denies the agent_files command without any pre-configured scope."
+commands.deny = ["agent_files"]

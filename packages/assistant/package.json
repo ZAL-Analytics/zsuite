@@ -1,0 +1,42 @@
+{
+  "name": "@zsuite/assistant",
+  "version": "0.1.0",
+  "description": "Svelte 5 assistant panel for tauri-plugin-zsuite-assistant: chats, providers and hidden names.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZAL-Analytics/zsuite.git",
+    "directory": "packages/assistant"
+  },
+  "files": [
+    "src"
+  ],
+  "exports": {
+    "./i18n": "./src/i18n.ts",
+    "./pages": "./src/pages.ts",
+    "./ipc": "./src/ipc.ts",
+    "./host": "./src/host.ts",
+    "./assistant": "./src/assistant.ts",
+    "./markdown": "./src/markdown.ts",
+    "./state/*": "./src/state/*.svelte.ts",
+    "./components/*": {
+      "svelte": "./src/components/*.svelte",
+      "default": "./src/components/*.svelte"
+    },
+    "./locale/*": "./src/locale/*"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.16",
+    "marked": "^18.1.0"
+  },
+  "peerDependencies": {
+    "@codemirror/state": "^6",
+    "@codemirror/view": "^6",
+    "@lucide/svelte": ">=1",
+    "@tauri-apps/api": "^2",
+    "@zsuite/ui": "workspace:*",
+    "codemirror": "^6",
+    "svelte": "^5"
+  }
+}

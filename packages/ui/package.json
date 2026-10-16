@@ -20,6 +20,7 @@
     "./utils": "./src/utils.ts",
     "./direction": "./src/direction.svelte.ts",
     "./look": "./src/look.ts",
+    "./i18n": "./src/i18n.svelte.ts",
     "./*": {
       "svelte": "./src/components/*/index.ts",
       "default": "./src/components/*/index.ts"

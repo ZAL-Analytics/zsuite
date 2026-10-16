@@ -1,0 +1,16 @@
+[package]
+name = "zsuite-finder"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Runs a GLiNER name finder on the CPU and downloads checked model files."
+repository = "https://github.com/ZAL-Analytics/zsuite"
+
+[dependencies]
+ndarray = "0.16"
+ort = { version = "=2.0.0-rc.9", default-features = false, features = ["ndarray", "download-binaries"] }
+ort-sys = { version = "=2.0.0-rc.9", default-features = false }
+serde = { version = "1", features = ["derive"] }
+sha2 = "0.10"
+tokenizers = { version = "0.21", default-features = false, features = ["fancy-regex"] }
+zsuite-veil = { path = "../zsuite-veil" }

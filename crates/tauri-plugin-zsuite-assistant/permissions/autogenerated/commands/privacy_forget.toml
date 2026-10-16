@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-privacy-forget"
+description = "Enables the privacy_forget command without any pre-configured scope."
+commands.allow = ["privacy_forget"]
+
+[[permission]]
+identifier = "deny-privacy-forget"
+description = "Denies the privacy_forget command without any pre-configured scope."
+commands.deny = ["privacy_forget"]
