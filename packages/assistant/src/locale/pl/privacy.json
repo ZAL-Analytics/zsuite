@@ -2,7 +2,7 @@
   "preview": "Co jest wysyłane do asystenta",
   "addToKnowledge": "Dodaj do bazy wiedzy",
   "restored": "Ukryte przed asystentem jako: {kind}",
-  "unknownToken": "Asystent napisał znacznik, którego csh-note nie zna, więc nie dało się go przywrócić",
+  "unknownToken": "Nieznany znacznik, nie dało się go przywrócić",
   "otherKnowledge": "W tym czacie nazwy ukrywano przy użyciu innego pliku wiedzy. Ukryte nazwy mogą być widoczne jako znaczniki.",
   "panel": {
     "hidden": "Ukryte przed asystentem",

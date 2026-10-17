@@ -35,7 +35,7 @@
     "@codemirror/view": "^6",
     "@lucide/svelte": ">=1",
     "@tauri-apps/api": "^2",
-    "@zsuite/ui": "workspace:*",
+    "@zsuite/ui": "workspace:^",
     "codemirror": "^6",
     "svelte": "^5"
   }

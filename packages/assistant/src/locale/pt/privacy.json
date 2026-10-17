@@ -2,7 +2,7 @@
   "preview": "O que é enviado ao assistente",
   "addToKnowledge": "Adicionar à base de conhecimento",
   "restored": "Oculto do assistente como: {kind}",
-  "unknownToken": "O assistente escreveu um código que o csh-note não conhece, por isso não foi possível repô-lo",
+  "unknownToken": "Código desconhecido, não foi possível repô-lo",
   "otherKnowledge": "Esta conversa ocultou nomes com outro ficheiro de conhecimento. Os nomes ocultos podem aparecer como códigos.",
   "panel": {
     "hidden": "Oculto do assistente",

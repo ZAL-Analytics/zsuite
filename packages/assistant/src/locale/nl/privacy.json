@@ -2,7 +2,7 @@
   "preview": "Wat naar de assistent wordt gestuurd",
   "addToKnowledge": "Toevoegen aan kennisbank",
   "restored": "Verborgen voor de assistent als: {kind}",
-  "unknownToken": "De assistent schreef een code die csh-note niet kent, dus die kon niet worden teruggezet",
+  "unknownToken": "Onbekende code, kon niet worden teruggezet",
   "otherKnowledge": "In deze chat zijn namen verborgen met een ander kennisbestand. Verborgen namen kunnen als codes worden weergegeven.",
   "panel": {
     "hidden": "Verborgen voor assistent",

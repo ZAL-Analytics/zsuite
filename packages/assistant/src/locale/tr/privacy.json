@@ -2,7 +2,7 @@
   "preview": "Asistana gönderilenler",
   "addToKnowledge": "Bilgi tabanına ekle",
   "restored": "Asistandan şu olarak gizlendi: {kind}",
-  "unknownToken": "Asistan, csh-note'un tanımadığı bir etiket yazdı, bu yüzden geri konulamadı",
+  "unknownToken": "Bilinmeyen etiket, geri konulamadı",
   "otherKnowledge": "Bu sohbette adlar başka bir bilgi dosyasıyla gizlendi. Gizli adlar etiket olarak görünebilir.",
   "panel": {
     "hidden": "Asistandan gizlendi",

@@ -72,7 +72,7 @@ pub fn hosted(provider: &str) -> Result<&'static Hosted, String> {
     HOSTED
         .iter()
         .find(|hosted| hosted.id == provider)
-        .ok_or_else(|| format!("“{provider}” is not a provider csh-note knows."))
+        .ok_or_else(|| format!("“{provider}” is not a known provider."))
 }
 
 fn nearby(url: &str) -> bool {

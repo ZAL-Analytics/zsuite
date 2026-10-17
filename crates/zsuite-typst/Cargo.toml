@@ -16,7 +16,7 @@ typst-pdf = "0.15.1"
 typst-render = "0.15.1"
 typst-svg = "0.15.1"
 zip = { version = "9", default-features = false, features = ["deflate"] }
-zsuite-theme = { path = "../zsuite-theme" }
+zsuite-theme = { path = "../zsuite-theme", version = "0.1.0" }
 
 [dev-dependencies]
 roxmltree = "0.21"

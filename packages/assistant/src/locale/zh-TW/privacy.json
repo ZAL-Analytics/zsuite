@@ -2,7 +2,7 @@
   "preview": "傳送給助理的內容",
   "addToKnowledge": "加入知識庫",
   "restored": "已對助理隱藏為：{kind}",
-  "unknownToken": "助理寫了一個 csh-note 不認得的代號，因此無法還原",
+  "unknownToken": "未知代號，無法還原",
   "otherKnowledge": "這個聊天使用另一個知識檔案隱藏了名稱。隱藏的名稱可能會顯示為代號。",
   "panel": {
     "hidden": "對助理隱藏",

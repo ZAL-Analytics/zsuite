@@ -2,7 +2,7 @@
   "preview": "Cosa viene inviato all’assistente",
   "addToKnowledge": "Aggiungi alla base di conoscenza",
   "restored": "Nascosto all'assistente come: {kind}",
-  "unknownToken": "L'assistente ha scritto un segnaposto che csh-note non conosce, quindi non è stato possibile rimettere il testo originale",
+  "unknownToken": "Segnaposto sconosciuto, impossibile rimettere il testo originale",
   "otherKnowledge": "Questa chat ha nascosto i nomi con un altro file di conoscenza. I nomi nascosti potrebbero apparire come segnaposto.",
   "panel": {
     "hidden": "Nascosto all'assistente",

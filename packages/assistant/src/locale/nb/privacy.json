@@ -2,7 +2,7 @@
   "preview": "Det som sendes til assistenten",
   "addToKnowledge": "Legg til i kunnskapsbasen",
   "restored": "Skjult for assistenten som: {kind}",
-  "unknownToken": "Assistenten skrev en plassholder som csh-note ikke kjenner, så den kunne ikke byttes tilbake",
+  "unknownToken": "Ukjent plassholder, kunne ikke byttes tilbake",
   "otherKnowledge": "Denne chatten skjulte navn med en annen kunnskapsfil. Skjulte navn kan vises som plassholdere.",
   "panel": {
     "hidden": "Skjult for assistenten",

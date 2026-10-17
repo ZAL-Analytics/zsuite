@@ -2,7 +2,7 @@
   "preview": "发送给助手的内容",
   "addToKnowledge": "添加到知识库",
   "restored": "已对助手隐藏为：{kind}",
-  "unknownToken": "助手写了一个 csh-note 不认识的代号，因此无法还原",
+  "unknownToken": "未知代号，无法还原",
   "otherKnowledge": "此聊天使用另一个知识文件隐藏了名称。隐藏的名称可能会显示为代号。",
   "panel": {
     "hidden": "对助手隐藏",

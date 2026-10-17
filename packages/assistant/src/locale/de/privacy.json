@@ -2,7 +2,7 @@
   "preview": "Was an den Assistenten gesendet wird",
   "addToKnowledge": "Zur Wissensdatenbank hinzufügen",
   "restored": "Vor dem Assistenten verborgen als: {kind}",
-  "unknownToken": "Der Assistent hat ein Kürzel geschrieben, das csh-note nicht kennt. Es konnte daher nicht zurückübersetzt werden",
+  "unknownToken": "Unbekanntes Kürzel, konnte nicht zurückübersetzt werden",
   "otherKnowledge": "In diesem Chat wurden Namen mit einer anderen Wissensdatei verborgen. Verborgene Namen können als Kürzel angezeigt werden.",
   "panel": {
     "hidden": "Vor dem Assistenten verborgen",

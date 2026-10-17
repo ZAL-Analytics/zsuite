@@ -2,7 +2,7 @@
   "preview": "Ce qui est envoyé à l’assistant",
   "addToKnowledge": "Ajouter à la base de connaissances",
   "restored": "Masqué pour l’assistant en tant que : {kind}",
-  "unknownToken": "L’assistant a écrit un jeton que csh-note ne connaît pas, il n’a donc pas pu être remplacé",
+  "unknownToken": "Jeton inconnu, impossible de le remplacer",
   "otherKnowledge": "Cette discussion a masqué des noms avec un autre fichier de connaissances. Les noms masqués peuvent apparaître sous forme de jetons.",
   "panel": {
     "hidden": "Masqué pour l’assistant",

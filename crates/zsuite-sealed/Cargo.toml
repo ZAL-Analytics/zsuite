@@ -15,8 +15,8 @@ model2vec-rs = { version = "0.3", default-features = false }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 sha2 = "0.10"
-zsuite-finder = { path = "../zsuite-finder" }
-zsuite-veil = { path = "../zsuite-veil" }
+zsuite-finder = { path = "../zsuite-finder", version = "0.1.0" }
+zsuite-veil = { path = "../zsuite-veil", version = "0.1.0" }
 
 [target.'cfg(windows)'.dependencies]
 rusqlite = { version = "0.40", features = ["bundled-sqlcipher-vendored-openssl"] }

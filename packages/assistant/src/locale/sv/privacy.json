@@ -2,7 +2,7 @@
   "preview": "Det som skickas till assistenten",
   "addToKnowledge": "Lägg till i kunskapsbasen",
   "restored": "Dold för assistenten som: {kind}",
-  "unknownToken": "Assistenten skrev en platshållare som csh-note inte känner till, så den kunde inte bytas tillbaka",
+  "unknownToken": "Okänd platshållare, kunde inte bytas tillbaka",
   "otherKnowledge": "Den här chatten dolde namn med en annan kunskapsfil. Dolda namn kan visas som platshållare.",
   "panel": {
     "hidden": "Dolt för assistenten",
