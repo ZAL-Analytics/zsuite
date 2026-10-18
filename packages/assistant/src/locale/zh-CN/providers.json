@@ -1,9 +1,7 @@
 {
   "connectTitle": "连接助手",
-  "connectText": "选择助手在什么上运行。",
   "chooseElse": "选择其他",
   "nameConnected": "{name} · 已连接",
-  "dialogText": "连接一个或多个，并选择默认项。",
   "connected": "已连接",
   "connectedTo": "已连接到 {url}",
   "use": "设为默认",
@@ -21,6 +19,11 @@
     "type": "输入模型名称",
     "missing": "请选择一个支持工具的模型。",
     "hint": "当聊天或预设未选择其他模型时使用此模型。"
+  },
+  "routing": {
+    "label": "服务商",
+    "private": "隐私优先：仅限不保留任何数据的服务商",
+    "cheapest": "最便宜优先"
   },
   "signIn": {
     "installing": "正在下载 Claude Code…",

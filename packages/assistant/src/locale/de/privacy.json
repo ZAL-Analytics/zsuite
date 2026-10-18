@@ -24,7 +24,6 @@
     "text": "Namen, Beträge und Kontaktdaten werden zu Kürzeln wie ⟦CUSTOMER_3⟧, bevor etwas gesendet wird.",
     "create": "Wissensdatei erstellen",
     "import": "Wissensdatei importieren",
-    "later": "Sie können das später in den Einstellungen ändern.",
     "downloadsText": "Beide laufen nur auf diesem Computer.",
     "how": "So funktioniert es"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Datenschutz",
-    "text": "Was der Assistent sehen und nachschlagen darf.",
     "needsFile": "Erstellen oder importieren Sie zuerst eine Wissensdatei.",
     "privacyVeil": "Namen vor dem Assistenten verbergen",
     "privacyVeilHint": "Kunden, Personen, Projekte und Kontaktdaten werden zu Kürzeln.",

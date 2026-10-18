@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Paramètres avancés de l’assistant",
-    "text": "Choisissez la vitesse et la prudence de l’assistant avec {provider}.",
     "label": "Préréglage",
     "new": "Nouveau préréglage",
     "mine": "Mon préréglage",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Aperçu du chat",
-    "text": "Tout ce qui a été envoyé à l'assistant dans ce chat, et les pages et fichiers qu'il peut encore lire.",
     "sent": "Envoyé",
     "files": "Pages et fichiers",
     "message": "Message {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Ce que voit l’assistant",
-    "text": "Choisissez une page ou un fichier pour le voir comme l’assistant le voit, et choisissez ce qui est masqué.",
     "none": "Aucune page ni aucun fichier dans cette discussion pour l’instant.",
+    "removeAll": "Tout retirer du chat",
     "undo": "Annuler",
     "reset": "Annuler toutes les modifications"
   },

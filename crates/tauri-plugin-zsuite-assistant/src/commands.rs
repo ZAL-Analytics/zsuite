@@ -4,7 +4,7 @@ use serde_json::Value;
 use tauri::ipc::Channel;
 use tauri::{AppHandle, Manager, Runtime, State};
 use tauri_plugin_dialog::DialogExt;
-use zsuite_agent::{Agent, Attachment, Event, Status, Turn};
+use zsuite_agent::{Agent, Attached, Attachment, Event, Status, Turn};
 use zsuite_sealed::{Knowledge, LOCKED, Options, Piece, pieces};
 use zsuite_veil::policy::Policy;
 use zsuite_veil::{LIGHT, Override};
@@ -124,10 +124,7 @@ pub async fn agent_run<R: Runtime>(
 }
 
 #[tauri::command]
-pub async fn agent_attach<R: Runtime>(
-    app: AppHandle<R>,
-    chat: String,
-) -> Result<Vec<Attachment>, String> {
+pub async fn agent_attach<R: Runtime>(app: AppHandle<R>, chat: String) -> Result<Attached, String> {
     blocking(move || {
         let folder = chat_path(&app, &chat)?;
         let files = app

@@ -24,7 +24,6 @@
     "text": "Les noms, montants et coordonnées deviennent des jetons comme ⟦CUSTOMER_3⟧ avant tout envoi.",
     "create": "Créer un fichier de connaissances",
     "import": "Importer un fichier de connaissances",
-    "later": "Vous pourrez modifier ce choix plus tard dans les Paramètres.",
     "downloadsText": "Les deux fonctionnent uniquement sur cet ordinateur.",
     "how": "Comment ça marche"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Confidentialité",
-    "text": "Ce que l’assistant peut voir et consulter.",
     "needsFile": "Créez ou importez d’abord un fichier de connaissances.",
     "privacyVeil": "Masquer les noms pour l’assistant",
     "privacyVeilHint": "Les clients, personnes, projets et coordonnées deviennent des jetons.",

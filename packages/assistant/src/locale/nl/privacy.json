@@ -24,7 +24,6 @@
     "text": "Namen, bedragen en contactgegevens worden codes zoals ⟦CUSTOMER_3⟧ voordat er iets wordt verzonden.",
     "create": "Kennisbestand maken",
     "import": "Kennisbestand importeren",
-    "later": "Je kunt dit later wijzigen in Instellingen.",
     "downloadsText": "Beide draaien alleen op deze computer.",
     "how": "Zo werkt het"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Privacy",
-    "text": "Wat de assistent mag zien en opzoeken.",
     "needsFile": "Maak of importeer eerst een kennisbestand.",
     "privacyVeil": "Namen verbergen voor de assistent",
     "privacyVeilHint": "Klanten, personen, projecten en contactgegevens worden codes.",

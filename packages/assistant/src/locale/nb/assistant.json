@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Avanserte assistentinnstillinger",
-    "text": "Velg hvor rask og grundig assistenten er med {provider}.",
     "label": "Forhåndsinnstilling",
     "new": "Ny forhåndsinnstilling",
     "mine": "Min forhåndsinnstilling",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Chatoversikt",
-    "text": "Alt som er sendt til assistenten i denne chatten, og sidene og filene den fortsatt kan lese.",
     "sent": "Sendt",
     "files": "Sider og filer",
     "message": "Melding {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Hva assistenten ser",
-    "text": "Velg en side eller fil for å se den slik assistenten gjør, og velg hvor mye som skjules.",
     "none": "Ingen sider eller filer i denne chatten ennå.",
+    "removeAll": "Fjern alt fra chatten",
     "undo": "Angre",
     "reset": "Angre alle endringer"
   },

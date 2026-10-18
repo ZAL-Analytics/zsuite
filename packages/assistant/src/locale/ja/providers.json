@@ -1,9 +1,7 @@
 {
   "connectTitle": "アシスタントを接続",
-  "connectText": "アシスタントを動かすサービスを選んでください。",
   "chooseElse": "その他を選ぶ",
   "nameConnected": "{name} · 接続済み",
-  "dialogText": "1つ以上を接続し、既定のものを選んでください。",
   "connected": "接続済み",
   "connectedTo": "{url} に接続済み",
   "use": "既定にする",
@@ -21,6 +19,11 @@
     "type": "モデル名を入力",
     "missing": "ツールに対応したモデルを選んでください。",
     "hint": "チャットやプリセットで別のモデルを選ばない場合に使われます。"
+  },
+  "routing": {
+    "label": "プロバイダー",
+    "private": "プライバシー優先：何も保存しないプロバイダーのみ",
+    "cheapest": "安い順"
   },
   "signIn": {
     "installing": "Claude Codeをダウンロード中…",

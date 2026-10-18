@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-zsuite-assistant"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 license = "Apache-2.0"
 description = "The zsuite assistant and its privacy settings as a Tauri plugin: chats, providers and hidden names."
@@ -11,7 +11,7 @@ links = "tauri-plugin-zsuite-assistant"
 serde_json = "1"
 tauri = "2"
 tauri-plugin-dialog = "2"
-zsuite-agent = { path = "../zsuite-agent", version = "0.1.0" }
+zsuite-agent = { path = "../zsuite-agent", version = "0.2.0" }
 zsuite-sealed = { path = "../zsuite-sealed", version = "0.1.0", features = ["typst"] }
 zsuite-veil = { path = "../zsuite-veil", version = "0.1.0" }
 

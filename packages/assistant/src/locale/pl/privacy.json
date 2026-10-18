@@ -24,7 +24,6 @@
     "text": "Nazwy, kwoty i dane kontaktowe stają się znacznikami, np. ⟦CUSTOMER_3⟧, zanim cokolwiek zostanie wysłane.",
     "create": "Utwórz plik wiedzy",
     "import": "Importuj plik wiedzy",
-    "later": "Możesz to zmienić później w Ustawieniach.",
     "downloadsText": "Oba działają tylko na tym komputerze.",
     "how": "Jak to działa"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Prywatność",
-    "text": "Co asystent może widzieć i wyszukiwać.",
     "needsFile": "Najpierw utwórz lub zaimportuj plik wiedzy.",
     "privacyVeil": "Ukrywaj nazwy przed asystentem",
     "privacyVeilHint": "Klienci, osoby, projekty i dane kontaktowe stają się znacznikami.",

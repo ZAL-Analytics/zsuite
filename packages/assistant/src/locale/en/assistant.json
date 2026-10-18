@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Advanced settings",
-    "text": "Choose speed and care for {provider}.",
     "label": "Preset",
     "new": "New preset",
     "mine": "My preset",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Chat overview",
-    "text": "Everything sent to the assistant in this chat, and the pages and files it can still read.",
     "sent": "Sent",
     "files": "Pages and files",
     "message": "Message {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "What the assistant sees",
-    "text": "Pick a page or file to see it as the assistant does, and choose how much is hidden.",
     "none": "No pages or files in this chat yet.",
+    "removeAll": "Remove all from chat",
     "undo": "Undo",
     "reset": "Undo all changes"
   },

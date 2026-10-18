@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Definições avançadas do assistente",
-    "text": "Escolha a rapidez e o cuidado do assistente com {provider}.",
     "label": "Predefinição",
     "new": "Nova predefinição",
     "mine": "A minha predefinição",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Resumo do chat",
-    "text": "Tudo o que foi enviado ao assistente neste chat, e as páginas e ficheiros que ainda pode ler.",
     "sent": "Enviado",
     "files": "Páginas e ficheiros",
     "message": "Mensagem {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "O que o assistente vê",
-    "text": "Escolha uma página ou ficheiro para o ver como o assistente o vê, e escolha quanto fica oculto.",
     "none": "Ainda não há páginas nem ficheiros nesta conversa.",
+    "removeAll": "Remover tudo do chat",
     "undo": "Desfazer",
     "reset": "Desfazer todas as alterações"
   },

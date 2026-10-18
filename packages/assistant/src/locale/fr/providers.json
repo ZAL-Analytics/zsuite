@@ -1,9 +1,7 @@
 {
   "connectTitle": "Connecter l'assistant",
-  "connectText": "Choisissez sur quoi l'assistant s'exécute.",
   "chooseElse": "Choisir autre chose",
   "nameConnected": "{name} · connecté",
-  "dialogText": "Connectez-en un ou plusieurs et choisissez celui par défaut.",
   "connected": "Connecté",
   "connectedTo": "Connecté à {url}",
   "use": "Définir par défaut",
@@ -21,6 +19,11 @@
     "type": "Saisir le nom d'un modèle",
     "missing": "Choisissez un modèle qui prend en charge les outils.",
     "hint": "Utilisé quand une discussion ou un préréglage ne choisit pas un autre modèle."
+  },
+  "routing": {
+    "label": "Fournisseurs",
+    "private": "Confidentialité d’abord : seulement ceux qui ne conservent rien",
+    "cheapest": "Le moins cher d’abord"
   },
   "signIn": {
     "installing": "Téléchargement de Claude Code…",

@@ -98,8 +98,9 @@ export class Privacy {
     return optionsOf(this.settings.values, this.status, this.policy);
   }
 
+  // Unknown until the status has loaded, so the panel does not flash a warning at startup.
   get blocked() {
-    return blockedBy(this.options, this.status);
+    return this.status === null ? null : blockedBy(this.options, this.status);
   }
 
   required(rule: Ruled) {

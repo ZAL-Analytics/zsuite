@@ -742,6 +742,7 @@ not json at all"#;
             pages: Vec::new(),
             page: None,
             design: false,
+            cheapest: false,
         }
     }
 

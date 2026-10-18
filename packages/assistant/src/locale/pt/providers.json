@@ -1,9 +1,7 @@
 {
   "connectTitle": "Ligar o assistente",
-  "connectText": "Escolha em que o assistente é executado.",
   "chooseElse": "Escolher outra coisa",
   "nameConnected": "{name} · ligado",
-  "dialogText": "Ligue um ou mais e escolha um predefinido.",
   "connected": "Ligado",
   "connectedTo": "Ligado a {url}",
   "use": "Definir como predefinido",
@@ -21,6 +19,11 @@
     "type": "Escreva o nome de um modelo",
     "missing": "Escolha um modelo que suporte ferramentas.",
     "hint": "Utilizado quando uma conversa ou predefinição não escolhe outro modelo."
+  },
+  "routing": {
+    "label": "Fornecedores",
+    "private": "Privacidade primeiro: só fornecedores que não guardam nada",
+    "cheapest": "Mais barato primeiro"
   },
   "signIn": {
     "installing": "A transferir Claude Code…",

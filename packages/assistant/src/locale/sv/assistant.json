@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Avancerade assistentinställningar",
-    "text": "Välj hur snabb och noggrann assistenten är med {provider}.",
     "label": "Förinställning",
     "new": "Ny förinställning",
     "mine": "Min förinställning",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Chattöversikt",
-    "text": "Allt som har skickats till assistenten i den här chatten, och de sidor och filer den fortfarande kan läsa.",
     "sent": "Skickat",
     "files": "Sidor och filer",
     "message": "Meddelande {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Det assistenten ser",
-    "text": "Välj en sida eller fil för att se den som assistenten gör, och välj hur mycket som döljs.",
     "none": "Inga sidor eller filer i den här chatten än.",
+    "removeAll": "Ta bort allt från chatten",
     "undo": "Ångra",
     "reset": "Ångra alla ändringar"
   },

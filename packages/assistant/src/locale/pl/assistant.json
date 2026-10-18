@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Zaawansowane ustawienia asystenta",
-    "text": "Wybierz, jak szybko i dokładnie asystent pracuje z {provider}.",
     "label": "Ustawienie wstępne",
     "new": "Nowe ustawienie wstępne",
     "mine": "Moje ustawienie wstępne",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Przegląd czatu",
-    "text": "Wszystko, co wysłano asystentowi w tym czacie, oraz strony i pliki, które nadal może czytać.",
     "sent": "Wysłane",
     "files": "Strony i pliki",
     "message": "Wiadomość {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Co widzi asystent",
-    "text": "Wybierz stronę lub plik, aby zobaczyć go tak jak asystent, i zdecyduj, ile ukryć.",
     "none": "W tym czacie nie ma jeszcze stron ani plików.",
+    "removeAll": "Usuń wszystko z czatu",
     "undo": "Cofnij",
     "reset": "Cofnij wszystkie zmiany"
   },

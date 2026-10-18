@@ -24,7 +24,6 @@
     "text": "Nomi, importi e recapiti diventano segnaposto come ⟦CUSTOMER_3⟧ prima di qualsiasi invio.",
     "create": "Crea un file di conoscenza",
     "import": "Importa un file di conoscenza",
-    "later": "Puoi cambiare questa scelta più tardi nelle Impostazioni.",
     "downloadsText": "Entrambi funzionano solo su questo computer.",
     "how": "Come funziona"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Privacy",
-    "text": "Cosa l'assistente può vedere e cercare.",
     "needsFile": "Prima crea o importa un file di conoscenza.",
     "privacyVeil": "Nascondi i nomi all'assistente",
     "privacyVeilHint": "Clienti, persone, progetti e recapiti diventano segnaposto.",

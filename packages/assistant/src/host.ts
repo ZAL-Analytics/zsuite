@@ -12,6 +12,7 @@ export type AssistantSettings = {
   assistantPreset: string | null;
   assistantModels: Record<string, string>;
   assistantPresets: Record<string, Preset[]>;
+  assistantRouting: "private" | "cheapest";
   privacyVeil: boolean;
   privacyAmounts: boolean;
   privacyNames: boolean;

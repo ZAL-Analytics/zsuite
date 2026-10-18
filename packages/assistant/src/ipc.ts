@@ -31,6 +31,7 @@ export type AgentTurn = {
   pages: string[];
   page: string | null;
   design: boolean;
+  cheapest: boolean;
 };
 
 export type Attachment = { name: string; id: string; path: string; text: string | null; level: number };
@@ -62,7 +63,7 @@ export function agentRun(turn: AgentTurn, handler: (event: AgentEvent) => void) 
   return invoke<void>("plugin:zsuite-assistant|agent_run", { turn, events });
 }
 
-export const agentAttach = (chat: string) => invoke<Attachment[]>("plugin:zsuite-assistant|agent_attach", { chat });
+export const agentAttach = (chat: string) => invoke<{ files: Attachment[]; problems: string[] }>("plugin:zsuite-assistant|agent_attach", { chat });
 export const agentDetach = (chat: string, path: string) => invoke<void>("plugin:zsuite-assistant|agent_detach", { chat, path });
 export const agentSeen = (chat: string, name: string) => invoke<ArrayBuffer>("plugin:zsuite-assistant|agent_seen", { chat, name });
 export const agentFiles = (chat: string) => invoke<Attachment[]>("plugin:zsuite-assistant|agent_files", { chat });

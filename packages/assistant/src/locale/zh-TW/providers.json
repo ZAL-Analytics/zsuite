@@ -1,9 +1,7 @@
 {
   "connectTitle": "連線助理",
-  "connectText": "選擇助理要在什麼環境上執行。",
   "chooseElse": "選擇其他",
   "nameConnected": "{name} · 已連線",
-  "dialogText": "連線一個或多個，並選擇預設值。",
   "connected": "已連線",
   "connectedTo": "已連線到 {url}",
   "use": "設為預設",
@@ -21,6 +19,11 @@
     "type": "輸入模型名稱",
     "missing": "請選擇支援工具的模型。",
     "hint": "當聊天或預設集未選擇其他模型時使用此模型。"
+  },
+  "routing": {
+    "label": "服務商",
+    "private": "隱私優先：僅限不保留任何資料的服務商",
+    "cheapest": "最便宜優先"
   },
   "signIn": {
     "installing": "正在下載 Claude Code…",

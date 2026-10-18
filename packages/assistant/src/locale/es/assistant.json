@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Configuración avanzada del asistente",
-    "text": "Elige qué tan rápido y cuidadoso es el asistente con {provider}.",
     "label": "Ajuste preestablecido",
     "new": "Nuevo ajuste preestablecido",
     "mine": "Mi ajuste preestablecido",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Resumen del chat",
-    "text": "Todo lo enviado al asistente en este chat, y las páginas y archivos que aún puede leer.",
     "sent": "Enviado",
     "files": "Páginas y archivos",
     "message": "Mensaje {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Lo que ve el asistente",
-    "text": "Elige una página o un archivo para verlo como lo ve el asistente y decide cuánto se oculta.",
     "none": "Todavía no hay páginas ni archivos en este chat.",
+    "removeAll": "Quitar todo del chat",
     "undo": "Deshacer",
     "reset": "Deshacer todos los cambios"
   },

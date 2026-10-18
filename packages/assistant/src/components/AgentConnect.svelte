@@ -25,7 +25,6 @@
     </Button>
   {:else}
     <p class="font-medium">{t("providers.connectTitle")}</p>
-    <p class="text-muted-foreground">{t("providers.connectText")}</p>
     <div class="mb-auto grid w-full max-w-72 gap-2">
       {#each providers as { id } (id)}
         <Button variant="outline" class="h-auto justify-start py-2 text-start whitespace-normal" onclick={() => (connections.status[id]?.connected ? connections.use(id) : (chosen = id))}>

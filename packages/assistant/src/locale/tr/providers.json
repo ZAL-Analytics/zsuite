@@ -1,9 +1,7 @@
 {
   "connectTitle": "Asistanı bağla",
-  "connectText": "Asistanın ne üzerinde çalışacağını seçin.",
   "chooseElse": "Başka bir şey seçin",
   "nameConnected": "{name} · bağlandı",
-  "dialogText": "Bir veya daha fazlasını bağlayın ve bir varsayılan seçin.",
   "connected": "Bağlandı",
   "connectedTo": "{url} adresine bağlandı",
   "use": "Varsayılan yap",
@@ -21,6 +19,11 @@
     "type": "Bir modelin adını yazın",
     "missing": "Araçları destekleyen bir model seçin.",
     "hint": "Bir sohbet veya ön ayar başka bir model seçmediğinde kullanılır."
+  },
+  "routing": {
+    "label": "Sağlayıcılar",
+    "private": "Önce gizlilik: yalnızca hiçbir şey saklamayan sağlayıcılar",
+    "cheapest": "Önce en ucuz"
   },
   "signIn": {
     "installing": "Claude Code indiriliyor…",

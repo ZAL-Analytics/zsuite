@@ -24,7 +24,6 @@
     "text": "Navn, beløp og kontaktopplysninger blir til plassholdere som ⟦CUSTOMER_3⟧ før noe sendes.",
     "create": "Opprett en kunnskapsfil",
     "import": "Importer en kunnskapsfil",
-    "later": "Du kan endre dette senere i Innstillinger.",
     "downloadsText": "Begge kjører bare på denne datamaskinen.",
     "how": "Slik fungerer det"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Personvern",
-    "text": "Hva assistenten kan se og slå opp.",
     "needsFile": "Opprett eller importer en kunnskapsfil først.",
     "privacyVeil": "Skjul navn for assistenten",
     "privacyVeilHint": "Kunder, personer, prosjekter og kontaktopplysninger blir til plassholdere.",

@@ -1,9 +1,7 @@
 {
   "connectTitle": "Assistenten verbinden",
-  "connectText": "Wählen Sie, womit der Assistent betrieben wird.",
   "chooseElse": "Etwas anderes auswählen",
   "nameConnected": "{name} · verbunden",
-  "dialogText": "Verbinden Sie einen oder mehrere und wählen Sie einen Standard.",
   "connected": "Verbunden",
   "connectedTo": "Verbunden mit {url}",
   "use": "Als Standard festlegen",
@@ -21,6 +19,11 @@
     "type": "Geben Sie den Namen eines Modells ein",
     "missing": "Wählen Sie ein Modell, das Tools unterstützt.",
     "hint": "Wird verwendet, wenn ein Chat oder eine Voreinstellung kein anderes Modell wählt."
+  },
+  "routing": {
+    "label": "Anbieter",
+    "private": "Datenschutz zuerst: nur Anbieter, die nichts speichern",
+    "cheapest": "Günstigste zuerst"
   },
   "signIn": {
     "installing": "Claude Code wird heruntergeladen…",

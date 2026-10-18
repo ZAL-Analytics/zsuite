@@ -1,9 +1,7 @@
 {
   "connectTitle": "Connect the assistant",
-  "connectText": "Choose what the assistant runs on.",
   "chooseElse": "Back",
   "nameConnected": "{name} · connected",
-  "dialogText": "Connect one or more and pick a default.",
   "connected": "Connected",
   "connectedTo": "Connected to {url}",
   "use": "Set as default",
@@ -21,6 +19,11 @@
     "type": "Model name",
     "missing": "Choose a model that supports tools.",
     "hint": "Used unless a chat or preset picks another."
+  },
+  "routing": {
+    "label": "Providers",
+    "private": "Privacy first: only providers that keep nothing",
+    "cheapest": "Cheapest first"
   },
   "signIn": {
     "installing": "Downloading Claude Code…",

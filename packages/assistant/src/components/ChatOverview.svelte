@@ -22,7 +22,6 @@
   <Dialog.Content class="flex h-[85vh] flex-col sm:max-w-5xl">
     <Dialog.Header>
       <Dialog.Title class="flex items-center gap-2"><Eye class="size-5 text-chart-2" /> {t("assistant.overview.title")}</Dialog.Title>
-      <Dialog.Description>{t("assistant.overview.text")}</Dialog.Description>
     </Dialog.Header>
     <Tabs.Root bind:value={shown} class="flex min-h-0 flex-1 flex-col gap-3">
       <Tabs.List class="shrink-0">

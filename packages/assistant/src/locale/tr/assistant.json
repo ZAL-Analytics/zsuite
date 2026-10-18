@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Gelişmiş asistan ayarları",
-    "text": "Asistanın {provider} ile ne kadar hızlı ve dikkatli olacağını seçin.",
     "label": "Ön ayar",
     "new": "Yeni ön ayar",
     "mine": "Ön ayarım",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Sohbet özeti",
-    "text": "Bu sohbette asistana gönderilen her şey ve hâlâ okuyabildiği sayfalar ve dosyalar.",
     "sent": "Gönderilenler",
     "files": "Sayfalar ve dosyalar",
     "message": "Mesaj {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Asistanın gördükleri",
-    "text": "Bir sayfayı veya dosyayı asistanın gördüğü gibi görmek için seçin ve ne kadarının gizleneceğini belirleyin.",
     "none": "Bu sohbette henüz sayfa veya dosya yok.",
+    "removeAll": "Tümünü sohbetten kaldır",
     "undo": "Geri al",
     "reset": "Tüm değişiklikleri geri al"
   },

@@ -1,9 +1,7 @@
 {
   "connectTitle": "Koble til assistenten",
-  "connectText": "Velg hva assistenten skal kjøre på.",
   "chooseElse": "Velg noe annet",
   "nameConnected": "{name} · tilkoblet",
-  "dialogText": "Koble til én eller flere, og velg en standard.",
   "connected": "Tilkoblet",
   "connectedTo": "Tilkoblet til {url}",
   "use": "Bruk som standard",
@@ -21,6 +19,11 @@
     "type": "Skriv inn navnet på en modell",
     "missing": "Velg en modell som støtter verktøy.",
     "hint": "Brukes når en chat eller en forhåndsinnstilling ikke velger en annen modell."
+  },
+  "routing": {
+    "label": "Leverandører",
+    "private": "Personvern først: bare leverandører som ikke lagrer noe",
+    "cheapest": "Billigste først"
   },
   "signIn": {
     "installing": "Laster ned Claude Code…",

@@ -1,9 +1,7 @@
 {
   "connectTitle": "Połącz asystenta",
-  "connectText": "Wybierz, na czym działa asystent.",
   "chooseElse": "Wybierz coś innego",
   "nameConnected": "{name} · połączono",
-  "dialogText": "Połącz jednego lub więcej i wybierz domyślnego.",
   "connected": "Połączono",
   "connectedTo": "Połączono z {url}",
   "use": "Ustaw jako domyślne",
@@ -21,6 +19,11 @@
     "type": "Wpisz nazwę modelu",
     "missing": "Wybierz model obsługujący narzędzia.",
     "hint": "Używany, gdy czat lub ustawienie wstępne nie wybiera innego modelu."
+  },
+  "routing": {
+    "label": "Dostawcy",
+    "private": "Najpierw prywatność: tylko dostawcy, którzy nic nie przechowują",
+    "cheapest": "Najpierw najtańsi"
   },
   "signIn": {
     "installing": "Pobieranie Claude Code…",

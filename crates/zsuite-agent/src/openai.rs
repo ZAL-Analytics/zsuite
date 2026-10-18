@@ -184,7 +184,7 @@ impl Hosted {
         let secret =
             secrets::read(keys, self.id)?.ok_or("Connect the assistant in Settings first.")?;
         let routing = match self.address {
-            Some(OPENROUTER) => routing(gate.policy()),
+            Some(OPENROUTER) => routing(gate.policy(), turn.cheapest),
             _ => Value::Null,
         };
         run(
@@ -790,12 +790,19 @@ fn trim(history: &mut Vec<Value>) {
     }
 }
 
-fn routing(policy: &Policy) -> Value {
+// Which OpenRouter providers may answer: within the policy, either only those that keep nothing
+// (zero data retention), or the cheapest first.
+fn routing(policy: &Policy, cheapest: bool) -> Value {
     let collection = match policy.data_collection {
         Collection::Allow => "allow",
         Collection::Deny => "deny",
     };
-    json!({ "data_collection": collection, "zdr": policy.zero_retention })
+    let mut routing =
+        json!({ "data_collection": collection, "zdr": policy.zero_retention || !cheapest });
+    if cheapest {
+        routing["sort"] = json!("price");
+    }
+    routing
 }
 
 fn body(
@@ -997,6 +1004,7 @@ mod tests {
             pages: Vec::new(),
             page: Some("Work/Notes/Monday".into()),
             design: false,
+            cheapest: false,
         }
     }
 
@@ -1027,6 +1035,19 @@ mod tests {
             }
         });
         (url, asked)
+    }
+
+    #[test]
+    fn openrouter_routing_keeps_the_policy_and_picks_private_or_cheapest_providers() {
+        let policy = crate::tests::test_policy();
+        assert_eq!(
+            routing(&policy, false),
+            json!({ "data_collection": "deny", "zdr": true })
+        );
+        assert_eq!(
+            routing(&policy, true),
+            json!({ "data_collection": "deny", "zdr": false, "sort": "price" })
+        );
     }
 
     #[test]
@@ -1613,7 +1634,7 @@ mod tests {
                     url,
                     key: "secret-key".into(),
                 },
-                &routing(&crate::tests::test_policy()),
+                &routing(&crate::tests::test_policy(), true),
             ),
             &knowledge.gate().unwrap(),
             (
@@ -1672,7 +1693,7 @@ mod tests {
         assert_eq!(again["model"], "llama");
         assert_eq!(
             again["provider"],
-            json!({ "data_collection": "deny", "zdr": false })
+            json!({ "data_collection": "deny", "zdr": false, "sort": "price" })
         );
         assert_eq!(again["messages"][0]["content"], "write Typst");
         assert_eq!(

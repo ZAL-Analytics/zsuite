@@ -13,7 +13,7 @@
   import { t } from "../i18n";
   import { useHost } from "../host";
 
-  const { agent, connections } = useHost();
+  const { agent, connections, settings } = useHost();
 
   let { provider }: { provider: Provider } = $props();
 
@@ -76,6 +76,21 @@
         <p class="text-xs text-muted-foreground">
           {t(model === null ? "providers.model.missing" : "providers.model.hint")}
         </p>
+      </div>
+    {/if}
+    {#if provider.id === "openrouter"}
+      <div class="grid gap-1">
+        <Label for="routing-{provider.id}">{t("providers.routing.label")}</Label>
+        <Picker
+          id="routing-{provider.id}"
+          class="w-full"
+          value={settings.values.assistantRouting}
+          options={[
+            { value: "private", label: t("providers.routing.private") },
+            { value: "cheapest", label: t("providers.routing.cheapest") },
+          ]}
+          onchange={(value) => settings.set("assistantRouting", value)}
+        />
       </div>
     {/if}
     <Button variant="outline" size="sm" class="justify-self-start" disabled={agent.running} onclick={() => connections.disconnect(provider.id)}>

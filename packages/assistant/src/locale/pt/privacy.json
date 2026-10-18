@@ -24,7 +24,6 @@
     "text": "Nomes, montantes e contactos tornam-se códigos como ⟦CUSTOMER_3⟧ antes de qualquer envio.",
     "create": "Criar um ficheiro de conhecimento",
     "import": "Importar um ficheiro de conhecimento",
-    "later": "Pode alterar isto mais tarde nas Definições.",
     "downloadsText": "Ambas funcionam apenas neste computador.",
     "how": "Como funciona"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Privacidade",
-    "text": "O que o assistente pode ver e consultar.",
     "needsFile": "Crie ou importe primeiro um ficheiro de conhecimento.",
     "privacyVeil": "Ocultar nomes do assistente",
     "privacyVeilHint": "Clientes, pessoas, projetos e contactos tornam-se códigos.",

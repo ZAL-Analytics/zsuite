@@ -1,9 +1,7 @@
 {
   "connectTitle": "Conectar el asistente",
-  "connectText": "Elige en qué se ejecuta el asistente.",
   "chooseElse": "Elegir otra opción",
   "nameConnected": "{name} · conectado",
-  "dialogText": "Conecta uno o más y elige uno predeterminado.",
   "connected": "Conectado",
   "connectedTo": "Conectado a {url}",
   "use": "Establecer como predeterminado",
@@ -21,6 +19,11 @@
     "type": "Escribe el nombre de un modelo",
     "missing": "Elige un modelo compatible con herramientas.",
     "hint": "Se utiliza cuando un chat o un ajuste preestablecido no elige otro modelo."
+  },
+  "routing": {
+    "label": "Proveedores",
+    "private": "Privacidad primero: solo proveedores que no guardan nada",
+    "cheapest": "Primero el más barato"
   },
   "signIn": {
     "installing": "Descargando Claude Code…",

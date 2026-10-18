@@ -1,9 +1,7 @@
 {
   "connectTitle": "De assistent verbinden",
-  "connectText": "Kies waarop de assistent draait.",
   "chooseElse": "Iets anders kiezen",
   "nameConnected": "{name} · verbonden",
-  "dialogText": "Verbind er een of meer en kies een standaard.",
   "connected": "Verbonden",
   "connectedTo": "Verbonden met {url}",
   "use": "Als standaard instellen",
@@ -21,6 +19,11 @@
     "type": "Typ de naam van een model",
     "missing": "Kies een model dat tools ondersteunt.",
     "hint": "Wordt gebruikt als een chat of voorinstelling geen ander model kiest."
+  },
+  "routing": {
+    "label": "Aanbieders",
+    "private": "Privacy eerst: alleen aanbieders die niets bewaren",
+    "cheapest": "Goedkoopste eerst"
   },
   "signIn": {
     "installing": "Claude Code downloaden…",

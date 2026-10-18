@@ -24,7 +24,6 @@
     "text": "Names, amounts and contact details become tokens like ⟦CUSTOMER_3⟧ before anything is sent.",
     "create": "New knowledge file",
     "import": "Import knowledge file",
-    "later": "Change this later in Settings.",
     "downloadsText": "Both run only on this computer.",
     "how": "How it works"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Privacy",
-    "text": "What the assistant may see and look up.",
     "needsFile": "Create or import a knowledge file first.",
     "privacyVeil": "Hide names",
     "privacyVeilHint": "Customers, people, projects and contact details become tokens.",

@@ -24,7 +24,6 @@
     "text": "Los nombres, importes y datos de contacto se convierten en códigos como ⟦CUSTOMER_3⟧ antes de enviar nada.",
     "create": "Crear un archivo de conocimiento",
     "import": "Importar un archivo de conocimiento",
-    "later": "Puedes cambiarlo más tarde en Configuración.",
     "downloadsText": "Ambas funcionan solo en este equipo.",
     "how": "Cómo funciona"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Privacidad",
-    "text": "Qué puede ver y consultar el asistente.",
     "needsFile": "Crea o importa primero un archivo de conocimiento.",
     "privacyVeil": "Ocultar nombres al asistente",
     "privacyVeilHint": "Los clientes, personas, proyectos y datos de contacto se convierten en códigos.",

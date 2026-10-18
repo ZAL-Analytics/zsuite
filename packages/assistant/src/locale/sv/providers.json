@@ -1,9 +1,7 @@
 {
   "connectTitle": "Anslut assistenten",
-  "connectText": "Välj vad assistenten ska köras på.",
   "chooseElse": "Välj något annat",
   "nameConnected": "{name} · ansluten",
-  "dialogText": "Anslut en eller flera och välj en standard.",
   "connected": "Ansluten",
   "connectedTo": "Ansluten till {url}",
   "use": "Använd som standard",
@@ -21,6 +19,11 @@
     "type": "Skriv namnet på en modell",
     "missing": "Välj en modell som har stöd för verktyg.",
     "hint": "Används när en chatt eller förinställning inte väljer en annan modell."
+  },
+  "routing": {
+    "label": "Leverantörer",
+    "private": "Integritet först: bara leverantörer som inte sparar något",
+    "cheapest": "Billigaste först"
   },
   "signIn": {
     "installing": "Laddar ner Claude Code…",

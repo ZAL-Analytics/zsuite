@@ -175,7 +175,7 @@
       {/if}
       {#if agent.hiding && privacy.blocked}<p class="shrink-0 rounded-md bg-destructive/10 p-2 text-xs text-destructive" role="alert">{t(`privacy.blocked.${privacy.blocked}`)}</p>{/if}
       {#if agent.otherKnowledge}<p class="shrink-0 rounded-md bg-muted p-2 text-xs" role="note">{t("privacy.otherKnowledge")}</p>{/if}
-      {#if agent.failure}<p class="shrink-0 wrap-anywhere text-destructive" role="alert">{agent.failure}</p>{/if}
+      {#if agent.failure}<p class="shrink-0 wrap-anywhere whitespace-pre-line text-destructive" role="alert">{agent.failure}</p>{/if}
     </div>
     <AgentComposer {wide} />
   {/if}

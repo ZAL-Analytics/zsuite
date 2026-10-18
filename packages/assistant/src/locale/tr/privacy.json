@@ -24,7 +24,6 @@
     "text": "Adlar, tutarlar ve iletişim bilgileri gönderilmeden önce ⟦CUSTOMER_3⟧ gibi etiketlere dönüşür.",
     "create": "Bilgi dosyası oluştur",
     "import": "Bir bilgi dosyasını içe aktar",
-    "later": "Bunu daha sonra Ayarlar'dan değiştirebilirsiniz.",
     "downloadsText": "İkisi de yalnızca bu bilgisayarda çalışır.",
     "how": "Nasıl çalışır"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Gizlilik",
-    "text": "Asistanın neyi görebileceği ve neye bakabileceği.",
     "needsFile": "Önce bir bilgi dosyası oluşturun veya içe aktarın.",
     "privacyVeil": "Adları asistandan gizle",
     "privacyVeilHint": "Müşteriler, kişiler, projeler ve iletişim bilgileri etiketlere dönüşür.",

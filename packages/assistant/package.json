@@ -1,6 +1,6 @@
 {
   "name": "@zsuite/assistant",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Svelte 5 assistant panel for tauri-plugin-zsuite-assistant: chats, providers and hidden names.",
   "license": "Apache-2.0",
   "type": "module",

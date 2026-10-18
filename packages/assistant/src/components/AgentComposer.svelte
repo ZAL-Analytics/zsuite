@@ -101,7 +101,7 @@
 >
   {#if agent.references.length > 0}
     <ul class="flex flex-wrap gap-1" aria-label={t("assistant.composer.references")}>
-      {#each agent.references as { label, path }, index (label)}
+      {#each agent.references as { label, path }, index (path ?? label)}
         <li class="flex items-center gap-1 rounded-md bg-accent py-0.5 pe-0.5 ps-1.5 text-xs">
           <ReferenceIcon {label} />
           <span class="max-w-40 truncate" title={label}>{label}</span>

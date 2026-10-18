@@ -16,7 +16,6 @@
   let { open = $bindable() }: { open: boolean } = $props();
 
   const provider = $derived(agent.providerOrDefault);
-  const providerLabel = $derived(providerName(provider));
   const saved = $derived(settings.values.assistantPresets[provider] ?? []);
   const preset = $derived(agent.preset);
   const standard = $derived(builtIn(provider).find(({ id }) => id === preset.id));
@@ -67,9 +66,6 @@
   <Dialog.Content class="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
     <Dialog.Header>
       <Dialog.Title>{t("assistant.preset.title")}</Dialog.Title>
-      <Dialog.Description>
-        {t("assistant.preset.text", { provider: providerLabel })}
-      </Dialog.Description>
     </Dialog.Header>
     <div class="flex items-center gap-2">
       <Picker

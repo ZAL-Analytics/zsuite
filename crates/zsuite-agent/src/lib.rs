@@ -218,6 +218,9 @@ pub struct Turn {
     // text, so it sees how they look without reading what they say.
     #[serde(default)]
     design: bool,
+    // OpenRouter only: the cheapest providers first instead of only those that keep nothing.
+    #[serde(default)]
+    cheapest: bool,
 }
 
 // One page of a document as a picture: a slide, for a presentation.
@@ -505,7 +508,9 @@ fn attach_one(folder: &Path, file: &Path) -> Result<Attachment, String> {
     }
     let office = extract::OFFICE.contains(&kind(&name).as_str());
     let content = if office {
-        extract::text(file)?.into_bytes()
+        extract::text(file)
+            .map_err(|_| not_readable(file))?
+            .into_bytes()
     } else {
         fs::read(file).map_err(unreadable)?
     };
@@ -543,6 +548,18 @@ fn attach_one(folder: &Path, file: &Path) -> Result<Attachment, String> {
         text: None,
         level: LIGHT,
     })
+}
+
+// Why a file whose text cannot be read is not attached, kept short: a PDF or office file is
+// damaged or a scan, anything else is a kind of file the assistant cannot read.
+fn not_readable(file: &Path) -> String {
+    let name = file.file_name().unwrap_or_default().to_string_lossy();
+    let kind = kind(&name);
+    if kind == "pdf" || extract::OFFICE.contains(&kind.as_str()) {
+        format!("“{name}” could not be read.")
+    } else {
+        format!("“{name}”: this file type is not supported.")
+    }
 }
 
 // The number and the name the user gave a file kept in a chat folder as "3-Report.docx.txt".
@@ -863,35 +880,54 @@ pub fn run(
     )
 }
 
+// The files that were attached, and why each of the others was not.
+#[derive(Serialize, Default)]
+pub struct Attached {
+    files: Vec<Attachment>,
+    problems: Vec<String>,
+}
+
 pub fn attach(
     knowledge: &Knowledge,
     folder: &Path,
     files: Vec<PathBuf>,
-) -> Result<Vec<Attachment>, String> {
-    let gate = knowledge.gate()?;
-    files
-        .into_iter()
-        .map(|file| {
-            let mut attached = attach_one(folder, &file)?;
-            if gate.on() {
-                attached.text = Some(extract::text(Path::new(&attached.path))?);
-            }
-            Ok(attached)
-        })
-        .collect()
+) -> Result<Attached, String> {
+    let hiding = knowledge.gate()?.on();
+    let mut attached = Attached::default();
+    for file in files {
+        match attach_readable(folder, &file, hiding) {
+            Ok(file) => attached.files.push(file),
+            Err(problem) => attached.problems.push(problem),
+        }
+    }
+    Ok(attached)
 }
 
+// With hiding on, a file whose text cannot be read is refused before it is copied, so it never
+// stays behind in the chat.
+fn attach_readable(folder: &Path, file: &Path, hiding: bool) -> Result<Attachment, String> {
+    let text = if hiding {
+        Some(extract::text(file).map_err(|_| not_readable(file))?)
+    } else {
+        None
+    };
+    let mut attached = attach_one(folder, file)?;
+    attached.text = text;
+    Ok(attached)
+}
+
+// A file whose text cannot be read is left out, as it is from the mirror.
 pub fn files(knowledge: &Knowledge, folder: &Path) -> Result<Vec<Attachment>, String> {
     let gate = knowledge.gate()?;
-    attached(folder)
+    Ok(attached(folder)
         .into_iter()
-        .map(|mut file| {
+        .filter_map(|mut file| {
             if gate.on() {
-                file.text = Some(extract::text(Path::new(&file.path))?);
+                file.text = Some(extract::text(Path::new(&file.path)).ok()?);
             }
-            Ok(file)
+            Some(file)
         })
-        .collect()
+        .collect())
 }
 
 pub fn forget(folder: &Path, mirrors: &Path, chat: &str) -> Result<(), String> {
@@ -1303,9 +1339,26 @@ mod tests {
         fs::write(base.join("broken.xlsx"), "not a zip").unwrap();
         assert!(
             attach_one(&folder, &base.join("broken.xlsx"))
-                .is_err_and(|error| error.starts_with("This xlsx file cannot be read"))
+                .is_err_and(|error| error == "“broken.xlsx” could not be read.")
         );
         assert_eq!(fs::read_dir(&folder).unwrap().count(), 1);
+    }
+
+    #[test]
+    fn with_hiding_on_an_unreadable_file_is_refused_without_a_copy_left_behind() {
+        let base = scratch("unreadable");
+        fs::write(base.join("notes.txt"), "plain").unwrap();
+        fs::write(base.join("tool.exe"), [0xff, 0xfe, 0x00, 0x81]).unwrap();
+        let folder = base.join("assistant");
+        assert!(
+            attach_readable(&folder, &base.join("tool.exe"), true)
+                .is_err_and(|error| error == "“tool.exe”: this file type is not supported.")
+        );
+        let notes = attach_readable(&folder, &base.join("notes.txt"), true).unwrap();
+        assert_eq!(notes.text.as_deref(), Some("plain"));
+        assert_eq!(attached(&folder).len(), 1);
+        assert!(attach_readable(&folder, &base.join("tool.exe"), false).is_ok());
+        assert_eq!(attached(&folder).len(), 2);
     }
 
     #[test]

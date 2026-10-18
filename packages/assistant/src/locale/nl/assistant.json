@@ -107,7 +107,6 @@
   },
   "preset": {
     "title": "Geavanceerde instellingen voor de assistent",
-    "text": "Kies hoe snel en zorgvuldig de assistent werkt met {provider}.",
     "label": "Voorinstelling",
     "new": "Nieuwe voorinstelling",
     "mine": "Mijn voorinstelling",
@@ -148,7 +147,6 @@
   },
   "overview": {
     "title": "Chatoverzicht",
-    "text": "Alles wat in deze chat naar de assistent is gestuurd, en de pagina's en bestanden die hij nog kan lezen.",
     "sent": "Verstuurd",
     "files": "Pagina's en bestanden",
     "message": "Bericht {number}",
@@ -159,8 +157,8 @@
   },
   "files": {
     "title": "Wat de assistent ziet",
-    "text": "Kies een pagina of bestand om het te zien zoals de assistent het ziet, en kies hoeveel er verborgen wordt.",
     "none": "Nog geen pagina's of bestanden in deze chat.",
+    "removeAll": "Alles uit chat verwijderen",
     "undo": "Ongedaan maken",
     "reset": "Alle wijzigingen ongedaan maken"
   },

@@ -1,9 +1,7 @@
 {
   "connectTitle": "Forbind assistenten",
-  "connectText": "Vælg, hvad assistenten kører på.",
   "chooseElse": "Vælg noget andet",
   "nameConnected": "{name} · forbundet",
-  "dialogText": "Forbind én eller flere, og vælg en standard.",
   "connected": "Forbundet",
   "connectedTo": "Forbundet til {url}",
   "use": "Brug som standard",
@@ -21,6 +19,11 @@
     "type": "Skriv navnet på en model",
     "missing": "Vælg en model, der understøtter værktøjer.",
     "hint": "Bruges, når en chat eller en forudindstilling ikke vælger en anden model."
+  },
+  "routing": {
+    "label": "Udbydere",
+    "private": "Privatliv først: kun udbydere, der intet gemmer",
+    "cheapest": "Billigste først"
   },
   "signIn": {
     "installing": "Downloader Claude Code…",

@@ -263,9 +263,10 @@ export class Agent {
 
   attach() {
     return this.attempt(async () => {
-      const files = await this.backend.agentAttach(this.chat());
-      const added = files.filter((file) => !this.references.some((reference) => reference.path === file.path));
-      this.references.push(...added.map(({ name, id, path, text, level }) => ({ label: name, line: `the attached file ${id}`, path, text, level })));
+      const { files, problems } = await this.backend.agentAttach(this.chat());
+      for (const { name, id, path, text, level } of files)
+        if (!this.references.some((reference) => reference.path === path)) this.references.push({ label: name, line: `the attached file ${id}`, path, text, level });
+      if (problems.length > 0) this.failure = problems.map(messageOf).join("\n");
     });
   }
 
@@ -383,6 +384,7 @@ export class Agent {
       pages: run.pages,
       page: this.workspace.page,
       design: run.design,
+      cheapest: this.settings.values.assistantRouting === "cheapest",
     };
   }
 

@@ -24,7 +24,6 @@
     "text": "Namn, belopp och kontaktuppgifter blir platshållare som ⟦CUSTOMER_3⟧ innan något skickas.",
     "create": "Skapa en kunskapsfil",
     "import": "Importera en kunskapsfil",
-    "later": "Du kan ändra detta senare i Inställningar.",
     "downloadsText": "Båda körs bara på den här datorn.",
     "how": "Så fungerar det"
   },
@@ -79,7 +78,6 @@
   },
   "settings": {
     "title": "Integritet",
-    "text": "Vad assistenten får se och slå upp.",
     "needsFile": "Skapa eller importera en kunskapsfil först.",
     "privacyVeil": "Dölj namn för assistenten",
     "privacyVeilHint": "Kunder, personer, projekt och kontaktuppgifter blir platshållare.",
