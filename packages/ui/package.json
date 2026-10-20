@@ -1,6 +1,6 @@
 {
   "name": "@zsuite/ui",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Svelte 5 UI kit: shadcn-svelte components with right-to-left support, design tokens and the runtime for .zth looks.",
   "license": "Apache-2.0",
   "type": "module",
