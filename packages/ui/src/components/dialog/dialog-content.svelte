@@ -5,6 +5,7 @@
 	import { cn, type WithoutChildrenOrChild } from "../../utils.js";
 	import * as Dialog from "./index.js";
 	import DialogPortal from "./dialog-portal.svelte";
+	import { dialogHost } from "./host.svelte.js";
 	import type { Snippet } from "svelte";
 	import type { ComponentProps } from "svelte";
 
@@ -15,6 +16,9 @@
 		children,
 		showCloseButton = true,
 		closeLabel = "Close",
+		trapFocus,
+		onInteractOutside,
+		onFocusOutside,
 		...restProps
 	}: WithoutChildrenOrChild<DialogPrimitive.ContentProps> & {
 		portalProps?: WithoutChildrenOrChild<ComponentProps<typeof DialogPortal>>;
@@ -22,10 +26,16 @@
 		showCloseButton?: boolean;
 		closeLabel?: string;
 	} = $props();
+
+	function besideTarget(event: Event): boolean {
+		const target = event.target;
+		return target instanceof Node && dialogHost.beside !== null && dialogHost.beside.contains(target);
+	}
 </script>
 
 <DialogPortal {...portalProps}>
-	<Dialog.Overlay />
+	<!-- Beside a side panel the overlay only dims: a blur there flickers while anything animates. -->
+	<Dialog.Overlay class={dialogHost.beside === null ? undefined : "supports-backdrop-filter:backdrop-blur-none"} />
 	<DialogPrimitive.Content
 		bind:ref
 		data-slot="dialog-content"
@@ -33,6 +43,15 @@
 			"bg-popover text-popover-foreground data-open:animate-in data-closed:animate-out data-closed:fade-out-0 data-open:fade-in-0 data-closed:zoom-out-95 data-open:zoom-in-95 ring-foreground/10 grid max-w-[calc(100%_-_2rem)] gap-6 rounded-xl p-6 text-sm ring-1 duration-100 sm:max-w-md fixed top-1/2 left-1/2 z-50 w-full -translate-x-1/2 -translate-y-1/2 outline-none",
 			className
 		)}
+		trapFocus={trapFocus ?? dialogHost.beside === null}
+		onInteractOutside={(event) => {
+			if (besideTarget(event)) event.preventDefault();
+			else onInteractOutside?.(event);
+		}}
+		onFocusOutside={(event) => {
+			if (besideTarget(event)) event.preventDefault();
+			else onFocusOutside?.(event);
+		}}
 		{...restProps}
 	>
 		{@render children?.()}

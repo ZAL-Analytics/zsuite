@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { Dialog as DialogPrimitive } from "bits-ui";
+	import { dialogHost } from "./host.svelte.js";
 
-	let { ...restProps }: DialogPrimitive.PortalProps = $props();
+	let { to, ...restProps }: DialogPrimitive.PortalProps = $props();
 </script>
 
-<DialogPrimitive.Portal {...restProps} />
+<DialogPrimitive.Portal to={to ?? dialogHost.to ?? undefined} {...restProps} />

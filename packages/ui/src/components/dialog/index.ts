@@ -8,8 +8,10 @@ import Portal from "./dialog-portal.svelte";
 import Title from "./dialog-title.svelte";
 import Trigger from "./dialog-trigger.svelte";
 import Root from "./dialog.svelte";
+import { dialogHost } from "./host.svelte.js";
 
 export {
+	dialogHost,
 	Root,
 	Title,
 	Portal,
