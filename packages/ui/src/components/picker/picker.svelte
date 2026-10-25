@@ -8,7 +8,7 @@
     ...trigger
   }: {
     value: Value;
-    options: { value: Value; label: string }[];
+    options: { value: Value; label: string; hint?: string }[];
     onchange: (value: Value) => void;
     size?: "sm" | "default";
     class?: string;
@@ -23,8 +23,8 @@
 <Select.Root type="single" value={String(chosen)} onValueChange={(index) => onchange(options[Number(index)].value)}>
   <Select.Trigger {...trigger}><span class="truncate">{options[chosen]?.label}</span></Select.Trigger>
   <Select.Content>
-    {#each options as { label }, index (index)}
-      <Select.Item value={String(index)} {label}>{label}</Select.Item>
+    {#each options as { label, hint }, index (index)}
+      <Select.Item value={String(index)} {label} title={hint}>{label}</Select.Item>
     {/each}
   </Select.Content>
 </Select.Root>
