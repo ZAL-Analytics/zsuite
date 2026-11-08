@@ -1,5 +1,6 @@
 import { asset } from "$app/paths";
 import type { Look } from "@zsuite/ui/look";
+import store from "./looks.json";
 
 type Manifest = {
   id: string;
@@ -11,8 +12,6 @@ type Manifest = {
   dark: Record<string, string>;
 };
 
-const manifests = import.meta.glob<Manifest>("/static/looks/*/theme.json", { eager: true, import: "default" });
-
 const weights: [RegExp, number][] = [
   [/SemiBold/, 600],
   [/Bold/, 700],
@@ -21,7 +20,7 @@ const weights: [RegExp, number][] = [
 const weightOf = (path: string) => weights.find(([pattern]) => pattern.test(path))?.[1] ?? 400;
 const file = (id: string, path: string | undefined) => (path ? asset(`/looks/${id}/${path}` as "/") : null);
 
-export const looks = Object.values(manifests)
+export const looks = (store as Manifest[])
   .map(({ id, name, logo, logoDark, font, light, dark }) => {
     const look: Look = {
       light,
