@@ -158,7 +158,7 @@
     "bookmarks": "Bladwijzers tonen"
   },
   "chat": {
-    "question": "Welke facturen zijn **achterstallig**?",
+    "question": "Welke facturen zijn achterstallig?",
     "answer": "Er is er één achterstallig:\n\n- `INV-003`, € 350.00, voor Acme Ltd",
     "company": "Bedrijf",
     "searched": "Facturen doorzocht",

@@ -158,7 +158,7 @@
     "bookmarks": "Mostrar marcadores"
   },
   "chat": {
-    "question": "¿Qué facturas están **vencidas**?",
+    "question": "¿Qué facturas están vencidas?",
     "answer": "Hay una vencida:\n\n- `INV-003`, € 350.00, para Acme Ltd",
     "company": "Empresa",
     "searched": "Facturas buscadas",

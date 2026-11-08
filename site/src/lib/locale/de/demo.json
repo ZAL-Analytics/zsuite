@@ -158,7 +158,7 @@
     "bookmarks": "Lesezeichen anzeigen"
   },
   "chat": {
-    "question": "Welche Rechnungen sind **überfällig**?",
+    "question": "Welche Rechnungen sind überfällig?",
     "answer": "Eine ist überfällig:\n\n- `INV-003`, € 350.00, für Acme Ltd",
     "company": "Unternehmen",
     "searched": "Rechnungen durchsucht",

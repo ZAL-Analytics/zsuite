@@ -158,7 +158,7 @@
     "bookmarks": "Mostra segnalibri"
   },
   "chat": {
-    "question": "Quali fatture sono **scadute**?",
+    "question": "Quali fatture sono scadute?",
     "answer": "Una è scaduta:\n\n- `INV-003`, € 350.00, per Acme Ltd",
     "company": "Azienda",
     "searched": "Fatture cercate",

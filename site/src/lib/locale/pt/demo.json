@@ -158,7 +158,7 @@
     "bookmarks": "Mostrar marcadores"
   },
   "chat": {
-    "question": "Que faturas estão **em atraso**?",
+    "question": "Que faturas estão em atraso?",
     "answer": "Há uma em atraso:\n\n- `INV-003`, € 350.00, para Acme Ltd",
     "company": "Empresa",
     "searched": "Faturas pesquisadas",

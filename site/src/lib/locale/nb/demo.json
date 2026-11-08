@@ -158,7 +158,7 @@
     "bookmarks": "Vis bokmerker"
   },
   "chat": {
-    "question": "Hvilke fakturaer har **forfalt**?",
+    "question": "Hvilke fakturaer har forfalt?",
     "answer": "Én har forfalt:\n\n- `INV-003`, € 350.00, for Acme Ltd",
     "company": "Firma",
     "searched": "Søkte i fakturaer",

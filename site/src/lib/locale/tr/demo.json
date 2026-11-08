@@ -158,7 +158,7 @@
     "bookmarks": "Yer imlerini göster"
   },
   "chat": {
-    "question": "Hangi faturaların **vadesi geçti**?",
+    "question": "Hangi faturaların vadesi geçti?",
     "answer": "Birinin vadesi geçti:\n\n- `INV-003`, € 350.00, Acme Ltd için",
     "company": "Şirket",
     "searched": "Faturalar arandı",

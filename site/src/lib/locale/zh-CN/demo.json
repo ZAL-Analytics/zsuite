@@ -158,7 +158,7 @@
     "bookmarks": "显示书签"
   },
   "chat": {
-    "question": "哪些发票**已逾期**？",
+    "question": "哪些发票已逾期？",
     "answer": "有一张已逾期：\n\n- `INV-003`，€ 350.00，客户为 Acme Ltd",
     "company": "公司",
     "searched": "已搜索发票",

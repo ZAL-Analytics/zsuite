@@ -158,7 +158,7 @@
     "bookmarks": "Visa bokmärken"
   },
   "chat": {
-    "question": "Vilka fakturor är **förfallna**?",
+    "question": "Vilka fakturor är förfallna?",
     "answer": "En är förfallen:\n\n- `INV-003`, € 350.00, för Acme Ltd",
     "company": "Företag",
     "searched": "Sökte i fakturor",

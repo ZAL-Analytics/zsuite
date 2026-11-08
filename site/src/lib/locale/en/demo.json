@@ -158,7 +158,7 @@
     "bookmarks": "Show bookmarks"
   },
   "chat": {
-    "question": "Which invoices are **overdue**?",
+    "question": "Which invoices are overdue?",
     "answer": "One is overdue:\n\n- `INV-003`, € 350.00, for Acme Ltd",
     "company": "Company",
     "searched": "Searched invoices",
