@@ -7,6 +7,7 @@
 
 	let {
 		label,
+		count,
 		pinned,
 		labels,
 		onpin,
@@ -14,6 +15,7 @@
 		class: className,
 	}: {
 		label: string;
+		count?: number;
 		pinned: boolean;
 		labels: { pin: string; unpin: string; remove: string };
 		onpin: () => void;
@@ -26,6 +28,9 @@
 	data-slot="context-chip"
 	class={cn("flex max-w-full items-center gap-0.5 rounded-md bg-accent py-0.5 ps-1.5 pe-0.5 text-xs", className)}
 >
+	{#if count !== undefined}
+		<span class="rounded-full bg-primary px-1.5 text-[0.625rem] leading-4 font-medium text-primary-foreground tabular-nums">{count}</span>
+	{/if}
 	<span class="min-w-0 truncate" title={label}>{label}</span>
 	<Button
 		variant="ghost"
