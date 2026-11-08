@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Svelte 5 UI kit: shadcn-svelte components with right-to-left support, design tokens and the runtime for .zth looks.",
   "license": "Apache-2.0",
+  "homepage": "https://zal-analytics.github.io/zsuite/",
   "type": "module",
   "repository": {
     "type": "git",
