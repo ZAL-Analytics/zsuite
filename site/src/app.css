@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@zsuite/ui/tokens.css";
+@source "../../packages/ui/src";

@@ -1,0 +1,35 @@
+{
+  "name": "zsuite-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "publish:pages": "BASE_PATH=/zsuite vite build && cd build && rm -rf .git && git init -q -b gh-pages && git add -A && git commit -qm 'Publish the showcase' && git push -f \"$(git -C .. remote get-url origin)\" gh-pages && rm -rf .git"
+  },
+  "dependencies": {
+    "@zsuite/ui": "link:../packages/ui"
+  },
+  "devDependencies": {
+    "@lucide/svelte": "^1.55.0",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.65.1",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "bits-ui": "^2.19.5",
+    "cn": "^0.4.0",
+    "dompurify": "^3.4.17",
+    "marked": "^18.1.1",
+    "paneforge": "^1.0.2",
+    "svelte": "^5.56.3",
+    "svelte-check": "^4.6.0",
+    "tailwind-variants": "^3.3.1",
+    "tailwindcss": "^4.3.3",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.16"
+  }
+}

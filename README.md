@@ -14,6 +14,7 @@ Shared building blocks for ZAL Analytics desktop apps (Tauri 2 + SvelteKit), fir
 | [`crates/zsuite-agent`](crates/zsuite-agent) | The assistant: Claude Code (in a mirror folder that holds only what a chat may see) or any OpenAI-compatible server, over a folder of `Project/Notebook/Page.typ` pages, with attached files read as text. |
 | [`crates/zsuite-typst`](crates/zsuite-typst) | One Typst world for a page: preview as SVG, compile problems, and export to PDF, PowerPoint and Word from the same compile. |
 | [`crates/tauri-plugin-zsuite-assistant`](crates/tauri-plugin-zsuite-assistant) | The assistant and its privacy settings as a Tauri plugin (`plugin:zsuite-assistant\|…`). |
+| [`site`](site) | The showcase of every `@zsuite/ui` component, at https://zal-analytics.github.io/zsuite/. |
 | [`docs/zth.md`](docs/zth.md) | The `.zth` look format. |
 
 Looks are published in the Hugging Face dataset
