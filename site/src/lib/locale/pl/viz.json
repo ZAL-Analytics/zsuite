@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Układ",
+    "horizontal": "Od lewej do prawej",
+    "vertical": "Od góry do dołu",
+    "picked": "Wybrano: {name}",
+    "order": "Złożono zamówienie",
+    "stock": "Sprawdzono stan",
+    "pay": "Otrzymano płatność",
+    "pick": "Skompletowano towary",
+    "pack": "Spakowano karton",
+    "label": "Wydrukowano etykietę",
+    "ship": "Wysłano"
+  },
+  "charts": {
+    "pick": "Kliknij, aby filtrować",
+    "empty": "Jeszcze nic",
+    "total": "zadań",
+    "byStage": "Według etapu",
+    "byPriority": "Według priorytetu",
+    "deadlines": "Terminy",
+    "per": "Terminy według",
+    "late": "Spóźnione",
+    "overdue": "Po terminie",
+    "perWeek": "Tygodniowo",
+    "perMonth": "Miesięcznie",
+    "todo": "Do zrobienia",
+    "doing": "W toku",
+    "review": "Przegląd",
+    "done": "Gotowe",
+    "high": "Wysoki",
+    "normal": "Normalny",
+    "low": "Niski",
+    "picked": "Filtr: {name}",
+    "none": "Kliknij słupek lub wycinek, aby filtrować."
+  },
+  "timeline": {
+    "hint": "Przeciągnij pasek albo ustaw na nim fokus i użyj klawiszy strzałek. Ctrl+klik go otwiera.",
+    "opened": "Otwarto: {name}",
+    "design": "Zaprojektować ulotkę",
+    "print": "Druk nakładu",
+    "deliver": "Dostarczyć do sklepów",
+    "survey": "Ankieta wśród klientów"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "columns": "Kolumner",
+  "empty": "Inga kolumner än",
+  "emptyColumn": "Inga kort",
+  "doneColumn": "Klar-kolumn",
+  "columnName": "Kolumnnamn",
+  "cardTitle": "Korttitel",
+  "addCard": "Lägg till kort",
+  "addColumn": "Lägg till kolumn",
+  "add": "Lägg till",
+  "rename": "Byt namn",
+  "todo": "Att göra",
+  "doing": "Pågår",
+  "done": "Klar",
+  "paint": "Måla staketet",
+  "seeds": "Beställa tomatfrön",
+  "shed": "Städa boden",
+  "gutter": "Rensa hängrännan",
+  "bike": "Laga cykellampan"
+}

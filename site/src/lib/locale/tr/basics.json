@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Yeni karakterler",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Çeyrek dönem rakamları yükleniyor…"
+  },
+  "widthHandle": {
+    "label": "Yan paneli yeniden boyutlandır",
+    "side": "Yan panel",
+    "main": "Tutamacı sürükleyin ya da odaklayıp ok tuşlarını kullanın."
+  },
+  "appIcon": {
+    "custom": "Kendi simgesi",
+    "fallback": "Simge yok"
+  },
+  "breadcrumb": {
+    "label": "İçerik haritası",
+    "home": "Ana sayfa",
+    "projects": "Projeler",
+    "garden": "Bahçe kulübesi",
+    "plan": "Yapı planı",
+    "clicked": "Tıklandı: {name}"
+  },
+  "tagBadge": {
+    "bug": "Hata",
+    "idea": "Fikir",
+    "urgent": "Acil",
+    "later": "Sonra"
+  },
+  "priorityIcon": {
+    "low": "Düşük",
+    "normal": "Normal",
+    "high": "Yüksek",
+    "urgent": "Acil"
+  },
+  "iconPicker": {
+    "label": "Simge",
+    "hourglass": "Bekliyor",
+    "phone": "Geri ara",
+    "mail": "E-posta",
+    "users": "Toplantı"
+  }
+}

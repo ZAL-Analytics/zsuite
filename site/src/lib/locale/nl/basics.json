@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Nieuwe personages",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "De kwartaalcijfers worden geladen…"
+  },
+  "widthHandle": {
+    "label": "Zijpaneel van grootte veranderen",
+    "side": "Zijpaneel",
+    "main": "Sleep de greep of geef hem focus en gebruik de pijltjestoetsen."
+  },
+  "appIcon": {
+    "custom": "Eigen pictogram",
+    "fallback": "Geen pictogram"
+  },
+  "breadcrumb": {
+    "label": "Kruimelpad",
+    "home": "Start",
+    "projects": "Projecten",
+    "garden": "Tuinhuisje",
+    "plan": "Bouwtekening",
+    "clicked": "Geklikt: {name}"
+  },
+  "tagBadge": {
+    "bug": "Bug",
+    "idea": "Idee",
+    "urgent": "Urgent",
+    "later": "Later"
+  },
+  "priorityIcon": {
+    "low": "Laag",
+    "normal": "Normaal",
+    "high": "Hoog",
+    "urgent": "Urgent"
+  },
+  "iconPicker": {
+    "label": "Pictogram",
+    "hourglass": "Wachten",
+    "phone": "Terugbellen",
+    "mail": "E-mail",
+    "users": "Overleg"
+  }
+}

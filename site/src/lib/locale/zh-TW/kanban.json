@@ -1,0 +1,20 @@
+{
+  "columns": "欄",
+  "empty": "還沒有欄",
+  "emptyColumn": "沒有卡片",
+  "doneColumn": "完成欄",
+  "columnName": "欄名稱",
+  "cardTitle": "卡片標題",
+  "addCard": "新增卡片",
+  "addColumn": "新增欄",
+  "add": "新增",
+  "rename": "重新命名",
+  "todo": "待辦",
+  "doing": "進行中",
+  "done": "已完成",
+  "paint": "油漆圍籬",
+  "seeds": "訂購番茄種子",
+  "shed": "整理小屋",
+  "gutter": "清理排水溝",
+  "bike": "修好腳踏車燈"
+}

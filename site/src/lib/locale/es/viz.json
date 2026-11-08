@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Disposición",
+    "horizontal": "De izquierda a derecha",
+    "vertical": "De arriba abajo",
+    "picked": "Elegido: {name}",
+    "order": "Pedido realizado",
+    "stock": "Existencias comprobadas",
+    "pay": "Pago recibido",
+    "pick": "Artículos preparados",
+    "pack": "Caja embalada",
+    "label": "Etiqueta impresa",
+    "ship": "Enviado"
+  },
+  "charts": {
+    "pick": "Haz clic para filtrar",
+    "empty": "Nada por ahora",
+    "total": "tareas",
+    "byStage": "Por fase",
+    "byPriority": "Por prioridad",
+    "deadlines": "Plazos",
+    "per": "Plazos por",
+    "late": "Con retraso",
+    "overdue": "Vencido",
+    "perWeek": "Por semana",
+    "perMonth": "Por mes",
+    "todo": "Por hacer",
+    "doing": "En curso",
+    "review": "Revisión",
+    "done": "Hecho",
+    "high": "Alta",
+    "normal": "Normal",
+    "low": "Baja",
+    "picked": "Filtrado por: {name}",
+    "none": "Haz clic en una barra o un sector para filtrar."
+  },
+  "timeline": {
+    "hint": "Arrastra una barra, o enfócala y usa las teclas de flecha. Ctrl+clic la abre.",
+    "opened": "Abierto: {name}",
+    "design": "Diseñar el folleto",
+    "print": "Tirada de impresión",
+    "deliver": "Entregar en las tiendas",
+    "survey": "Encuesta a clientes"
+  }
+}

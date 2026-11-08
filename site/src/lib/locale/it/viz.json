@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Disposizione",
+    "horizontal": "Da sinistra a destra",
+    "vertical": "Dall'alto in basso",
+    "picked": "Scelto: {name}",
+    "order": "Ordine effettuato",
+    "stock": "Scorte verificate",
+    "pay": "Pagamento ricevuto",
+    "pick": "Articoli prelevati",
+    "pack": "Scatola imballata",
+    "label": "Etichetta stampata",
+    "ship": "Spedito"
+  },
+  "charts": {
+    "pick": "Clicca per filtrare",
+    "empty": "Ancora niente",
+    "total": "attività",
+    "byStage": "Per fase",
+    "byPriority": "Per priorità",
+    "deadlines": "Scadenze",
+    "per": "Scadenze per",
+    "late": "In ritardo",
+    "overdue": "Scaduto",
+    "perWeek": "Per settimana",
+    "perMonth": "Per mese",
+    "todo": "Da fare",
+    "doing": "In corso",
+    "review": "Revisione",
+    "done": "Fatto",
+    "high": "Alta",
+    "normal": "Normale",
+    "low": "Bassa",
+    "picked": "Filtrato per: {name}",
+    "none": "Clicca su una barra o una fetta per filtrare."
+  },
+  "timeline": {
+    "hint": "Trascina una barra, oppure selezionala e usa i tasti freccia. Ctrl+clic la apre.",
+    "opened": "Aperto: {name}",
+    "design": "Progettare il volantino",
+    "print": "Tiratura",
+    "deliver": "Consegnare ai negozi",
+    "survey": "Sondaggio clienti"
+  }
+}

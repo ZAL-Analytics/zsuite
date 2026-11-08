@@ -1,0 +1,20 @@
+{
+  "columns": "Colunas",
+  "empty": "Ainda sem colunas",
+  "emptyColumn": "Sem cartões",
+  "doneColumn": "Coluna de concluídos",
+  "columnName": "Nome da coluna",
+  "cardTitle": "Título do cartão",
+  "addCard": "Adicionar cartão",
+  "addColumn": "Adicionar coluna",
+  "add": "Adicionar",
+  "rename": "Mudar o nome",
+  "todo": "Por fazer",
+  "doing": "Em curso",
+  "done": "Concluído",
+  "paint": "Pintar a vedação",
+  "seeds": "Encomendar sementes de tomate",
+  "shed": "Arrumar a arrecadação",
+  "gutter": "Limpar a caleira",
+  "bike": "Reparar a luz da bicicleta"
+}

@@ -1,4 +1,5 @@
 import AppWindow from "@lucide/svelte/icons/app-window";
+import Blocks from "@lucide/svelte/icons/blocks";
 import Bell from "@lucide/svelte/icons/bell";
 import CircleCheck from "@lucide/svelte/icons/circle-check";
 import Columns2 from "@lucide/svelte/icons/columns-2";
@@ -51,4 +52,5 @@ export const icons: Record<string, Component> = {
   textarea: TextQuote,
   toast: Bell,
   tooltip: MessageSquareMore,
+  fallback: Blocks,
 };

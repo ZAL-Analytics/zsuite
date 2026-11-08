@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "必須",
+    "save": "保存",
+    "saving": "保存中…",
+    "cancel": "キャンセル",
+    "search": "検索…",
+    "empty": "見つかりませんでした",
+    "none": "なし",
+    "all": "すべて",
+    "yes": "はい",
+    "no": "いいえ",
+    "showPassword": "パスワードを表示",
+    "hidePassword": "パスワードを隠す",
+    "removeItem": "{item} を削除",
+    "actions": "操作",
+    "delete": "削除"
+  },
+  "fields": {
+    "title": "タイトル",
+    "notes": "メモ",
+    "priority": "優先度",
+    "due": "期限",
+    "done": "完了",
+    "owner": "担当者",
+    "days": "曜日"
+  },
+  "values": {
+    "low": "低",
+    "normal": "標準",
+    "high": "高",
+    "mon": "月曜日",
+    "wed": "水曜日",
+    "fri": "金曜日"
+  },
+  "schemaForm": {
+    "missing": "タイトルを入力してください。",
+    "saved": "保存しました: {title}"
+  },
+  "dataTable": {
+    "title": "タスク",
+    "refresh": "更新",
+    "loading": "読み込み中…",
+    "previous": "前へ",
+    "next": "次へ",
+    "sortBy": "{field}で並べ替え",
+    "page": "{page} / {pages} ページ",
+    "rows": {
+      "1": "新しいラベルを注文する",
+      "2": "チームのお出かけを計画する",
+      "3": "2 階のプリンターを直す",
+      "4": "ニュースレターを書く",
+      "5": "共有ドライブを整理する",
+      "6": "会議室を予約する",
+      "7": "仕入れ先に返信する",
+      "8": "価格表を更新する"
+    }
+  },
+  "rowActions": {
+    "row": "庭の計画",
+    "archive": "アーカイブ",
+    "duplicate": "複製",
+    "last": "直前の操作: {action}"
+  },
+  "shareDialog": {
+    "open": "共有",
+    "title": "フォルダーを共有",
+    "subtitle": "庭の計画",
+    "owner": "所有者",
+    "nobody": "まだ誰とも共有していません。",
+    "inherited": "親フォルダーから",
+    "via": "{name} 経由",
+    "parent": "プロジェクト",
+    "role": "役割",
+    "remove": "削除",
+    "with": "共有相手",
+    "user": "同僚",
+    "group": "グループ",
+    "share": "共有",
+    "viewer": "閲覧可",
+    "editor": "編集可",
+    "manager": "管理可"
+  }
+}

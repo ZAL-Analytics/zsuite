@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "obligatorio",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "cancel": "Cancelar",
+    "search": "Buscar…",
+    "empty": "No se encontró nada",
+    "none": "Ninguno",
+    "all": "Todos",
+    "yes": "Sí",
+    "no": "No",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "removeItem": "Quitar {item}",
+    "actions": "Acciones",
+    "delete": "Eliminar"
+  },
+  "fields": {
+    "title": "Título",
+    "notes": "Notas",
+    "priority": "Prioridad",
+    "due": "Vence",
+    "done": "Hecho",
+    "owner": "Responsable",
+    "days": "Días"
+  },
+  "values": {
+    "low": "Baja",
+    "normal": "Normal",
+    "high": "Alta",
+    "mon": "Lunes",
+    "wed": "Miércoles",
+    "fri": "Viernes"
+  },
+  "schemaForm": {
+    "missing": "Escribe un título.",
+    "saved": "Guardado: {title}"
+  },
+  "dataTable": {
+    "title": "Tareas",
+    "refresh": "Actualizar",
+    "loading": "Cargando…",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "sortBy": "Ordenar por {field}",
+    "page": "Página {page} de {pages}",
+    "rows": {
+      "1": "Pedir etiquetas nuevas",
+      "2": "Planificar la salida del equipo",
+      "3": "Arreglar la impresora de la segunda planta",
+      "4": "Escribir el boletín",
+      "5": "Ordenar la unidad compartida",
+      "6": "Reservar la sala de reuniones",
+      "7": "Responder al proveedor",
+      "8": "Actualizar la lista de precios"
+    }
+  },
+  "rowActions": {
+    "row": "Plano del jardín",
+    "archive": "Archivar",
+    "duplicate": "Duplicar",
+    "last": "Última: {action}"
+  },
+  "shareDialog": {
+    "open": "Compartir",
+    "title": "Compartir carpeta",
+    "subtitle": "Planos del jardín",
+    "owner": "Propietario",
+    "nobody": "Aún no se ha compartido con nadie.",
+    "inherited": "De la carpeta superior",
+    "via": "a través de {name}",
+    "parent": "Proyectos",
+    "role": "Rol",
+    "remove": "Quitar",
+    "with": "Compartir con",
+    "user": "Compañero",
+    "group": "Grupo",
+    "share": "Compartir",
+    "viewer": "Puede ver",
+    "editor": "Puede editar",
+    "manager": "Puede gestionar"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Нові персонажі",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Завантаження квартальних показників…"
+  },
+  "widthHandle": {
+    "label": "Змінити розмір бічної панелі",
+    "side": "Бічна панель",
+    "main": "Перетягніть маркер або наведіть на нього фокус і скористайтеся клавішами зі стрілками."
+  },
+  "appIcon": {
+    "custom": "Власний значок",
+    "fallback": "Без значка"
+  },
+  "breadcrumb": {
+    "label": "Навігаційний ланцюжок",
+    "home": "Головна",
+    "projects": "Проєкти",
+    "garden": "Садовий сарай",
+    "plan": "План будівництва",
+    "clicked": "Натиснуто: {name}"
+  },
+  "tagBadge": {
+    "bug": "Помилка",
+    "idea": "Ідея",
+    "urgent": "Терміново",
+    "later": "Пізніше"
+  },
+  "priorityIcon": {
+    "low": "Низький",
+    "normal": "Звичайний",
+    "high": "Високий",
+    "urgent": "Терміновий"
+  },
+  "iconPicker": {
+    "label": "Значок",
+    "hourglass": "Очікування",
+    "phone": "Передзвонити",
+    "mail": "Ел. пошта",
+    "users": "Зустріч"
+  }
+}

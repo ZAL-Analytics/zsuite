@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "erforderlich",
+    "save": "Speichern",
+    "saving": "Wird gespeichert…",
+    "cancel": "Abbrechen",
+    "search": "Suchen…",
+    "empty": "Nichts gefunden",
+    "none": "Keine",
+    "all": "Alle",
+    "yes": "Ja",
+    "no": "Nein",
+    "showPassword": "Passwort anzeigen",
+    "hidePassword": "Passwort verbergen",
+    "removeItem": "{item} entfernen",
+    "actions": "Aktionen",
+    "delete": "Löschen"
+  },
+  "fields": {
+    "title": "Titel",
+    "notes": "Notizen",
+    "priority": "Priorität",
+    "due": "Fällig",
+    "done": "Erledigt",
+    "owner": "Verantwortlich",
+    "days": "Tage"
+  },
+  "values": {
+    "low": "Niedrig",
+    "normal": "Normal",
+    "high": "Hoch",
+    "mon": "Montag",
+    "wed": "Mittwoch",
+    "fri": "Freitag"
+  },
+  "schemaForm": {
+    "missing": "Gib einen Titel ein.",
+    "saved": "Gespeichert: {title}"
+  },
+  "dataTable": {
+    "title": "Aufgaben",
+    "refresh": "Aktualisieren",
+    "loading": "Wird geladen…",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "sortBy": "Nach {field} sortieren",
+    "page": "Seite {page} von {pages}",
+    "rows": {
+      "1": "Neue Etiketten bestellen",
+      "2": "Teamausflug planen",
+      "3": "Drucker im zweiten Stock reparieren",
+      "4": "Newsletter schreiben",
+      "5": "Gemeinsames Laufwerk aufräumen",
+      "6": "Besprechungsraum buchen",
+      "7": "Dem Lieferanten antworten",
+      "8": "Preisliste aktualisieren"
+    }
+  },
+  "rowActions": {
+    "row": "Gartenplan",
+    "archive": "Archivieren",
+    "duplicate": "Duplizieren",
+    "last": "Zuletzt: {action}"
+  },
+  "shareDialog": {
+    "open": "Teilen",
+    "title": "Ordner teilen",
+    "subtitle": "Gartenpläne",
+    "owner": "Eigentümer",
+    "nobody": "Noch mit niemandem geteilt.",
+    "inherited": "Vom übergeordneten Ordner",
+    "via": "über {name}",
+    "parent": "Projekte",
+    "role": "Rolle",
+    "remove": "Entfernen",
+    "with": "Teilen mit",
+    "user": "Kollege",
+    "group": "Gruppe",
+    "share": "Teilen",
+    "viewer": "Kann ansehen",
+    "editor": "Kann bearbeiten",
+    "manager": "Kann verwalten"
+  }
+}

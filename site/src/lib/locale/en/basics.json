@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "New characters",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Loading the quarterly figures…"
+  },
+  "widthHandle": {
+    "label": "Resize the side panel",
+    "side": "Side panel",
+    "main": "Drag the handle or focus it and use the arrow keys."
+  },
+  "appIcon": {
+    "custom": "Own icon",
+    "fallback": "No icon"
+  },
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home",
+    "projects": "Projects",
+    "garden": "Garden shed",
+    "plan": "Building plan",
+    "clicked": "Clicked: {name}"
+  },
+  "tagBadge": {
+    "bug": "Bug",
+    "idea": "Idea",
+    "urgent": "Urgent",
+    "later": "Later"
+  },
+  "priorityIcon": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "urgent": "Urgent"
+  },
+  "iconPicker": {
+    "label": "Icon",
+    "hourglass": "Waiting",
+    "phone": "Call back",
+    "mail": "Email",
+    "users": "Meeting"
+  }
+}

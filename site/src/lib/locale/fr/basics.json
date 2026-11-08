@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Nouveaux personnages",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Chargement des chiffres trimestriels…"
+  },
+  "widthHandle": {
+    "label": "Redimensionner le panneau latéral",
+    "side": "Panneau latéral",
+    "main": "Faites glisser la poignée ou sélectionnez-la et utilisez les flèches."
+  },
+  "appIcon": {
+    "custom": "Icône personnalisée",
+    "fallback": "Aucune icône"
+  },
+  "breadcrumb": {
+    "label": "Fil d’Ariane",
+    "home": "Accueil",
+    "projects": "Projets",
+    "garden": "Abri de jardin",
+    "plan": "Plan de construction",
+    "clicked": "Cliqué : {name}"
+  },
+  "tagBadge": {
+    "bug": "Bug",
+    "idea": "Idée",
+    "urgent": "Urgent",
+    "later": "Plus tard"
+  },
+  "priorityIcon": {
+    "low": "Basse",
+    "normal": "Normale",
+    "high": "Haute",
+    "urgent": "Urgente"
+  },
+  "iconPicker": {
+    "label": "Icône",
+    "hourglass": "En attente",
+    "phone": "Rappeler",
+    "mail": "E-mail",
+    "users": "Réunion"
+  }
+}

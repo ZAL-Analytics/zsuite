@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Nye figurer",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Indlæser kvartalstallene…"
+  },
+  "widthHandle": {
+    "label": "Tilpas sidepanelets størrelse",
+    "side": "Sidepanel",
+    "main": "Træk i håndtaget, eller fokuser det og brug piletasterne."
+  },
+  "appIcon": {
+    "custom": "Eget ikon",
+    "fallback": "Intet ikon"
+  },
+  "breadcrumb": {
+    "label": "Brødkrumme",
+    "home": "Hjem",
+    "projects": "Projekter",
+    "garden": "Haveskur",
+    "plan": "Byggeplan",
+    "clicked": "Klikket: {name}"
+  },
+  "tagBadge": {
+    "bug": "Fejl",
+    "idea": "Idé",
+    "urgent": "Haster",
+    "later": "Senere"
+  },
+  "priorityIcon": {
+    "low": "Lav",
+    "normal": "Normal",
+    "high": "Høj",
+    "urgent": "Haster"
+  },
+  "iconPicker": {
+    "label": "Ikon",
+    "hourglass": "Venter",
+    "phone": "Ring tilbage",
+    "mail": "E-mail",
+    "users": "Møde"
+  }
+}

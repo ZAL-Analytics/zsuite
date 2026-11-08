@@ -1,0 +1,20 @@
+{
+  "columns": "列",
+  "empty": "还没有列",
+  "emptyColumn": "没有卡片",
+  "doneColumn": "完成列",
+  "columnName": "列名称",
+  "cardTitle": "卡片标题",
+  "addCard": "添加卡片",
+  "addColumn": "添加列",
+  "add": "添加",
+  "rename": "重命名",
+  "todo": "待办",
+  "doing": "进行中",
+  "done": "已完成",
+  "paint": "粉刷篱笆",
+  "seeds": "订购番茄种子",
+  "shed": "整理小屋",
+  "gutter": "清理排水沟",
+  "bike": "修好自行车灯"
+}

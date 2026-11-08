@@ -1,0 +1,20 @@
+{
+  "columns": "Spalten",
+  "empty": "Noch keine Spalten",
+  "emptyColumn": "Keine Karten",
+  "doneColumn": "Erledigt-Spalte",
+  "columnName": "Spaltenname",
+  "cardTitle": "Kartentitel",
+  "addCard": "Karte hinzufügen",
+  "addColumn": "Spalte hinzufügen",
+  "add": "Hinzufügen",
+  "rename": "Umbenennen",
+  "todo": "Zu erledigen",
+  "doing": "In Arbeit",
+  "done": "Erledigt",
+  "paint": "Den Zaun streichen",
+  "seeds": "Tomatensamen bestellen",
+  "shed": "Den Schuppen aufräumen",
+  "gutter": "Die Dachrinne reinigen",
+  "bike": "Das Fahrradlicht reparieren"
+}

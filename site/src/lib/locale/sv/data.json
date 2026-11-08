@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "obligatoriskt",
+    "save": "Spara",
+    "saving": "Sparar…",
+    "cancel": "Avbryt",
+    "search": "Sök…",
+    "empty": "Inget hittades",
+    "none": "Ingen",
+    "all": "Alla",
+    "yes": "Ja",
+    "no": "Nej",
+    "showPassword": "Visa lösenord",
+    "hidePassword": "Dölj lösenord",
+    "removeItem": "Ta bort {item}",
+    "actions": "Åtgärder",
+    "delete": "Ta bort"
+  },
+  "fields": {
+    "title": "Titel",
+    "notes": "Anteckningar",
+    "priority": "Prioritet",
+    "due": "Förfaller",
+    "done": "Klar",
+    "owner": "Ägare",
+    "days": "Dagar"
+  },
+  "values": {
+    "low": "Låg",
+    "normal": "Normal",
+    "high": "Hög",
+    "mon": "Måndag",
+    "wed": "Onsdag",
+    "fri": "Fredag"
+  },
+  "schemaForm": {
+    "missing": "Fyll i en titel.",
+    "saved": "Sparat: {title}"
+  },
+  "dataTable": {
+    "title": "Uppgifter",
+    "refresh": "Uppdatera",
+    "loading": "Läser in…",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "sortBy": "Sortera efter {field}",
+    "page": "Sida {page} av {pages}",
+    "rows": {
+      "1": "Beställa nya etiketter",
+      "2": "Planera teamutflykten",
+      "3": "Laga skrivaren på plan två",
+      "4": "Skriva nyhetsbrevet",
+      "5": "Städa upp den delade enheten",
+      "6": "Boka mötesrummet",
+      "7": "Svara leverantören",
+      "8": "Uppdatera prislistan"
+    }
+  },
+  "rowActions": {
+    "row": "Trädgårdsplan",
+    "archive": "Arkivera",
+    "duplicate": "Duplicera",
+    "last": "Senast: {action}"
+  },
+  "shareDialog": {
+    "open": "Dela",
+    "title": "Dela mapp",
+    "subtitle": "Trädgårdsplaner",
+    "owner": "Ägare",
+    "nobody": "Inte delad med någon än.",
+    "inherited": "Från överordnad mapp",
+    "via": "via {name}",
+    "parent": "Projekt",
+    "role": "Roll",
+    "remove": "Ta bort",
+    "with": "Dela med",
+    "user": "Kollega",
+    "group": "Grupp",
+    "share": "Dela",
+    "viewer": "Kan visa",
+    "editor": "Kan redigera",
+    "manager": "Kan hantera"
+  }
+}

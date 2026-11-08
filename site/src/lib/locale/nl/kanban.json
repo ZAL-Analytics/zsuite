@@ -1,0 +1,20 @@
+{
+  "columns": "Kolommen",
+  "empty": "Nog geen kolommen",
+  "emptyColumn": "Geen kaarten",
+  "doneColumn": "Klaar-kolom",
+  "columnName": "Kolomnaam",
+  "cardTitle": "Kaarttitel",
+  "addCard": "Kaart toevoegen",
+  "addColumn": "Kolom toevoegen",
+  "add": "Toevoegen",
+  "rename": "Hernoemen",
+  "todo": "Te doen",
+  "doing": "Bezig",
+  "done": "Klaar",
+  "paint": "Het hek verven",
+  "seeds": "Tomatenzaad bestellen",
+  "shed": "Het schuurtje opruimen",
+  "gutter": "De dakgoot schoonmaken",
+  "bike": "Het fietslampje repareren"
+}

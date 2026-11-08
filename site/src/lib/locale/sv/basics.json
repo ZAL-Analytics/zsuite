@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Nya figurer",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Läser in kvartalssiffrorna…"
+  },
+  "widthHandle": {
+    "label": "Ändra storlek på sidopanelen",
+    "side": "Sidopanel",
+    "main": "Dra i handtaget, eller fokusera det och använd piltangenterna."
+  },
+  "appIcon": {
+    "custom": "Egen ikon",
+    "fallback": "Ingen ikon"
+  },
+  "breadcrumb": {
+    "label": "Brödsmulor",
+    "home": "Hem",
+    "projects": "Projekt",
+    "garden": "Trädgårdsbod",
+    "plan": "Byggplan",
+    "clicked": "Klickade: {name}"
+  },
+  "tagBadge": {
+    "bug": "Bugg",
+    "idea": "Idé",
+    "urgent": "Brådskande",
+    "later": "Senare"
+  },
+  "priorityIcon": {
+    "low": "Låg",
+    "normal": "Normal",
+    "high": "Hög",
+    "urgent": "Brådskande"
+  },
+  "iconPicker": {
+    "label": "Ikon",
+    "hourglass": "Väntar",
+    "phone": "Ring tillbaka",
+    "mail": "E-post",
+    "users": "Möte"
+  }
+}

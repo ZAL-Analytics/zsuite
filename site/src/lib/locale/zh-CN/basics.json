@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "换一批角色",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "正在加载季度数据…"
+  },
+  "widthHandle": {
+    "label": "调整侧边栏大小",
+    "side": "侧边栏",
+    "main": "拖动手柄，或聚焦后使用方向键。"
+  },
+  "appIcon": {
+    "custom": "自定义图标",
+    "fallback": "无图标"
+  },
+  "breadcrumb": {
+    "label": "面包屑导航",
+    "home": "首页",
+    "projects": "项目",
+    "garden": "花园小屋",
+    "plan": "施工图",
+    "clicked": "已点击：{name}"
+  },
+  "tagBadge": {
+    "bug": "缺陷",
+    "idea": "想法",
+    "urgent": "紧急",
+    "later": "稍后"
+  },
+  "priorityIcon": {
+    "low": "低",
+    "normal": "普通",
+    "high": "高",
+    "urgent": "紧急"
+  },
+  "iconPicker": {
+    "label": "图标",
+    "hourglass": "等待中",
+    "phone": "回电",
+    "mail": "电子邮件",
+    "users": "会议"
+  }
+}

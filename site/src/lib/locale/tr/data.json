@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "zorunlu",
+    "save": "Kaydet",
+    "saving": "Kaydediliyor…",
+    "cancel": "İptal",
+    "search": "Ara…",
+    "empty": "Hiçbir şey bulunamadı",
+    "none": "Yok",
+    "all": "Tümü",
+    "yes": "Evet",
+    "no": "Hayır",
+    "showPassword": "Parolayı göster",
+    "hidePassword": "Parolayı gizle",
+    "removeItem": "{item} öğesini kaldır",
+    "actions": "İşlemler",
+    "delete": "Sil"
+  },
+  "fields": {
+    "title": "Başlık",
+    "notes": "Notlar",
+    "priority": "Öncelik",
+    "due": "Son tarih",
+    "done": "Tamamlandı",
+    "owner": "Sahibi",
+    "days": "Günler"
+  },
+  "values": {
+    "low": "Düşük",
+    "normal": "Normal",
+    "high": "Yüksek",
+    "mon": "Pazartesi",
+    "wed": "Çarşamba",
+    "fri": "Cuma"
+  },
+  "schemaForm": {
+    "missing": "Bir başlık girin.",
+    "saved": "Kaydedildi: {title}"
+  },
+  "dataTable": {
+    "title": "Görevler",
+    "refresh": "Yenile",
+    "loading": "Yükleniyor…",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "sortBy": "{field} alanına göre sırala",
+    "page": "Sayfa {page} / {pages}",
+    "rows": {
+      "1": "Yeni etiket sipariş et",
+      "2": "Ekip gezisini planla",
+      "3": "İkinci kattaki yazıcıyı onar",
+      "4": "Bülteni yaz",
+      "5": "Ortak sürücüyü temizle",
+      "6": "Toplantı odasını ayırt",
+      "7": "Tedarikçiye yanıt ver",
+      "8": "Fiyat listesini güncelle"
+    }
+  },
+  "rowActions": {
+    "row": "Bahçe planı",
+    "archive": "Arşivle",
+    "duplicate": "Çoğalt",
+    "last": "Son: {action}"
+  },
+  "shareDialog": {
+    "open": "Paylaş",
+    "title": "Klasörü paylaş",
+    "subtitle": "Bahçe planları",
+    "owner": "Sahibi",
+    "nobody": "Henüz kimseyle paylaşılmadı.",
+    "inherited": "Üst klasörden",
+    "via": "{name} üzerinden",
+    "parent": "Projeler",
+    "role": "Rol",
+    "remove": "Kaldır",
+    "with": "Paylaşılacak kişi",
+    "user": "İş arkadaşı",
+    "group": "Grup",
+    "share": "Paylaş",
+    "viewer": "Görüntüleyebilir",
+    "editor": "Düzenleyebilir",
+    "manager": "Yönetebilir"
+  }
+}

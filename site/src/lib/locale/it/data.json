@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "obbligatorio",
+    "save": "Salva",
+    "saving": "Salvataggio…",
+    "cancel": "Annulla",
+    "search": "Cerca…",
+    "empty": "Nessun risultato",
+    "none": "Nessuno",
+    "all": "Tutti",
+    "yes": "Sì",
+    "no": "No",
+    "showPassword": "Mostra password",
+    "hidePassword": "Nascondi password",
+    "removeItem": "Rimuovi {item}",
+    "actions": "Azioni",
+    "delete": "Elimina"
+  },
+  "fields": {
+    "title": "Titolo",
+    "notes": "Note",
+    "priority": "Priorità",
+    "due": "Scadenza",
+    "done": "Fatto",
+    "owner": "Proprietario",
+    "days": "Giorni"
+  },
+  "values": {
+    "low": "Bassa",
+    "normal": "Normale",
+    "high": "Alta",
+    "mon": "Lunedì",
+    "wed": "Mercoledì",
+    "fri": "Venerdì"
+  },
+  "schemaForm": {
+    "missing": "Inserisci un titolo.",
+    "saved": "Salvato: {title}"
+  },
+  "dataTable": {
+    "title": "Attività",
+    "refresh": "Aggiorna",
+    "loading": "Caricamento…",
+    "previous": "Precedente",
+    "next": "Successiva",
+    "sortBy": "Ordina per {field}",
+    "page": "Pagina {page} di {pages}",
+    "rows": {
+      "1": "Ordinare nuove etichette",
+      "2": "Organizzare la gita aziendale",
+      "3": "Riparare la stampante al secondo piano",
+      "4": "Scrivere la newsletter",
+      "5": "Riordinare l'unità condivisa",
+      "6": "Prenotare la sala riunioni",
+      "7": "Rispondere al fornitore",
+      "8": "Aggiornare il listino prezzi"
+    }
+  },
+  "rowActions": {
+    "row": "Progetto del giardino",
+    "archive": "Archivia",
+    "duplicate": "Duplica",
+    "last": "Ultima: {action}"
+  },
+  "shareDialog": {
+    "open": "Condividi",
+    "title": "Condividi cartella",
+    "subtitle": "Progetti del giardino",
+    "owner": "Proprietario",
+    "nobody": "Non ancora condivisa con nessuno.",
+    "inherited": "Dalla cartella superiore",
+    "via": "tramite {name}",
+    "parent": "Progetti",
+    "role": "Ruolo",
+    "remove": "Rimuovi",
+    "with": "Condividi con",
+    "user": "Collega",
+    "group": "Gruppo",
+    "share": "Condividi",
+    "viewer": "Può visualizzare",
+    "editor": "Può modificare",
+    "manager": "Può gestire"
+  }
+}

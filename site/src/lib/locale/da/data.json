@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "påkrævet",
+    "save": "Gem",
+    "saving": "Gemmer…",
+    "cancel": "Annuller",
+    "search": "Søg…",
+    "empty": "Intet fundet",
+    "none": "Ingen",
+    "all": "Alle",
+    "yes": "Ja",
+    "no": "Nej",
+    "showPassword": "Vis adgangskode",
+    "hidePassword": "Skjul adgangskode",
+    "removeItem": "Fjern {item}",
+    "actions": "Handlinger",
+    "delete": "Slet"
+  },
+  "fields": {
+    "title": "Titel",
+    "notes": "Noter",
+    "priority": "Prioritet",
+    "due": "Frist",
+    "done": "Færdig",
+    "owner": "Ejer",
+    "days": "Dage"
+  },
+  "values": {
+    "low": "Lav",
+    "normal": "Normal",
+    "high": "Høj",
+    "mon": "Mandag",
+    "wed": "Onsdag",
+    "fri": "Fredag"
+  },
+  "schemaForm": {
+    "missing": "Udfyld en titel.",
+    "saved": "Gemt: {title}"
+  },
+  "dataTable": {
+    "title": "Opgaver",
+    "refresh": "Opdater",
+    "loading": "Indlæser…",
+    "previous": "Forrige",
+    "next": "Næste",
+    "sortBy": "Sorter efter {field}",
+    "page": "Side {page} af {pages}",
+    "rows": {
+      "1": "Bestil nye etiketter",
+      "2": "Planlæg teamudflugten",
+      "3": "Reparer printeren på anden sal",
+      "4": "Skriv nyhedsbrevet",
+      "5": "Ryd op på det delte drev",
+      "6": "Book mødelokalet",
+      "7": "Svar leverandøren",
+      "8": "Opdater prislisten"
+    }
+  },
+  "rowActions": {
+    "row": "Haveplan",
+    "archive": "Arkiver",
+    "duplicate": "Dupliker",
+    "last": "Senest: {action}"
+  },
+  "shareDialog": {
+    "open": "Del",
+    "title": "Del mappe",
+    "subtitle": "Haveplaner",
+    "owner": "Ejer",
+    "nobody": "Ikke delt med nogen endnu.",
+    "inherited": "Fra den overordnede mappe",
+    "via": "via {name}",
+    "parent": "Projekter",
+    "role": "Rolle",
+    "remove": "Fjern",
+    "with": "Del med",
+    "user": "Kollega",
+    "group": "Gruppe",
+    "share": "Del",
+    "viewer": "Kan se",
+    "editor": "Kan redigere",
+    "manager": "Kan administrere"
+  }
+}

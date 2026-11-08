@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Νέοι χαρακτήρες",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Φόρτωση των τριμηνιαίων στοιχείων…"
+  },
+  "widthHandle": {
+    "label": "Αλλαγή μεγέθους πλαϊνού πίνακα",
+    "side": "Πλαϊνός πίνακας",
+    "main": "Σύρετε τη λαβή ή εστιάστε σε αυτήν και χρησιμοποιήστε τα βελάκια."
+  },
+  "appIcon": {
+    "custom": "Δικό σας εικονίδιο",
+    "fallback": "Χωρίς εικονίδιο"
+  },
+  "breadcrumb": {
+    "label": "Διαδρομή",
+    "home": "Αρχική",
+    "projects": "Έργα",
+    "garden": "Αποθήκη κήπου",
+    "plan": "Σχέδιο κατασκευής",
+    "clicked": "Πατήθηκε: {name}"
+  },
+  "tagBadge": {
+    "bug": "Σφάλμα",
+    "idea": "Ιδέα",
+    "urgent": "Επείγον",
+    "later": "Αργότερα"
+  },
+  "priorityIcon": {
+    "low": "Χαμηλή",
+    "normal": "Κανονική",
+    "high": "Υψηλή",
+    "urgent": "Επείγουσα"
+  },
+  "iconPicker": {
+    "label": "Εικονίδιο",
+    "hourglass": "Σε αναμονή",
+    "phone": "Επανάκληση",
+    "mail": "Email",
+    "users": "Σύσκεψη"
+  }
+}

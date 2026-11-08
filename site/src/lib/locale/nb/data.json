@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "påkrevd",
+    "save": "Lagre",
+    "saving": "Lagrer…",
+    "cancel": "Avbryt",
+    "search": "Søk…",
+    "empty": "Ingenting funnet",
+    "none": "Ingen",
+    "all": "Alle",
+    "yes": "Ja",
+    "no": "Nei",
+    "showPassword": "Vis passord",
+    "hidePassword": "Skjul passord",
+    "removeItem": "Fjern {item}",
+    "actions": "Handlinger",
+    "delete": "Slett"
+  },
+  "fields": {
+    "title": "Tittel",
+    "notes": "Notater",
+    "priority": "Prioritet",
+    "due": "Frist",
+    "done": "Ferdig",
+    "owner": "Eier",
+    "days": "Dager"
+  },
+  "values": {
+    "low": "Lav",
+    "normal": "Normal",
+    "high": "Høy",
+    "mon": "Mandag",
+    "wed": "Onsdag",
+    "fri": "Fredag"
+  },
+  "schemaForm": {
+    "missing": "Fyll inn en tittel.",
+    "saved": "Lagret: {title}"
+  },
+  "dataTable": {
+    "title": "Oppgaver",
+    "refresh": "Oppdater",
+    "loading": "Laster…",
+    "previous": "Forrige",
+    "next": "Neste",
+    "sortBy": "Sorter etter {field}",
+    "page": "Side {page} av {pages}",
+    "rows": {
+      "1": "Bestille nye etiketter",
+      "2": "Planlegge teamturen",
+      "3": "Fikse skriveren i andre etasje",
+      "4": "Skrive nyhetsbrevet",
+      "5": "Rydde opp i fellesdisken",
+      "6": "Booke møterommet",
+      "7": "Svare leverandøren",
+      "8": "Oppdatere prislisten"
+    }
+  },
+  "rowActions": {
+    "row": "Hageplan",
+    "archive": "Arkiver",
+    "duplicate": "Dupliser",
+    "last": "Sist: {action}"
+  },
+  "shareDialog": {
+    "open": "Del",
+    "title": "Del mappe",
+    "subtitle": "Hageplaner",
+    "owner": "Eier",
+    "nobody": "Ikke delt med noen ennå.",
+    "inherited": "Fra overordnet mappe",
+    "via": "via {name}",
+    "parent": "Prosjekter",
+    "role": "Rolle",
+    "remove": "Fjern",
+    "with": "Del med",
+    "user": "Kollega",
+    "group": "Gruppe",
+    "share": "Del",
+    "viewer": "Kan se",
+    "editor": "Kan redigere",
+    "manager": "Kan administrere"
+  }
+}

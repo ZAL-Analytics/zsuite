@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Oppsett",
+    "horizontal": "Venstre til høyre",
+    "vertical": "Topp til bunn",
+    "picked": "Valgt: {name}",
+    "order": "Bestilling lagt inn",
+    "stock": "Lager sjekket",
+    "pay": "Betaling mottatt",
+    "pick": "Varer plukket",
+    "pack": "Eske pakket",
+    "label": "Etikett skrevet ut",
+    "ship": "Sendt"
+  },
+  "charts": {
+    "pick": "Klikk for å filtrere",
+    "empty": "Ingenting ennå",
+    "total": "oppgaver",
+    "byStage": "Per fase",
+    "byPriority": "Per prioritet",
+    "deadlines": "Frister",
+    "per": "Frister per",
+    "late": "Sent",
+    "overdue": "Forfalt",
+    "perWeek": "Per uke",
+    "perMonth": "Per måned",
+    "todo": "Å gjøre",
+    "doing": "Pågår",
+    "review": "Gjennomgang",
+    "done": "Ferdig",
+    "high": "Høy",
+    "normal": "Normal",
+    "low": "Lav",
+    "picked": "Filtrert på: {name}",
+    "none": "Klikk på en stolpe eller et segment for å filtrere."
+  },
+  "timeline": {
+    "hint": "Dra en stolpe, eller fokuser den og bruk piltastene. Ctrl+klikk åpner den.",
+    "opened": "Åpnet: {name}",
+    "design": "Designe flygebladet",
+    "print": "Trykking",
+    "deliver": "Levere til butikkene",
+    "survey": "Kundeundersøkelse"
+  }
+}

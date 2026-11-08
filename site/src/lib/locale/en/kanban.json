@@ -1,0 +1,20 @@
+{
+  "columns": "Columns",
+  "empty": "No columns yet",
+  "emptyColumn": "No cards",
+  "doneColumn": "Done column",
+  "columnName": "Column name",
+  "cardTitle": "Card title",
+  "addCard": "Add card",
+  "addColumn": "Add column",
+  "add": "Add",
+  "rename": "Rename",
+  "todo": "To do",
+  "doing": "Doing",
+  "done": "Done",
+  "paint": "Paint the fence",
+  "seeds": "Order tomato seeds",
+  "shed": "Tidy the shed",
+  "gutter": "Clean the gutter",
+  "bike": "Fix the bike light"
+}

@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Disposition",
+    "horizontal": "De gauche à droite",
+    "vertical": "De haut en bas",
+    "picked": "Choisi : {name}",
+    "order": "Commande passée",
+    "stock": "Stock vérifié",
+    "pay": "Paiement reçu",
+    "pick": "Articles prélevés",
+    "pack": "Colis emballé",
+    "label": "Étiquette imprimée",
+    "ship": "Expédié"
+  },
+  "charts": {
+    "pick": "Cliquez pour filtrer",
+    "empty": "Rien pour l’instant",
+    "total": "tâches",
+    "byStage": "Par étape",
+    "byPriority": "Par priorité",
+    "deadlines": "Échéances",
+    "per": "Échéances par",
+    "late": "En retard",
+    "overdue": "Dépassé",
+    "perWeek": "Par semaine",
+    "perMonth": "Par mois",
+    "todo": "À faire",
+    "doing": "En cours",
+    "review": "Relecture",
+    "done": "Terminé",
+    "high": "Haute",
+    "normal": "Normale",
+    "low": "Basse",
+    "picked": "Filtré sur : {name}",
+    "none": "Cliquez sur une barre ou une part pour filtrer."
+  },
+  "timeline": {
+    "hint": "Faites glisser une barre, ou sélectionnez-la et utilisez les flèches. Ctrl+clic l’ouvre.",
+    "opened": "Ouvert : {name}",
+    "design": "Concevoir le prospectus",
+    "print": "Impression",
+    "deliver": "Livrer aux magasins",
+    "survey": "Enquête clients"
+  }
+}

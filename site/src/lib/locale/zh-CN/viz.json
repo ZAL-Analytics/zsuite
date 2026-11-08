@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "布局",
+    "horizontal": "从左到右",
+    "vertical": "从上到下",
+    "picked": "已选择：{name}",
+    "order": "已下单",
+    "stock": "已核对库存",
+    "pay": "已收款",
+    "pick": "已拣货",
+    "pack": "已装箱",
+    "label": "已打印标签",
+    "ship": "已发货"
+  },
+  "charts": {
+    "pick": "点击以筛选",
+    "empty": "暂无内容",
+    "total": "个任务",
+    "byStage": "按阶段",
+    "byPriority": "按优先级",
+    "deadlines": "截止日期",
+    "per": "截止日期分组",
+    "late": "延迟",
+    "overdue": "已逾期",
+    "perWeek": "按周",
+    "perMonth": "按月",
+    "todo": "待办",
+    "doing": "进行中",
+    "review": "审核",
+    "done": "已完成",
+    "high": "高",
+    "normal": "普通",
+    "low": "低",
+    "picked": "筛选条件：{name}",
+    "none": "点击柱形或扇区以筛选。"
+  },
+  "timeline": {
+    "hint": "拖动条形，或聚焦后使用方向键。Ctrl+单击可打开。",
+    "opened": "已打开：{name}",
+    "design": "设计传单",
+    "print": "印刷",
+    "deliver": "配送到门店",
+    "survey": "客户调查"
+  }
+}

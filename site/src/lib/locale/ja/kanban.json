@@ -1,0 +1,20 @@
+{
+  "columns": "列",
+  "empty": "列はまだありません",
+  "emptyColumn": "カードなし",
+  "doneColumn": "完了列",
+  "columnName": "列の名前",
+  "cardTitle": "カードのタイトル",
+  "addCard": "カードを追加",
+  "addColumn": "列を追加",
+  "add": "追加",
+  "rename": "名前を変更",
+  "todo": "未着手",
+  "doing": "進行中",
+  "done": "完了",
+  "paint": "フェンスを塗る",
+  "seeds": "トマトの種を注文する",
+  "shed": "物置を片付ける",
+  "gutter": "雨どいを掃除する",
+  "bike": "自転車のライトを直す"
+}

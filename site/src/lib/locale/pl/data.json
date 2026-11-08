@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "wymagane",
+    "save": "Zapisz",
+    "saving": "Zapisywanie…",
+    "cancel": "Anuluj",
+    "search": "Szukaj…",
+    "empty": "Nic nie znaleziono",
+    "none": "Brak",
+    "all": "Wszystkie",
+    "yes": "Tak",
+    "no": "Nie",
+    "showPassword": "Pokaż hasło",
+    "hidePassword": "Ukryj hasło",
+    "removeItem": "Usuń {item}",
+    "actions": "Akcje",
+    "delete": "Usuń"
+  },
+  "fields": {
+    "title": "Tytuł",
+    "notes": "Notatki",
+    "priority": "Priorytet",
+    "due": "Termin",
+    "done": "Gotowe",
+    "owner": "Właściciel",
+    "days": "Dni"
+  },
+  "values": {
+    "low": "Niski",
+    "normal": "Normalny",
+    "high": "Wysoki",
+    "mon": "Poniedziałek",
+    "wed": "Środa",
+    "fri": "Piątek"
+  },
+  "schemaForm": {
+    "missing": "Wpisz tytuł.",
+    "saved": "Zapisano: {title}"
+  },
+  "dataTable": {
+    "title": "Zadania",
+    "refresh": "Odśwież",
+    "loading": "Wczytywanie…",
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "sortBy": "Sortuj według: {field}",
+    "page": "Strona {page} z {pages}",
+    "rows": {
+      "1": "Zamówić nowe etykiety",
+      "2": "Zaplanować wyjazd zespołu",
+      "3": "Naprawić drukarkę na drugim piętrze",
+      "4": "Napisać newsletter",
+      "5": "Uporządkować dysk współdzielony",
+      "6": "Zarezerwować salę spotkań",
+      "7": "Odpowiedzieć dostawcy",
+      "8": "Zaktualizować cennik"
+    }
+  },
+  "rowActions": {
+    "row": "Plan ogrodu",
+    "archive": "Archiwizuj",
+    "duplicate": "Duplikuj",
+    "last": "Ostatnio: {action}"
+  },
+  "shareDialog": {
+    "open": "Udostępnij",
+    "title": "Udostępnij folder",
+    "subtitle": "Plany ogrodu",
+    "owner": "Właściciel",
+    "nobody": "Jeszcze nikomu nie udostępniono.",
+    "inherited": "Z folderu nadrzędnego",
+    "via": "przez {name}",
+    "parent": "Projekty",
+    "role": "Rola",
+    "remove": "Usuń",
+    "with": "Udostępnij dla",
+    "user": "Współpracownik",
+    "group": "Grupa",
+    "share": "Udostępnij",
+    "viewer": "Może wyświetlać",
+    "editor": "Może edytować",
+    "manager": "Może zarządzać"
+  }
+}

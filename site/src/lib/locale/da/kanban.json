@@ -1,0 +1,20 @@
+{
+  "columns": "Kolonner",
+  "empty": "Ingen kolonner endnu",
+  "emptyColumn": "Ingen kort",
+  "doneColumn": "Færdig-kolonne",
+  "columnName": "Kolonnenavn",
+  "cardTitle": "Korttitel",
+  "addCard": "Tilføj kort",
+  "addColumn": "Tilføj kolonne",
+  "add": "Tilføj",
+  "rename": "Omdøb",
+  "todo": "Mangler",
+  "doing": "I gang",
+  "done": "Færdig",
+  "paint": "Mal hegnet",
+  "seeds": "Bestil tomatfrø",
+  "shed": "Ryd op i skuret",
+  "gutter": "Rens tagrenden",
+  "bike": "Reparer cykellygten"
+}

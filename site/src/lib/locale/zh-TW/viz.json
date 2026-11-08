@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "版面配置",
+    "horizontal": "由左至右",
+    "vertical": "由上至下",
+    "picked": "已選擇：{name}",
+    "order": "已下單",
+    "stock": "已確認庫存",
+    "pay": "已收款",
+    "pick": "已揀貨",
+    "pack": "已裝箱",
+    "label": "已列印標籤",
+    "ship": "已出貨"
+  },
+  "charts": {
+    "pick": "點擊以篩選",
+    "empty": "尚無資料",
+    "total": "項工作",
+    "byStage": "依階段",
+    "byPriority": "依優先順序",
+    "deadlines": "截止日期",
+    "per": "截止日期分組",
+    "late": "延遲",
+    "overdue": "已逾期",
+    "perWeek": "每週",
+    "perMonth": "每月",
+    "todo": "待辦",
+    "doing": "進行中",
+    "review": "審查",
+    "done": "已完成",
+    "high": "高",
+    "normal": "一般",
+    "low": "低",
+    "picked": "篩選條件：{name}",
+    "none": "點擊長條或扇形以篩選。"
+  },
+  "timeline": {
+    "hint": "拖曳長條，或聚焦後使用方向鍵。Ctrl+點擊可開啟。",
+    "opened": "已開啟：{name}",
+    "design": "設計傳單",
+    "print": "印刷",
+    "deliver": "配送至門市",
+    "survey": "顧客調查"
+  }
+}

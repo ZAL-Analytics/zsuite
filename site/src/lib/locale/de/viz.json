@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Anordnung",
+    "horizontal": "Von links nach rechts",
+    "vertical": "Von oben nach unten",
+    "picked": "Gewählt: {name}",
+    "order": "Bestellung aufgegeben",
+    "stock": "Bestand geprüft",
+    "pay": "Zahlung erhalten",
+    "pick": "Artikel kommissioniert",
+    "pack": "Karton gepackt",
+    "label": "Etikett gedruckt",
+    "ship": "Versandt"
+  },
+  "charts": {
+    "pick": "Zum Filtern klicken",
+    "empty": "Noch nichts",
+    "total": "Aufgaben",
+    "byStage": "Pro Phase",
+    "byPriority": "Pro Priorität",
+    "deadlines": "Fristen",
+    "per": "Fristen pro",
+    "late": "Verspätet",
+    "overdue": "Überfällig",
+    "perWeek": "Pro Woche",
+    "perMonth": "Pro Monat",
+    "todo": "Zu erledigen",
+    "doing": "In Arbeit",
+    "review": "Prüfung",
+    "done": "Erledigt",
+    "high": "Hoch",
+    "normal": "Normal",
+    "low": "Niedrig",
+    "picked": "Gefiltert nach: {name}",
+    "none": "Klick auf einen Balken oder ein Segment, um zu filtern."
+  },
+  "timeline": {
+    "hint": "Zieh einen Balken oder fokussiere ihn und nutze die Pfeiltasten. Strg+Klick öffnet ihn.",
+    "opened": "Geöffnet: {name}",
+    "design": "Den Flyer gestalten",
+    "print": "Druckauflage",
+    "deliver": "An die Läden liefern",
+    "survey": "Kundenumfrage"
+  }
+}

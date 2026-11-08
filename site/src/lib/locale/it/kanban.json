@@ -1,0 +1,20 @@
+{
+  "columns": "Colonne",
+  "empty": "Ancora nessuna colonna",
+  "emptyColumn": "Nessuna scheda",
+  "doneColumn": "Colonna completati",
+  "columnName": "Nome colonna",
+  "cardTitle": "Titolo scheda",
+  "addCard": "Aggiungi scheda",
+  "addColumn": "Aggiungi colonna",
+  "add": "Aggiungi",
+  "rename": "Rinomina",
+  "todo": "Da fare",
+  "doing": "In corso",
+  "done": "Fatto",
+  "paint": "Dipingere la recinzione",
+  "seeds": "Ordinare semi di pomodoro",
+  "shed": "Riordinare il capanno",
+  "gutter": "Pulire la grondaia",
+  "bike": "Riparare la luce della bici"
+}

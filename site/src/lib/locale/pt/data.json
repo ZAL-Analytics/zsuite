@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "obrigatório",
+    "save": "Guardar",
+    "saving": "A guardar…",
+    "cancel": "Cancelar",
+    "search": "Pesquisar…",
+    "empty": "Nada encontrado",
+    "none": "Nenhum",
+    "all": "Todos",
+    "yes": "Sim",
+    "no": "Não",
+    "showPassword": "Mostrar palavra-passe",
+    "hidePassword": "Ocultar palavra-passe",
+    "removeItem": "Remover {item}",
+    "actions": "Ações",
+    "delete": "Eliminar"
+  },
+  "fields": {
+    "title": "Título",
+    "notes": "Notas",
+    "priority": "Prioridade",
+    "due": "Prazo",
+    "done": "Concluído",
+    "owner": "Responsável",
+    "days": "Dias"
+  },
+  "values": {
+    "low": "Baixa",
+    "normal": "Normal",
+    "high": "Alta",
+    "mon": "Segunda-feira",
+    "wed": "Quarta-feira",
+    "fri": "Sexta-feira"
+  },
+  "schemaForm": {
+    "missing": "Indique um título.",
+    "saved": "Guardado: {title}"
+  },
+  "dataTable": {
+    "title": "Tarefas",
+    "refresh": "Atualizar",
+    "loading": "A carregar…",
+    "previous": "Anterior",
+    "next": "Seguinte",
+    "sortBy": "Ordenar por {field}",
+    "page": "Página {page} de {pages}",
+    "rows": {
+      "1": "Encomendar etiquetas novas",
+      "2": "Planear o passeio da equipa",
+      "3": "Reparar a impressora do segundo piso",
+      "4": "Escrever a newsletter",
+      "5": "Arrumar a unidade partilhada",
+      "6": "Reservar a sala de reuniões",
+      "7": "Responder ao fornecedor",
+      "8": "Atualizar a tabela de preços"
+    }
+  },
+  "rowActions": {
+    "row": "Planta do jardim",
+    "archive": "Arquivar",
+    "duplicate": "Duplicar",
+    "last": "Última: {action}"
+  },
+  "shareDialog": {
+    "open": "Partilhar",
+    "title": "Partilhar pasta",
+    "subtitle": "Plantas do jardim",
+    "owner": "Proprietário",
+    "nobody": "Ainda não partilhada com ninguém.",
+    "inherited": "Da pasta superior",
+    "via": "através de {name}",
+    "parent": "Projetos",
+    "role": "Função",
+    "remove": "Remover",
+    "with": "Partilhar com",
+    "user": "Colega",
+    "group": "Grupo",
+    "share": "Partilhar",
+    "viewer": "Pode ver",
+    "editor": "Pode editar",
+    "manager": "Pode gerir"
+  }
+}

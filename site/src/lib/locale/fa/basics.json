@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "شخصیت‌های جدید",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "در حال بارگذاری ارقام فصلی…"
+  },
+  "widthHandle": {
+    "label": "تغییر اندازهٔ پنل کناری",
+    "side": "پنل کناری",
+    "main": "دستگیره را بکشید یا روی آن فوکوس کنید و از کلیدهای جهت‌نما استفاده کنید."
+  },
+  "appIcon": {
+    "custom": "نماد اختصاصی",
+    "fallback": "بدون نماد"
+  },
+  "breadcrumb": {
+    "label": "مسیر راهنما",
+    "home": "خانه",
+    "projects": "پروژه‌ها",
+    "garden": "انباری باغ",
+    "plan": "نقشهٔ ساخت",
+    "clicked": "کلیک شد: {name}"
+  },
+  "tagBadge": {
+    "bug": "اشکال",
+    "idea": "ایده",
+    "urgent": "فوری",
+    "later": "بعداً"
+  },
+  "priorityIcon": {
+    "low": "کم",
+    "normal": "عادی",
+    "high": "زیاد",
+    "urgent": "فوری"
+  },
+  "iconPicker": {
+    "label": "نماد",
+    "hourglass": "در انتظار",
+    "phone": "تماس مجدد",
+    "mail": "ایمیل",
+    "users": "جلسه"
+  }
+}

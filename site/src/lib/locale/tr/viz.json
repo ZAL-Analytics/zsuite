@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Yerleşim",
+    "horizontal": "Soldan sağa",
+    "vertical": "Yukarıdan aşağıya",
+    "picked": "Seçilen: {name}",
+    "order": "Sipariş verildi",
+    "stock": "Stok kontrol edildi",
+    "pay": "Ödeme alındı",
+    "pick": "Ürünler toplandı",
+    "pack": "Koli paketlendi",
+    "label": "Etiket basıldı",
+    "ship": "Kargolandı"
+  },
+  "charts": {
+    "pick": "Filtrelemek için tıklayın",
+    "empty": "Henüz bir şey yok",
+    "total": "görev",
+    "byStage": "Aşamaya göre",
+    "byPriority": "Önceliğe göre",
+    "deadlines": "Son tarihler",
+    "per": "Son tarihler:",
+    "late": "Geç",
+    "overdue": "Gecikmiş",
+    "perWeek": "Haftalık",
+    "perMonth": "Aylık",
+    "todo": "Yapılacak",
+    "doing": "Yapılıyor",
+    "review": "İnceleme",
+    "done": "Tamamlandı",
+    "high": "Yüksek",
+    "normal": "Normal",
+    "low": "Düşük",
+    "picked": "Filtre: {name}",
+    "none": "Filtrelemek için bir çubuğa veya dilime tıklayın."
+  },
+  "timeline": {
+    "hint": "Bir çubuğu sürükleyin ya da odaklayıp ok tuşlarını kullanın. Ctrl+tık onu açar.",
+    "opened": "Açıldı: {name}",
+    "design": "El ilanını tasarla",
+    "print": "Baskı",
+    "deliver": "Mağazalara teslim et",
+    "survey": "Müşteri anketi"
+  }
+}

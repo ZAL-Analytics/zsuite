@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Layout",
+    "horizontal": "Left to right",
+    "vertical": "Top to bottom",
+    "picked": "Picked: {name}",
+    "order": "Order placed",
+    "stock": "Stock checked",
+    "pay": "Payment received",
+    "pick": "Items picked",
+    "pack": "Box packed",
+    "label": "Label printed",
+    "ship": "Shipped"
+  },
+  "charts": {
+    "pick": "Click to filter",
+    "empty": "Nothing yet",
+    "total": "tasks",
+    "byStage": "Per stage",
+    "byPriority": "Per priority",
+    "deadlines": "Deadlines",
+    "per": "Deadlines per",
+    "late": "Late",
+    "overdue": "Overdue",
+    "perWeek": "Per week",
+    "perMonth": "Per month",
+    "todo": "To do",
+    "doing": "Doing",
+    "review": "Review",
+    "done": "Done",
+    "high": "High",
+    "normal": "Normal",
+    "low": "Low",
+    "picked": "Filtered on: {name}",
+    "none": "Click a bar or slice to filter."
+  },
+  "timeline": {
+    "hint": "Drag a bar, or focus it and use the arrow keys. Ctrl+click opens it.",
+    "opened": "Opened: {name}",
+    "design": "Design the flyer",
+    "print": "Print run",
+    "deliver": "Deliver to the shops",
+    "survey": "Customer survey"
+  }
+}

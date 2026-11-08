@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Layout",
+    "horizontal": "Vänster till höger",
+    "vertical": "Uppifrån och ned",
+    "picked": "Valt: {name}",
+    "order": "Order lagd",
+    "stock": "Lager kontrollerat",
+    "pay": "Betalning mottagen",
+    "pick": "Varor plockade",
+    "pack": "Låda packad",
+    "label": "Etikett utskriven",
+    "ship": "Skickad"
+  },
+  "charts": {
+    "pick": "Klicka för att filtrera",
+    "empty": "Inget än",
+    "total": "uppgifter",
+    "byStage": "Per steg",
+    "byPriority": "Per prioritet",
+    "deadlines": "Deadlines",
+    "per": "Deadlines per",
+    "late": "Sen",
+    "overdue": "Förfallen",
+    "perWeek": "Per vecka",
+    "perMonth": "Per månad",
+    "todo": "Att göra",
+    "doing": "Pågår",
+    "review": "Granskning",
+    "done": "Klar",
+    "high": "Hög",
+    "normal": "Normal",
+    "low": "Låg",
+    "picked": "Filtrerat på: {name}",
+    "none": "Klicka på en stapel eller sektor för att filtrera."
+  },
+  "timeline": {
+    "hint": "Dra en stapel, eller fokusera den och använd piltangenterna. Ctrl+klick öppnar den.",
+    "opened": "Öppnade: {name}",
+    "design": "Formge flygbladet",
+    "print": "Tryckning",
+    "deliver": "Leverera till butikerna",
+    "survey": "Kundundersökning"
+  }
+}

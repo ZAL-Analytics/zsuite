@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Neue Figuren",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Quartalszahlen werden geladen…"
+  },
+  "widthHandle": {
+    "label": "Seitenleiste in der Größe ändern",
+    "side": "Seitenleiste",
+    "main": "Ziehe den Griff oder fokussiere ihn und nutze die Pfeiltasten."
+  },
+  "appIcon": {
+    "custom": "Eigenes Symbol",
+    "fallback": "Kein Symbol"
+  },
+  "breadcrumb": {
+    "label": "Brotkrümelnavigation",
+    "home": "Start",
+    "projects": "Projekte",
+    "garden": "Gartenhaus",
+    "plan": "Bauplan",
+    "clicked": "Geklickt: {name}"
+  },
+  "tagBadge": {
+    "bug": "Bug",
+    "idea": "Idee",
+    "urgent": "Dringend",
+    "later": "Später"
+  },
+  "priorityIcon": {
+    "low": "Niedrig",
+    "normal": "Normal",
+    "high": "Hoch",
+    "urgent": "Dringend"
+  },
+  "iconPicker": {
+    "label": "Symbol",
+    "hourglass": "Warten",
+    "phone": "Zurückrufen",
+    "mail": "E-Mail",
+    "users": "Besprechung"
+  }
+}

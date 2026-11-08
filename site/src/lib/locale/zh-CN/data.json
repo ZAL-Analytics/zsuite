@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "必填",
+    "save": "保存",
+    "saving": "正在保存…",
+    "cancel": "取消",
+    "search": "搜索…",
+    "empty": "未找到任何内容",
+    "none": "无",
+    "all": "全部",
+    "yes": "是",
+    "no": "否",
+    "showPassword": "显示密码",
+    "hidePassword": "隐藏密码",
+    "removeItem": "移除 {item}",
+    "actions": "操作",
+    "delete": "删除"
+  },
+  "fields": {
+    "title": "标题",
+    "notes": "备注",
+    "priority": "优先级",
+    "due": "截止日期",
+    "done": "已完成",
+    "owner": "负责人",
+    "days": "天数"
+  },
+  "values": {
+    "low": "低",
+    "normal": "普通",
+    "high": "高",
+    "mon": "星期一",
+    "wed": "星期三",
+    "fri": "星期五"
+  },
+  "schemaForm": {
+    "missing": "请填写标题。",
+    "saved": "已保存：{title}"
+  },
+  "dataTable": {
+    "title": "任务",
+    "refresh": "刷新",
+    "loading": "正在加载…",
+    "previous": "上一页",
+    "next": "下一页",
+    "sortBy": "按{field}排序",
+    "page": "第 {page} 页，共 {pages} 页",
+    "rows": {
+      "1": "订购新标签",
+      "2": "策划团队出游",
+      "3": "修好二楼的打印机",
+      "4": "撰写简讯",
+      "5": "清理共享盘",
+      "6": "预订会议室",
+      "7": "回复供应商",
+      "8": "更新价目表"
+    }
+  },
+  "rowActions": {
+    "row": "花园规划",
+    "archive": "归档",
+    "duplicate": "复制",
+    "last": "上一次：{action}"
+  },
+  "shareDialog": {
+    "open": "分享",
+    "title": "分享文件夹",
+    "subtitle": "花园规划",
+    "owner": "所有者",
+    "nobody": "尚未与任何人分享。",
+    "inherited": "来自上级文件夹",
+    "via": "通过 {name}",
+    "parent": "项目",
+    "role": "角色",
+    "remove": "移除",
+    "with": "分享给",
+    "user": "同事",
+    "group": "群组",
+    "share": "分享",
+    "viewer": "可查看",
+    "editor": "可编辑",
+    "manager": "可管理"
+  }
+}

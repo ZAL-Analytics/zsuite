@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "obligatoire",
+    "save": "Enregistrer",
+    "saving": "Enregistrement…",
+    "cancel": "Annuler",
+    "search": "Rechercher…",
+    "empty": "Aucun résultat",
+    "none": "Aucun",
+    "all": "Tous",
+    "yes": "Oui",
+    "no": "Non",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "removeItem": "Retirer {item}",
+    "actions": "Actions",
+    "delete": "Supprimer"
+  },
+  "fields": {
+    "title": "Titre",
+    "notes": "Notes",
+    "priority": "Priorité",
+    "due": "Échéance",
+    "done": "Terminé",
+    "owner": "Responsable",
+    "days": "Jours"
+  },
+  "values": {
+    "low": "Basse",
+    "normal": "Normale",
+    "high": "Haute",
+    "mon": "Lundi",
+    "wed": "Mercredi",
+    "fri": "Vendredi"
+  },
+  "schemaForm": {
+    "missing": "Saisissez un titre.",
+    "saved": "Enregistré : {title}"
+  },
+  "dataTable": {
+    "title": "Tâches",
+    "refresh": "Actualiser",
+    "loading": "Chargement…",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "sortBy": "Trier par {field}",
+    "page": "Page {page} sur {pages}",
+    "rows": {
+      "1": "Commander de nouvelles étiquettes",
+      "2": "Organiser la sortie d’équipe",
+      "3": "Réparer l’imprimante du deuxième étage",
+      "4": "Rédiger la newsletter",
+      "5": "Ranger le lecteur partagé",
+      "6": "Réserver la salle de réunion",
+      "7": "Répondre au fournisseur",
+      "8": "Mettre à jour la liste de prix"
+    }
+  },
+  "rowActions": {
+    "row": "Plan du jardin",
+    "archive": "Archiver",
+    "duplicate": "Dupliquer",
+    "last": "Dernière : {action}"
+  },
+  "shareDialog": {
+    "open": "Partager",
+    "title": "Partager le dossier",
+    "subtitle": "Plans du jardin",
+    "owner": "Propriétaire",
+    "nobody": "Partagé avec personne pour l’instant.",
+    "inherited": "Hérité du dossier parent",
+    "via": "via {name}",
+    "parent": "Projets",
+    "role": "Rôle",
+    "remove": "Retirer",
+    "with": "Partager avec",
+    "user": "Collègue",
+    "group": "Groupe",
+    "share": "Partager",
+    "viewer": "Peut consulter",
+    "editor": "Peut modifier",
+    "manager": "Peut gérer"
+  }
+}

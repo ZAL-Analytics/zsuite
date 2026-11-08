@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "شخصيات جديدة",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "جارٍ تحميل الأرقام الفصلية…"
+  },
+  "widthHandle": {
+    "label": "تغيير حجم اللوحة الجانبية",
+    "side": "اللوحة الجانبية",
+    "main": "اسحب المقبض أو ركّز عليه واستخدم مفاتيح الأسهم."
+  },
+  "appIcon": {
+    "custom": "أيقونة خاصة",
+    "fallback": "بلا أيقونة"
+  },
+  "breadcrumb": {
+    "label": "مسار التنقل",
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "garden": "سقيفة الحديقة",
+    "plan": "مخطط البناء",
+    "clicked": "تم النقر: {name}"
+  },
+  "tagBadge": {
+    "bug": "خطأ",
+    "idea": "فكرة",
+    "urgent": "عاجل",
+    "later": "لاحقًا"
+  },
+  "priorityIcon": {
+    "low": "منخفضة",
+    "normal": "عادية",
+    "high": "عالية",
+    "urgent": "عاجلة"
+  },
+  "iconPicker": {
+    "label": "أيقونة",
+    "hourglass": "قيد الانتظار",
+    "phone": "معاودة الاتصال",
+    "mail": "بريد إلكتروني",
+    "users": "اجتماع"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "レイアウト",
+    "horizontal": "左から右",
+    "vertical": "上から下",
+    "picked": "選択: {name}",
+    "order": "注文受付",
+    "stock": "在庫確認",
+    "pay": "入金確認",
+    "pick": "ピッキング完了",
+    "pack": "梱包完了",
+    "label": "ラベル印刷",
+    "ship": "発送済み"
+  },
+  "charts": {
+    "pick": "クリックで絞り込み",
+    "empty": "まだありません",
+    "total": "タスク",
+    "byStage": "段階別",
+    "byPriority": "優先度別",
+    "deadlines": "期限",
+    "per": "期限の集計単位",
+    "late": "遅延",
+    "overdue": "期限切れ",
+    "perWeek": "週ごと",
+    "perMonth": "月ごと",
+    "todo": "未着手",
+    "doing": "進行中",
+    "review": "レビュー",
+    "done": "完了",
+    "high": "高",
+    "normal": "標準",
+    "low": "低",
+    "picked": "絞り込み: {name}",
+    "none": "棒または扇形をクリックして絞り込みます。"
+  },
+  "timeline": {
+    "hint": "バーをドラッグするか、フォーカスして矢印キーを使います。Ctrl+クリックで開きます。",
+    "opened": "開きました: {name}",
+    "design": "チラシをデザインする",
+    "print": "印刷",
+    "deliver": "店舗へ配送",
+    "survey": "顧客アンケート"
+  }
+}

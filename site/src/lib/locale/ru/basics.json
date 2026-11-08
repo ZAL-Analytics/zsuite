@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "Новые персонажи",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "Загрузка квартальных показателей…"
+  },
+  "widthHandle": {
+    "label": "Изменить размер боковой панели",
+    "side": "Боковая панель",
+    "main": "Перетащите ручку или наведите на неё фокус и используйте клавиши со стрелками."
+  },
+  "appIcon": {
+    "custom": "Свой значок",
+    "fallback": "Без значка"
+  },
+  "breadcrumb": {
+    "label": "Навигационная цепочка",
+    "home": "Главная",
+    "projects": "Проекты",
+    "garden": "Садовый сарай",
+    "plan": "План строительства",
+    "clicked": "Нажато: {name}"
+  },
+  "tagBadge": {
+    "bug": "Ошибка",
+    "idea": "Идея",
+    "urgent": "Срочно",
+    "later": "Позже"
+  },
+  "priorityIcon": {
+    "low": "Низкий",
+    "normal": "Обычный",
+    "high": "Высокий",
+    "urgent": "Срочный"
+  },
+  "iconPicker": {
+    "label": "Значок",
+    "hourglass": "Ожидание",
+    "phone": "Перезвонить",
+    "mail": "Эл. почта",
+    "users": "Встреча"
+  }
+}

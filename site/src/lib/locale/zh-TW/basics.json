@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "換一批角色",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "正在載入季度數據…"
+  },
+  "widthHandle": {
+    "label": "調整側邊欄大小",
+    "side": "側邊欄",
+    "main": "拖曳控點，或聚焦後使用方向鍵。"
+  },
+  "appIcon": {
+    "custom": "自訂圖示",
+    "fallback": "無圖示"
+  },
+  "breadcrumb": {
+    "label": "導覽路徑",
+    "home": "首頁",
+    "projects": "專案",
+    "garden": "花園小屋",
+    "plan": "施工圖",
+    "clicked": "已點擊：{name}"
+  },
+  "tagBadge": {
+    "bug": "錯誤",
+    "idea": "點子",
+    "urgent": "緊急",
+    "later": "稍後"
+  },
+  "priorityIcon": {
+    "low": "低",
+    "normal": "一般",
+    "high": "高",
+    "urgent": "緊急"
+  },
+  "iconPicker": {
+    "label": "圖示",
+    "hourglass": "等待中",
+    "phone": "回電",
+    "mail": "電子郵件",
+    "users": "會議"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Indeling",
+    "horizontal": "Van links naar rechts",
+    "vertical": "Van boven naar beneden",
+    "picked": "Gekozen: {name}",
+    "order": "Bestelling geplaatst",
+    "stock": "Voorraad gecontroleerd",
+    "pay": "Betaling ontvangen",
+    "pick": "Artikelen verzameld",
+    "pack": "Doos ingepakt",
+    "label": "Etiket geprint",
+    "ship": "Verzonden"
+  },
+  "charts": {
+    "pick": "Klik om te filteren",
+    "empty": "Nog niets",
+    "total": "taken",
+    "byStage": "Per fase",
+    "byPriority": "Per prioriteit",
+    "deadlines": "Deadlines",
+    "per": "Deadlines per",
+    "late": "Te laat",
+    "overdue": "Verlopen",
+    "perWeek": "Per week",
+    "perMonth": "Per maand",
+    "todo": "Te doen",
+    "doing": "Bezig",
+    "review": "Review",
+    "done": "Klaar",
+    "high": "Hoog",
+    "normal": "Normaal",
+    "low": "Laag",
+    "picked": "Gefilterd op: {name}",
+    "none": "Klik op een balk of segment om te filteren."
+  },
+  "timeline": {
+    "hint": "Sleep een balk, of geef hem focus en gebruik de pijltjestoetsen. Ctrl+klik opent hem.",
+    "opened": "Geopend: {name}",
+    "design": "De flyer ontwerpen",
+    "print": "Drukgang",
+    "deliver": "Bij de winkels bezorgen",
+    "survey": "Klantenonderzoek"
+  }
+}

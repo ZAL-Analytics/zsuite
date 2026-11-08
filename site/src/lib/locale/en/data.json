@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "required",
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "search": "Search…",
+    "empty": "Nothing found",
+    "none": "None",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "removeItem": "Remove {item}",
+    "actions": "Actions",
+    "delete": "Delete"
+  },
+  "fields": {
+    "title": "Title",
+    "notes": "Notes",
+    "priority": "Priority",
+    "due": "Due",
+    "done": "Done",
+    "owner": "Owner",
+    "days": "Days"
+  },
+  "values": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "mon": "Monday",
+    "wed": "Wednesday",
+    "fri": "Friday"
+  },
+  "schemaForm": {
+    "missing": "Fill in a title.",
+    "saved": "Saved: {title}"
+  },
+  "dataTable": {
+    "title": "Tasks",
+    "refresh": "Refresh",
+    "loading": "Loading…",
+    "previous": "Previous",
+    "next": "Next",
+    "sortBy": "Sort by {field}",
+    "page": "Page {page} of {pages}",
+    "rows": {
+      "1": "Order new labels",
+      "2": "Plan the team outing",
+      "3": "Fix the printer on floor two",
+      "4": "Write the newsletter",
+      "5": "Clean up the shared drive",
+      "6": "Book the meeting room",
+      "7": "Answer the supplier",
+      "8": "Update the price list"
+    }
+  },
+  "rowActions": {
+    "row": "Garden plan",
+    "archive": "Archive",
+    "duplicate": "Duplicate",
+    "last": "Last: {action}"
+  },
+  "shareDialog": {
+    "open": "Share",
+    "title": "Share folder",
+    "subtitle": "Garden plans",
+    "owner": "Owner",
+    "nobody": "Not shared with anyone yet.",
+    "inherited": "From the parent folder",
+    "via": "via {name}",
+    "parent": "Projects",
+    "role": "Role",
+    "remove": "Remove",
+    "with": "Share with",
+    "user": "Colleague",
+    "group": "Group",
+    "share": "Share",
+    "viewer": "Can view",
+    "editor": "Can edit",
+    "manager": "Can manage"
+  }
+}

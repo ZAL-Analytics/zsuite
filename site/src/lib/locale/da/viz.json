@@ -1,0 +1,45 @@
+{
+  "graph": {
+    "layout": "Layout",
+    "horizontal": "Venstre mod højre",
+    "vertical": "Top mod bund",
+    "picked": "Valgt: {name}",
+    "order": "Ordre afgivet",
+    "stock": "Lager tjekket",
+    "pay": "Betaling modtaget",
+    "pick": "Varer plukket",
+    "pack": "Kasse pakket",
+    "label": "Etiket udskrevet",
+    "ship": "Afsendt"
+  },
+  "charts": {
+    "pick": "Klik for at filtrere",
+    "empty": "Intet endnu",
+    "total": "opgaver",
+    "byStage": "Pr. fase",
+    "byPriority": "Pr. prioritet",
+    "deadlines": "Frister",
+    "per": "Frister pr.",
+    "late": "Sent",
+    "overdue": "Overskredet",
+    "perWeek": "Pr. uge",
+    "perMonth": "Pr. måned",
+    "todo": "Mangler",
+    "doing": "I gang",
+    "review": "Gennemgang",
+    "done": "Færdig",
+    "high": "Høj",
+    "normal": "Normal",
+    "low": "Lav",
+    "picked": "Filtreret på: {name}",
+    "none": "Klik på en søjle eller et udsnit for at filtrere."
+  },
+  "timeline": {
+    "hint": "Træk en bjælke, eller fokuser den og brug piletasterne. Ctrl+klik åbner den.",
+    "opened": "Åbnede: {name}",
+    "design": "Design flyeren",
+    "print": "Trykning",
+    "deliver": "Lever til butikkerne",
+    "survey": "Kundeundersøgelse"
+  }
+}

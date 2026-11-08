@@ -1,0 +1,20 @@
+{
+  "columns": "Sütunlar",
+  "empty": "Henüz sütun yok",
+  "emptyColumn": "Kart yok",
+  "doneColumn": "Tamamlandı sütunu",
+  "columnName": "Sütun adı",
+  "cardTitle": "Kart başlığı",
+  "addCard": "Kart ekle",
+  "addColumn": "Sütun ekle",
+  "add": "Ekle",
+  "rename": "Yeniden adlandır",
+  "todo": "Yapılacak",
+  "doing": "Yapılıyor",
+  "done": "Tamamlandı",
+  "paint": "Çiti boya",
+  "seeds": "Domates tohumu sipariş et",
+  "shed": "Kulübeyi topla",
+  "gutter": "Oluğu temizle",
+  "bike": "Bisiklet lambasını onar"
+}

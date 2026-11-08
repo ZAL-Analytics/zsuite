@@ -1,0 +1,84 @@
+{
+  "common": {
+    "required": "verplicht",
+    "save": "Opslaan",
+    "saving": "Opslaan…",
+    "cancel": "Annuleren",
+    "search": "Zoeken…",
+    "empty": "Niets gevonden",
+    "none": "Geen",
+    "all": "Alle",
+    "yes": "Ja",
+    "no": "Nee",
+    "showPassword": "Wachtwoord tonen",
+    "hidePassword": "Wachtwoord verbergen",
+    "removeItem": "{item} verwijderen",
+    "actions": "Acties",
+    "delete": "Verwijderen"
+  },
+  "fields": {
+    "title": "Titel",
+    "notes": "Notities",
+    "priority": "Prioriteit",
+    "due": "Deadline",
+    "done": "Klaar",
+    "owner": "Eigenaar",
+    "days": "Dagen"
+  },
+  "values": {
+    "low": "Laag",
+    "normal": "Normaal",
+    "high": "Hoog",
+    "mon": "Maandag",
+    "wed": "Woensdag",
+    "fri": "Vrijdag"
+  },
+  "schemaForm": {
+    "missing": "Vul een titel in.",
+    "saved": "Opgeslagen: {title}"
+  },
+  "dataTable": {
+    "title": "Taken",
+    "refresh": "Vernieuwen",
+    "loading": "Laden…",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "sortBy": "Sorteren op {field}",
+    "page": "Pagina {page} van {pages}",
+    "rows": {
+      "1": "Nieuwe etiketten bestellen",
+      "2": "Het teamuitje plannen",
+      "3": "De printer op de tweede verdieping repareren",
+      "4": "De nieuwsbrief schrijven",
+      "5": "De gedeelde schijf opruimen",
+      "6": "De vergaderzaal reserveren",
+      "7": "De leverancier antwoorden",
+      "8": "De prijslijst bijwerken"
+    }
+  },
+  "rowActions": {
+    "row": "Tuinplan",
+    "archive": "Archiveren",
+    "duplicate": "Dupliceren",
+    "last": "Laatste: {action}"
+  },
+  "shareDialog": {
+    "open": "Delen",
+    "title": "Map delen",
+    "subtitle": "Tuinplannen",
+    "owner": "Eigenaar",
+    "nobody": "Nog met niemand gedeeld.",
+    "inherited": "Van de bovenliggende map",
+    "via": "via {name}",
+    "parent": "Projecten",
+    "role": "Rol",
+    "remove": "Verwijderen",
+    "with": "Delen met",
+    "user": "Collega",
+    "group": "Groep",
+    "share": "Delen",
+    "viewer": "Kan bekijken",
+    "editor": "Kan bewerken",
+    "manager": "Kan beheren"
+  }
+}

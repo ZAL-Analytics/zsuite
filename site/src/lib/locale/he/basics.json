@@ -1,0 +1,48 @@
+{
+  "avatar": {
+    "shuffle": "דמויות חדשות",
+    "ada": "Ada Lovelace",
+    "grace": "Grace Hopper",
+    "alan": "Alan Turing",
+    "linus": "Linus Pauling"
+  },
+  "loading": {
+    "label": "טוען את נתוני הרבעון…"
+  },
+  "widthHandle": {
+    "label": "שינוי גודל חלונית הצד",
+    "side": "חלונית צד",
+    "main": "גררו את הידית, או התמקדו בה והשתמשו במקשי החיצים."
+  },
+  "appIcon": {
+    "custom": "סמל משלך",
+    "fallback": "אין סמל"
+  },
+  "breadcrumb": {
+    "label": "נתיב ניווט",
+    "home": "דף הבית",
+    "projects": "פרויקטים",
+    "garden": "מחסן הגינה",
+    "plan": "תוכנית בנייה",
+    "clicked": "נלחץ: {name}"
+  },
+  "tagBadge": {
+    "bug": "באג",
+    "idea": "רעיון",
+    "urgent": "דחוף",
+    "later": "אחר כך"
+  },
+  "priorityIcon": {
+    "low": "נמוכה",
+    "normal": "רגילה",
+    "high": "גבוהה",
+    "urgent": "דחופה"
+  },
+  "iconPicker": {
+    "label": "סמל",
+    "hourglass": "בהמתנה",
+    "phone": "לחזור בטלפון",
+    "mail": "אימייל",
+    "users": "פגישה"
+  }
+}
