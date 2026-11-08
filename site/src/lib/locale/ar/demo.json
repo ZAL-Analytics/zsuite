@@ -53,7 +53,17 @@
     "upload": "الرفع"
   },
   "colorDot": {
-    "colour": "اللون"
+    "colour": "اللون",
+    "picker": "منتقي الألوان",
+    "saturation": "التشبع",
+    "brightness": "السطوع",
+    "hue": "درجة اللون",
+    "format": "التنسيق",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "presets": "ألوان جاهزة",
+    "saved": "محفوظ (onchange)",
+    "live": "مباشر (oninput)"
   },
   "tabs": {
     "account": "الحساب",
@@ -181,6 +191,11 @@
     "pin": "تثبيت",
     "unpin": "إلغاء التثبيت",
     "remove": "إزالة",
-    "echo": "قلتَ: *{text}*"
+    "echo": "قلتَ: *{text}*",
+    "title": "المساعد",
+    "newChat": "محادثة جديدة",
+    "close": "إغلاق",
+    "resize": "تغيير عرض اللوحة",
+    "noContext": "لا يوجد سياق"
   }
 }

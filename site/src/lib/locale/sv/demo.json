@@ -53,7 +53,17 @@
     "upload": "Uppladdning"
   },
   "colorDot": {
-    "colour": "Färg"
+    "colour": "Färg",
+    "picker": "Färgväljare",
+    "saturation": "Mättnad",
+    "brightness": "Ljusstyrka",
+    "hue": "Nyans",
+    "format": "Format",
+    "copy": "Kopiera",
+    "copied": "Kopierad",
+    "presets": "Förval",
+    "saved": "Sparad (onchange)",
+    "live": "Direkt (oninput)"
   },
   "tabs": {
     "account": "Konto",
@@ -181,6 +191,11 @@
     "pin": "Fäst",
     "unpin": "Lossa",
     "remove": "Ta bort",
-    "echo": "Du skrev: *{text}*"
+    "echo": "Du skrev: *{text}*",
+    "title": "Assistent",
+    "newChat": "Ny chatt",
+    "close": "Stäng",
+    "resize": "Ändra panelens bredd",
+    "noContext": "Ingen kontext"
   }
 }

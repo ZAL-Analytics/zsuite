@@ -53,7 +53,17 @@
     "upload": "Hochladen"
   },
   "colorDot": {
-    "colour": "Farbe"
+    "colour": "Farbe",
+    "picker": "Farbwähler",
+    "saturation": "Sättigung",
+    "brightness": "Helligkeit",
+    "hue": "Farbton",
+    "format": "Format",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "presets": "Vorgaben",
+    "saved": "Gespeichert (onchange)",
+    "live": "Live (oninput)"
   },
   "tabs": {
     "account": "Konto",
@@ -181,6 +191,11 @@
     "pin": "Anheften",
     "unpin": "Lösen",
     "remove": "Entfernen",
-    "echo": "Du hast gesagt: *{text}*"
+    "echo": "Du hast gesagt: *{text}*",
+    "title": "Assistent",
+    "newChat": "Neuer Chat",
+    "close": "Schließen",
+    "resize": "Panelbreite ändern",
+    "noContext": "Kein Kontext"
   }
 }

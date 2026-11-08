@@ -53,7 +53,17 @@
     "upload": "アップロード"
   },
   "colorDot": {
-    "colour": "色"
+    "colour": "色",
+    "picker": "カラーピッカー",
+    "saturation": "彩度",
+    "brightness": "明度",
+    "hue": "色相",
+    "format": "形式",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "presets": "プリセット",
+    "saved": "保存済み (onchange)",
+    "live": "ライブ (oninput)"
   },
   "tabs": {
     "account": "アカウント",
@@ -181,6 +191,11 @@
     "pin": "ピン留め",
     "unpin": "ピン留めを解除",
     "remove": "削除",
-    "echo": "あなたの発言：*{text}*"
+    "echo": "あなたの発言：*{text}*",
+    "title": "アシスタント",
+    "newChat": "新しいチャット",
+    "close": "閉じる",
+    "resize": "パネルの幅を変更",
+    "noContext": "コンテキストなし"
   }
 }

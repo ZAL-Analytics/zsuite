@@ -3,7 +3,9 @@
   import "$lib/locale";
   import Moon from "@lucide/svelte/icons/moon";
   import Sun from "@lucide/svelte/icons/sun";
+  import { Badge } from "@zsuite/ui/badge";
   import { Button } from "@zsuite/ui/button";
+  import { version } from "../../../packages/ui/package.json";
   import { i18n, locales, setLocale, t } from "@zsuite/ui/i18n";
   import { fontFaces, logoOf, rootStyle } from "@zsuite/ui/look";
   import { Picker } from "@zsuite/ui/picker";
@@ -41,9 +43,12 @@
 </script>
 
 {#snippet brand()}
-  <a href={resolve("/")} class="flex items-center gap-2 font-semibold">
-    {#if logo}<img src={logo} alt="" class="size-6" />{/if}
-    <bdi>@zsuite/ui</bdi>
+  <a href={resolve("/")} class="flex items-center gap-2">
+    {#if logo}<img src={logo} alt="" class="size-8" />{/if}
+    <span class="grid justify-items-start gap-0.5">
+      <span class="font-semibold leading-none">zsuite</span>
+      <Badge variant="secondary" class="font-mono"><bdi>v{version}</bdi></Badge>
+    </span>
   </a>
 {/snippet}
 

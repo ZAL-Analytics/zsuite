@@ -22,14 +22,15 @@
 	} = $props();
 
 	const STEP = 24;
-	const sign = $derived(edge === "start" ? -1 : 1);
+	// Pointer and arrow keys are physical; in right-to-left the start edge is on the right.
+	const sign = (handle: HTMLElement) => (edge === "start" ? -1 : 1) * (getComputedStyle(handle).direction === "rtl" ? -1 : 1);
 
 	function drag(event: PointerEvent) {
 		const handle = event.currentTarget;
 		if (!(handle instanceof HTMLElement)) return;
 		handle.setPointerCapture(event.pointerId);
-		const [x, from] = [event.clientX, width];
-		const move = (next: PointerEvent) => onresize(from + sign * (next.clientX - x));
+		const [x, from, by] = [event.clientX, width, sign(handle)];
+		const move = (next: PointerEvent) => onresize(from + by * (next.clientX - x));
 		const stop = () => {
 			handle.removeEventListener("pointermove", move);
 			handle.removeEventListener("pointerup", stop);
@@ -38,9 +39,10 @@
 		handle.addEventListener("pointerup", stop);
 	}
 
-	function key(event: KeyboardEvent) {
-		if (event.key === "ArrowLeft") onresize(width - sign * STEP);
-		else if (event.key === "ArrowRight") onresize(width + sign * STEP);
+	function key(event: KeyboardEvent & { currentTarget: HTMLElement }) {
+		const by = sign(event.currentTarget);
+		if (event.key === "ArrowLeft") onresize(width - by * STEP);
+		else if (event.key === "ArrowRight") onresize(width + by * STEP);
 		else return;
 		event.preventDefault();
 	}

@@ -53,7 +53,17 @@
     "upload": "Yükleme"
   },
   "colorDot": {
-    "colour": "Renk"
+    "colour": "Renk",
+    "picker": "Renk seçici",
+    "saturation": "Doygunluk",
+    "brightness": "Parlaklık",
+    "hue": "Ton",
+    "format": "Biçim",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "presets": "Hazır renkler",
+    "saved": "Kaydedilen (onchange)",
+    "live": "Canlı (oninput)"
   },
   "tabs": {
     "account": "Hesap",
@@ -181,6 +191,11 @@
     "pin": "Sabitle",
     "unpin": "Sabitlemeyi kaldır",
     "remove": "Kaldır",
-    "echo": "Şunu dediniz: *{text}*"
+    "echo": "Şunu dediniz: *{text}*",
+    "title": "Asistan",
+    "newChat": "Yeni sohbet",
+    "close": "Kapat",
+    "resize": "Panel genişliğini değiştir",
+    "noContext": "Bağlam yok"
   }
 }

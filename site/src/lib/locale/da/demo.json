@@ -53,7 +53,17 @@
     "upload": "Upload"
   },
   "colorDot": {
-    "colour": "Farve"
+    "colour": "Farve",
+    "picker": "Farvevælger",
+    "saturation": "Mætning",
+    "brightness": "Lysstyrke",
+    "hue": "Farvetone",
+    "format": "Format",
+    "copy": "Kopiér",
+    "copied": "Kopieret",
+    "presets": "Forvalg",
+    "saved": "Gemt (onchange)",
+    "live": "Direkte (oninput)"
   },
   "tabs": {
     "account": "Konto",
@@ -181,6 +191,11 @@
     "pin": "Fastgør",
     "unpin": "Frigør",
     "remove": "Fjern",
-    "echo": "Du skrev: *{text}*"
+    "echo": "Du skrev: *{text}*",
+    "title": "Assistent",
+    "newChat": "Ny chat",
+    "close": "Luk",
+    "resize": "Tilpas panelets bredde",
+    "noContext": "Ingen kontekst"
   }
 }

@@ -8,7 +8,7 @@
   import { AppMenu, type MenuItem } from "@zsuite/ui/app-menu";
   import { AppShell } from "@zsuite/ui/app-shell";
   import { AppSwitcher } from "@zsuite/ui/app-switcher";
-  import { i18n, locales, setLocale, t } from "@zsuite/ui/i18n";
+  import { locales, t } from "@zsuite/ui/i18n";
   import { LanguagePicker } from "@zsuite/ui/language-picker";
   import { ThemeToggle } from "@zsuite/ui/theme-toggle";
   import { UserMenu } from "@zsuite/ui/user-menu";
@@ -26,6 +26,7 @@
     { id: "sent", label: t("shell.sent"), href: "#sent" },
     { id: "settings", label: t("shell.settings"), items: [{ id: "filters", label: t("shell.filters"), href: "/mail/filters" }] },
   ]);
+  let language = $state("en");
   const languages = $derived(locales.filter((locale) => ["en", "nl", "ar"].includes(locale.tag)));
   const go = (href: string) => (opened = href);
 </script>
@@ -36,7 +37,7 @@
     {#snippet brand()}<span class="font-bold">{t("shell.brand")}</span>{/snippet}
     {#snippet nav()}<AppMenu title={app.label} {items} onnavigate={go} />{/snippet}
     {#snippet actions()}
-      <LanguagePicker value={i18n.locale} options={languages} onchange={setLocale} />
+      <LanguagePicker value={language} options={languages} onchange={(tag) => (language = tag)} />
       <ThemeToggle value={mode} onchange={(value) => (mode = value)} labels={{ light: t("shell.light"), dark: t("shell.dark") }} />
     {/snippet}
     {#snippet userMenu()}

@@ -53,7 +53,17 @@
     "upload": "Subida"
   },
   "colorDot": {
-    "colour": "Color"
+    "colour": "Color",
+    "picker": "Selector de color",
+    "saturation": "Saturación",
+    "brightness": "Brillo",
+    "hue": "Tono",
+    "format": "Formato",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "presets": "Predefinidos",
+    "saved": "Guardado (onchange)",
+    "live": "En vivo (oninput)"
   },
   "tabs": {
     "account": "Cuenta",
@@ -181,6 +191,11 @@
     "pin": "Fijar",
     "unpin": "Desfijar",
     "remove": "Quitar",
-    "echo": "Has dicho: *{text}*"
+    "echo": "Has dicho: *{text}*",
+    "title": "Asistente",
+    "newChat": "Nuevo chat",
+    "close": "Cerrar",
+    "resize": "Cambiar el ancho del panel",
+    "noContext": "Sin contexto"
   }
 }

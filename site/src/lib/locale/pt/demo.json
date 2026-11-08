@@ -53,7 +53,17 @@
     "upload": "Envio"
   },
   "colorDot": {
-    "colour": "Cor"
+    "colour": "Cor",
+    "picker": "Seletor de cor",
+    "saturation": "Saturação",
+    "brightness": "Brilho",
+    "hue": "Matiz",
+    "format": "Formato",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "presets": "Predefinições",
+    "saved": "Guardada (onchange)",
+    "live": "Ao vivo (oninput)"
   },
   "tabs": {
     "account": "Conta",
@@ -181,6 +191,11 @@
     "pin": "Fixar",
     "unpin": "Desafixar",
     "remove": "Remover",
-    "echo": "Disse: *{text}*"
+    "echo": "Disse: *{text}*",
+    "title": "Assistente",
+    "newChat": "Nova conversa",
+    "close": "Fechar",
+    "resize": "Redimensionar painel",
+    "noContext": "Sem contexto"
   }
 }

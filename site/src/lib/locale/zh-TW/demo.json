@@ -53,7 +53,17 @@
     "upload": "上傳"
   },
   "colorDot": {
-    "colour": "顏色"
+    "colour": "顏色",
+    "picker": "顏色選擇器",
+    "saturation": "飽和度",
+    "brightness": "亮度",
+    "hue": "色相",
+    "format": "格式",
+    "copy": "複製",
+    "copied": "已複製",
+    "presets": "預設",
+    "saved": "已儲存 (onchange)",
+    "live": "即時 (oninput)"
   },
   "tabs": {
     "account": "帳戶",
@@ -181,6 +191,11 @@
     "pin": "釘選",
     "unpin": "取消釘選",
     "remove": "移除",
-    "echo": "你說：*{text}*"
+    "echo": "你說：*{text}*",
+    "title": "助理",
+    "newChat": "新對話",
+    "close": "關閉",
+    "resize": "調整面板寬度",
+    "noContext": "無內容脈絡"
   }
 }

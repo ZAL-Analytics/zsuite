@@ -53,7 +53,17 @@
     "upload": "Upload"
   },
   "colorDot": {
-    "colour": "Colour"
+    "colour": "Colour",
+    "picker": "Colour picker",
+    "saturation": "Saturation",
+    "brightness": "Brightness",
+    "hue": "Hue",
+    "format": "Format",
+    "copy": "Copy",
+    "copied": "Copied",
+    "presets": "Presets",
+    "saved": "Saved (onchange)",
+    "live": "Live (oninput)"
   },
   "tabs": {
     "account": "Account",
@@ -181,6 +191,11 @@
     "pin": "Pin",
     "unpin": "Unpin",
     "remove": "Remove",
-    "echo": "You said: *{text}*"
+    "echo": "You said: *{text}*",
+    "title": "Assistant",
+    "newChat": "New chat",
+    "close": "Close",
+    "resize": "Resize panel",
+    "noContext": "No context"
   }
 }

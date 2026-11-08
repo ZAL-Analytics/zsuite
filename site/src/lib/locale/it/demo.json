@@ -53,7 +53,17 @@
     "upload": "Caricamento"
   },
   "colorDot": {
-    "colour": "Colore"
+    "colour": "Colore",
+    "picker": "Selettore colore",
+    "saturation": "Saturazione",
+    "brightness": "Luminosità",
+    "hue": "Tonalità",
+    "format": "Formato",
+    "copy": "Copia",
+    "copied": "Copiato",
+    "presets": "Predefiniti",
+    "saved": "Salvato (onchange)",
+    "live": "In tempo reale (oninput)"
   },
   "tabs": {
     "account": "Account",
@@ -181,6 +191,11 @@
     "pin": "Fissa",
     "unpin": "Sblocca",
     "remove": "Rimuovi",
-    "echo": "Hai detto: *{text}*"
+    "echo": "Hai detto: *{text}*",
+    "title": "Assistente",
+    "newChat": "Nuova chat",
+    "close": "Chiudi",
+    "resize": "Ridimensiona il pannello",
+    "noContext": "Nessun contesto"
   }
 }

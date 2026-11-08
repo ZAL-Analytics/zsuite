@@ -53,7 +53,17 @@
     "upload": "העלאה"
   },
   "colorDot": {
-    "colour": "צבע"
+    "colour": "צבע",
+    "picker": "בוחר צבעים",
+    "saturation": "רוויה",
+    "brightness": "בהירות",
+    "hue": "גוון",
+    "format": "תבנית",
+    "copy": "העתקה",
+    "copied": "הועתק",
+    "presets": "צבעים מוכנים",
+    "saved": "נשמר (onchange)",
+    "live": "בזמן אמת (oninput)"
   },
   "tabs": {
     "account": "חשבון",
@@ -181,6 +191,11 @@
     "pin": "הצמדה",
     "unpin": "ביטול הצמדה",
     "remove": "הסרה",
-    "echo": "אמרת: *{text}*"
+    "echo": "אמרת: *{text}*",
+    "title": "עוזר",
+    "newChat": "צ׳אט חדש",
+    "close": "סגירה",
+    "resize": "שינוי רוחב החלונית",
+    "noContext": "אין הקשר"
   }
 }

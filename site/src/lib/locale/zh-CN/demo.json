@@ -53,7 +53,17 @@
     "upload": "上传"
   },
   "colorDot": {
-    "colour": "颜色"
+    "colour": "颜色",
+    "picker": "颜色选择器",
+    "saturation": "饱和度",
+    "brightness": "亮度",
+    "hue": "色相",
+    "format": "格式",
+    "copy": "复制",
+    "copied": "已复制",
+    "presets": "预设",
+    "saved": "已保存 (onchange)",
+    "live": "实时 (oninput)"
   },
   "tabs": {
     "account": "账户",
@@ -181,6 +191,11 @@
     "pin": "固定",
     "unpin": "取消固定",
     "remove": "移除",
-    "echo": "你说：*{text}*"
+    "echo": "你说：*{text}*",
+    "title": "助手",
+    "newChat": "新对话",
+    "close": "关闭",
+    "resize": "调整面板宽度",
+    "noContext": "无上下文"
   }
 }

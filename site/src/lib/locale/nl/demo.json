@@ -53,7 +53,17 @@
     "upload": "Uploaden"
   },
   "colorDot": {
-    "colour": "Kleur"
+    "colour": "Kleur",
+    "picker": "Kleurkiezer",
+    "saturation": "Verzadiging",
+    "brightness": "Helderheid",
+    "hue": "Tint",
+    "format": "Notatie",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "presets": "Vaste kleuren",
+    "saved": "Opgeslagen (onchange)",
+    "live": "Live (oninput)"
   },
   "tabs": {
     "account": "Account",
@@ -181,6 +191,11 @@
     "pin": "Vastzetten",
     "unpin": "Losmaken",
     "remove": "Verwijderen",
-    "echo": "Je zei: *{text}*"
+    "echo": "Je zei: *{text}*",
+    "title": "Assistent",
+    "newChat": "Nieuwe chat",
+    "close": "Sluiten",
+    "resize": "Paneelbreedte aanpassen",
+    "noContext": "Geen context"
   }
 }

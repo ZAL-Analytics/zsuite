@@ -53,7 +53,17 @@
     "upload": "بارگذاری"
   },
   "colorDot": {
-    "colour": "رنگ"
+    "colour": "رنگ",
+    "picker": "انتخابگر رنگ",
+    "saturation": "اشباع",
+    "brightness": "روشنایی",
+    "hue": "فام",
+    "format": "قالب",
+    "copy": "کپی",
+    "copied": "کپی شد",
+    "presets": "رنگ‌های آماده",
+    "saved": "ذخیره‌شده (onchange)",
+    "live": "زنده (oninput)"
   },
   "tabs": {
     "account": "حساب",
@@ -181,6 +191,11 @@
     "pin": "سنجاق",
     "unpin": "برداشتن سنجاق",
     "remove": "حذف",
-    "echo": "گفتید: *{text}*"
+    "echo": "گفتید: *{text}*",
+    "title": "دستیار",
+    "newChat": "گفتگوی تازه",
+    "close": "بستن",
+    "resize": "تغییر پهنای پنل",
+    "noContext": "بدون زمینه"
   }
 }
