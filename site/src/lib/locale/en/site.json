@@ -1,0 +1,10 @@
+{
+  "intro": "Svelte 5 components on Bits UI with right-to-left support, design tokens and the runtime for .zth looks.",
+  "hint": "Pick a look, a language and light or dark mode at the top to see every component in each.",
+  "preview": "Preview",
+  "code": "Code",
+  "look": "Look",
+  "language": "Language",
+  "dark": "Toggle dark mode",
+  "close": "Close"
+}

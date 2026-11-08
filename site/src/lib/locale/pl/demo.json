@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Domyślny",
+    "secondary": "Drugorzędny",
+    "outline": "Kontur",
+    "ghost": "Przezroczysty",
+    "destructive": "Destrukcyjny",
+    "link": "Link",
+    "disabled": "Wyłączony",
+    "edit": "Edytuj",
+    "open": "Otwórz",
+    "share": "Udostępnij",
+    "name": "Nazwa",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "invoice": "Faktura"
+  },
+  "button": {
+    "xs": "Bardzo mały",
+    "sm": "Mały",
+    "lg": "Duży",
+    "add": "Dodaj"
+  },
+  "card": {
+    "title": "Raport kwartalny",
+    "description": "Gotowy do przeglądu od dzisiejszego rana.",
+    "content": "Dwanaście stron, trzy wykresy i podsumowanie dla zarządu."
+  },
+  "checkbox": {
+    "terms": "Akceptuję warunki"
+  },
+  "switch": {
+    "airplane": "Tryb samolotowy"
+  },
+  "input": {
+    "email": "Adres e-mail"
+  },
+  "label": {
+    "news": "Wysyłaj mi newsletter"
+  },
+  "textarea": {
+    "note": "Notatka",
+    "placeholder": "Napisz kilka zdań…"
+  },
+  "separator": {
+    "tagline": "Komponenty dla Svelte 5.",
+    "docs": "Dokumentacja",
+    "source": "Kod źródłowy",
+    "looks": "Motywy"
+  },
+  "progress": {
+    "upload": "Przesyłanie"
+  },
+  "colorDot": {
+    "colour": "Kolor"
+  },
+  "tabs": {
+    "account": "Konto",
+    "password": "Hasło",
+    "accountText": "Tutaj zmienisz swoje imię i adres e-mail.",
+    "passwordText": "Tutaj wybierzesz nowe hasło.",
+    "overview": "Przegląd",
+    "activity": "Aktywność"
+  },
+  "table": {
+    "caption": "Ostatnie faktury.",
+    "status": "Status",
+    "amount": "Kwota",
+    "paid": "Opłacona",
+    "pending": "Oczekująca",
+    "overdue": "Zaległa",
+    "total": "Razem"
+  },
+  "scrollArea": {
+    "releases": "Wydania"
+  },
+  "resizable": {
+    "sidebar": "Pasek boczny",
+    "content": "Treść",
+    "console": "Konsola"
+  },
+  "select": {
+    "placeholder": "Wybierz owoc",
+    "fruit": "Owoc",
+    "apple": "Jabłko",
+    "banana": "Banan",
+    "cherry": "Wiśnia"
+  },
+  "picker": {
+    "size": "Rozmiar",
+    "small": "Mały",
+    "medium": "Średni",
+    "large": "Duży",
+    "smallHint": "Do 10 osób",
+    "mediumHint": "Do 50 osób",
+    "largeHint": "Wszyscy",
+    "tags": "Tagi",
+    "allTags": "Wszystkie tagi",
+    "bug": "Błąd",
+    "idea": "Pomysł",
+    "urgent": "Pilne"
+  },
+  "combobox": {
+    "placeholder": "Szukaj osób…",
+    "empty": "Nikogo nie znaleziono",
+    "person": "Osoba",
+    "chosen": "Wybrano: {name}"
+  },
+  "tooltip": {
+    "trigger": "Najedź na mnie",
+    "content": "Zapisano dwie minuty temu"
+  },
+  "toast": {
+    "hint": "Umieść jeden Toaster w układzie, a następnie wywołuj toast().",
+    "info": "Informacja",
+    "error": "Błąd",
+    "saved": "Plik został zapisany.",
+    "failed": "Przesyłanie nie powiodło się."
+  },
+  "dialog": {
+    "title": "Edytuj profil",
+    "description": "Zmień imię, a potem zapisz."
+  },
+  "askDialog": {
+    "askName": "Zapytaj o nazwę",
+    "askConfirm": "Poproś o potwierdzenie",
+    "renameTitle": "Zmień nazwę tablicy",
+    "rename": "Zmień nazwę",
+    "required": "Nazwa jest wymagana.",
+    "renamed": "Zmieniono nazwę na „{name}”",
+    "deleteTitle": "Usunąć tablicę?",
+    "deleteText": "Jej karty trafią do kosza na 30 dni.",
+    "onlyBoard": "Tylko tę tablicę",
+    "withArchive": "Tę tablicę i jej archiwum",
+    "deleted": "Usunięto (opcja {option})",
+    "option": "Opcja"
+  },
+  "dropdownMenu": {
+    "open": "Otwórz menu",
+    "account": "Moje konto",
+    "profile": "Profil",
+    "settings": "Ustawienia",
+    "grid": "Pokaż siatkę",
+    "byName": "Sortuj według nazwy",
+    "byDate": "Sortuj według daty",
+    "email": "E-mail",
+    "copyLink": "Kopiuj link",
+    "logout": "Wyloguj się"
+  },
+  "contextMenu": {
+    "trigger": "Kliknij tutaj prawym przyciskiem",
+    "back": "Wstecz",
+    "reload": "Odśwież",
+    "more": "Więcej narzędzi",
+    "savePage": "Zapisz stronę…",
+    "devtools": "Narzędzia deweloperskie",
+    "bookmarks": "Pokaż zakładki"
+  },
+  "chat": {
+    "question": "Które faktury są **zaległe**?",
+    "answer": "Jedna jest zaległa:\n\n- `INV-003`, € 350.00, dla Acme Ltd",
+    "company": "Firma",
+    "searched": "Przeszukano faktury",
+    "read": "Odczytano INV-003",
+    "remind": "Wyślij przypomnienie",
+    "steps": "Kroki: {count}",
+    "reminderTitle": "Wyślij przypomnienie do Acme Ltd",
+    "to": "Do",
+    "approve": "Zatwierdź",
+    "deny": "Odrzuć",
+    "approved": "Zatwierdzono",
+    "denied": "Odrzucono",
+    "conversation": "Rozmowa",
+    "message": "Wiadomość",
+    "placeholder": "Zapytaj o cokolwiek…",
+    "send": "Wyślij",
+    "stop": "Zatrzymaj",
+    "context": "Kontekst",
+    "invoices": "Faktury",
+    "pin": "Przypnij",
+    "unpin": "Odepnij",
+    "remove": "Usuń",
+    "echo": "Napisałeś: *{text}*"
+  }
+}

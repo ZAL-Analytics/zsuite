@@ -1,0 +1,10 @@
+{
+  "intro": "Componenti Svelte 5 basati su Bits UI con supporto per la scrittura da destra a sinistra, design token e il runtime per i temi .zth.",
+  "hint": "Scegli un tema, una lingua e la modalità chiara o scura in alto per vedere ogni componente in ciascuna combinazione.",
+  "preview": "Anteprima",
+  "code": "Codice",
+  "look": "Tema",
+  "language": "Lingua",
+  "dark": "Attiva/disattiva modalità scura",
+  "close": "Chiudi"
+}

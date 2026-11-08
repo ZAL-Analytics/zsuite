@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Standard",
+    "secondary": "Sekundär",
+    "outline": "Umriss",
+    "ghost": "Ghost",
+    "destructive": "Destruktiv",
+    "link": "Link",
+    "disabled": "Deaktiviert",
+    "edit": "Bearbeiten",
+    "open": "Öffnen",
+    "share": "Teilen",
+    "name": "Name",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "invoice": "Rechnung"
+  },
+  "button": {
+    "xs": "Sehr klein",
+    "sm": "Klein",
+    "lg": "Groß",
+    "add": "Hinzufügen"
+  },
+  "card": {
+    "title": "Quartalsbericht",
+    "description": "Seit heute Morgen bereit zur Prüfung.",
+    "content": "Zwölf Seiten, drei Diagramme und eine Zusammenfassung für den Vorstand."
+  },
+  "checkbox": {
+    "terms": "Bedingungen akzeptieren"
+  },
+  "switch": {
+    "airplane": "Flugmodus"
+  },
+  "input": {
+    "email": "E-Mail-Adresse"
+  },
+  "label": {
+    "news": "Newsletter an mich senden"
+  },
+  "textarea": {
+    "note": "Notiz",
+    "placeholder": "Schreib ein paar Zeilen…"
+  },
+  "separator": {
+    "tagline": "Komponenten für Svelte 5.",
+    "docs": "Doku",
+    "source": "Quellcode",
+    "looks": "Looks"
+  },
+  "progress": {
+    "upload": "Hochladen"
+  },
+  "colorDot": {
+    "colour": "Farbe"
+  },
+  "tabs": {
+    "account": "Konto",
+    "password": "Passwort",
+    "accountText": "Ändere hier deinen Namen und deine E-Mail-Adresse.",
+    "passwordText": "Wähle hier ein neues Passwort.",
+    "overview": "Übersicht",
+    "activity": "Aktivität"
+  },
+  "table": {
+    "caption": "Aktuelle Rechnungen.",
+    "status": "Status",
+    "amount": "Betrag",
+    "paid": "Bezahlt",
+    "pending": "Ausstehend",
+    "overdue": "Überfällig",
+    "total": "Gesamt"
+  },
+  "scrollArea": {
+    "releases": "Releases"
+  },
+  "resizable": {
+    "sidebar": "Seitenleiste",
+    "content": "Inhalt",
+    "console": "Konsole"
+  },
+  "select": {
+    "placeholder": "Wähle eine Frucht",
+    "fruit": "Obst",
+    "apple": "Apfel",
+    "banana": "Banane",
+    "cherry": "Kirsche"
+  },
+  "picker": {
+    "size": "Größe",
+    "small": "Klein",
+    "medium": "Mittel",
+    "large": "Groß",
+    "smallHint": "Bis zu 10 Personen",
+    "mediumHint": "Bis zu 50 Personen",
+    "largeHint": "Alle",
+    "tags": "Tags",
+    "allTags": "Alle Tags",
+    "bug": "Fehler",
+    "idea": "Idee",
+    "urgent": "Dringend"
+  },
+  "combobox": {
+    "placeholder": "Personen suchen…",
+    "empty": "Niemand gefunden",
+    "person": "Person",
+    "chosen": "Ausgewählt: {name}"
+  },
+  "tooltip": {
+    "trigger": "Zeig auf mich",
+    "content": "Vor zwei Minuten gespeichert"
+  },
+  "toast": {
+    "hint": "Binde einen Toaster im Layout ein und rufe dann toast() auf.",
+    "info": "Info",
+    "error": "Fehler",
+    "saved": "Die Datei wurde gespeichert.",
+    "failed": "Das Hochladen ist fehlgeschlagen."
+  },
+  "dialog": {
+    "title": "Profil bearbeiten",
+    "description": "Ändere deinen Namen und speichere dann."
+  },
+  "askDialog": {
+    "askName": "Nach einem Namen fragen",
+    "askConfirm": "Um Bestätigung bitten",
+    "renameTitle": "Board umbenennen",
+    "rename": "Umbenennen",
+    "required": "Ein Name ist erforderlich.",
+    "renamed": "Umbenannt in „{name}“",
+    "deleteTitle": "Board löschen?",
+    "deleteText": "Seine Karten landen 30 Tage lang im Papierkorb.",
+    "onlyBoard": "Nur dieses Board",
+    "withArchive": "Dieses Board und sein Archiv",
+    "deleted": "Gelöscht (Option {option})",
+    "option": "Option"
+  },
+  "dropdownMenu": {
+    "open": "Menü öffnen",
+    "account": "Mein Konto",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "grid": "Raster anzeigen",
+    "byName": "Nach Name sortieren",
+    "byDate": "Nach Datum sortieren",
+    "email": "E-Mail",
+    "copyLink": "Link kopieren",
+    "logout": "Abmelden"
+  },
+  "contextMenu": {
+    "trigger": "Hier rechtsklicken",
+    "back": "Zurück",
+    "reload": "Neu laden",
+    "more": "Weitere Tools",
+    "savePage": "Seite speichern…",
+    "devtools": "Entwicklertools",
+    "bookmarks": "Lesezeichen anzeigen"
+  },
+  "chat": {
+    "question": "Welche Rechnungen sind **überfällig**?",
+    "answer": "Eine ist überfällig:\n\n- `INV-003`, € 350.00, für Acme Ltd",
+    "company": "Unternehmen",
+    "searched": "Rechnungen durchsucht",
+    "read": "INV-003 gelesen",
+    "remind": "Erinnerung senden",
+    "steps": "{count} Schritte",
+    "reminderTitle": "Erinnerung an Acme Ltd senden",
+    "to": "An",
+    "approve": "Genehmigen",
+    "deny": "Ablehnen",
+    "approved": "Genehmigt",
+    "denied": "Abgelehnt",
+    "conversation": "Unterhaltung",
+    "message": "Nachricht",
+    "placeholder": "Frag mich etwas…",
+    "send": "Senden",
+    "stop": "Stopp",
+    "context": "Kontext",
+    "invoices": "Rechnungen",
+    "pin": "Anheften",
+    "unpin": "Lösen",
+    "remove": "Entfernen",
+    "echo": "Du hast gesagt: *{text}*"
+  }
+}

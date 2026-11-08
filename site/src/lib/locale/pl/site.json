@@ -1,0 +1,10 @@
+{
+  "intro": "Komponenty Svelte 5 oparte na Bits UI z obsługą pisma od prawej do lewej, tokenami projektowymi i środowiskiem uruchomieniowym dla motywów .zth.",
+  "hint": "Wybierz u góry motyw, język oraz tryb jasny lub ciemny, aby zobaczyć w nich każdy komponent.",
+  "preview": "Podgląd",
+  "code": "Kod",
+  "look": "Motyw",
+  "language": "Język",
+  "dark": "Przełącz tryb ciemny",
+  "close": "Zamknij"
+}

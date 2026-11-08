@@ -1,0 +1,10 @@
+{
+  "intro": "Komponenten für Svelte 5 auf Basis von Bits UI mit Rechts-nach-links-Unterstützung, Design-Tokens und der Laufzeit für .zth-Looks.",
+  "hint": "Wähle oben einen Look, eine Sprache und den hellen oder dunklen Modus, um jede Komponente darin zu sehen.",
+  "preview": "Vorschau",
+  "code": "Code",
+  "look": "Look",
+  "language": "Sprache",
+  "dark": "Dunkelmodus umschalten",
+  "close": "Schließen"
+}

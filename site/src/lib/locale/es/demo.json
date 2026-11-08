@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Predeterminado",
+    "secondary": "Secundario",
+    "outline": "Contorno",
+    "ghost": "Fantasma",
+    "destructive": "Destructivo",
+    "link": "Enlace",
+    "disabled": "Deshabilitado",
+    "edit": "Editar",
+    "open": "Abrir",
+    "share": "Compartir",
+    "name": "Nombre",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "invoice": "Factura"
+  },
+  "button": {
+    "xs": "Muy pequeño",
+    "sm": "Pequeño",
+    "lg": "Grande",
+    "add": "Añadir"
+  },
+  "card": {
+    "title": "Informe trimestral",
+    "description": "Listo para revisión desde esta mañana.",
+    "content": "Doce páginas, tres gráficos y un resumen para la junta directiva."
+  },
+  "checkbox": {
+    "terms": "Aceptar los términos"
+  },
+  "switch": {
+    "airplane": "Modo avión"
+  },
+  "input": {
+    "email": "Correo electrónico"
+  },
+  "label": {
+    "news": "Enviarme el boletín"
+  },
+  "textarea": {
+    "note": "Nota",
+    "placeholder": "Escribe unas líneas…"
+  },
+  "separator": {
+    "tagline": "Componentes para Svelte 5.",
+    "docs": "Documentación",
+    "source": "Código fuente",
+    "looks": "Estilos"
+  },
+  "progress": {
+    "upload": "Subida"
+  },
+  "colorDot": {
+    "colour": "Color"
+  },
+  "tabs": {
+    "account": "Cuenta",
+    "password": "Contraseña",
+    "accountText": "Cambia tu nombre y correo electrónico aquí.",
+    "passwordText": "Elige una nueva contraseña aquí.",
+    "overview": "Resumen",
+    "activity": "Actividad"
+  },
+  "table": {
+    "caption": "Facturas recientes.",
+    "status": "Estado",
+    "amount": "Importe",
+    "paid": "Pagada",
+    "pending": "Pendiente",
+    "overdue": "Vencida",
+    "total": "Total"
+  },
+  "scrollArea": {
+    "releases": "Versiones"
+  },
+  "resizable": {
+    "sidebar": "Barra lateral",
+    "content": "Contenido",
+    "console": "Consola"
+  },
+  "select": {
+    "placeholder": "Elige una fruta",
+    "fruit": "Fruta",
+    "apple": "Manzana",
+    "banana": "Plátano",
+    "cherry": "Cereza"
+  },
+  "picker": {
+    "size": "Tamaño",
+    "small": "Pequeño",
+    "medium": "Mediano",
+    "large": "Grande",
+    "smallHint": "Hasta 10 personas",
+    "mediumHint": "Hasta 50 personas",
+    "largeHint": "Todos",
+    "tags": "Etiquetas",
+    "allTags": "Todas las etiquetas",
+    "bug": "Error",
+    "idea": "Idea",
+    "urgent": "Urgente"
+  },
+  "combobox": {
+    "placeholder": "Buscar personas…",
+    "empty": "No se encontró a nadie",
+    "person": "Persona",
+    "chosen": "Seleccionado: {name}"
+  },
+  "tooltip": {
+    "trigger": "Pasa el cursor",
+    "content": "Guardado hace dos minutos"
+  },
+  "toast": {
+    "hint": "Monta un Toaster en el layout y luego llama a toast().",
+    "info": "Información",
+    "error": "Error",
+    "saved": "El archivo se ha guardado.",
+    "failed": "La subida ha fallado."
+  },
+  "dialog": {
+    "title": "Editar perfil",
+    "description": "Cambia tu nombre y luego guarda."
+  },
+  "askDialog": {
+    "askName": "Pedir un nombre",
+    "askConfirm": "Pedir confirmación",
+    "renameTitle": "Renombrar tablero",
+    "rename": "Renombrar",
+    "required": "El nombre es obligatorio.",
+    "renamed": "Renombrado como «{name}»",
+    "deleteTitle": "¿Eliminar el tablero?",
+    "deleteText": "Sus tarjetas van a la papelera durante 30 días.",
+    "onlyBoard": "Solo este tablero",
+    "withArchive": "Este tablero y su archivo",
+    "deleted": "Eliminado (opción {option})",
+    "option": "Opción"
+  },
+  "dropdownMenu": {
+    "open": "Abrir menú",
+    "account": "Mi cuenta",
+    "profile": "Perfil",
+    "settings": "Ajustes",
+    "grid": "Mostrar cuadrícula",
+    "byName": "Ordenar por nombre",
+    "byDate": "Ordenar por fecha",
+    "email": "Correo electrónico",
+    "copyLink": "Copiar enlace",
+    "logout": "Cerrar sesión"
+  },
+  "contextMenu": {
+    "trigger": "Haz clic derecho aquí",
+    "back": "Atrás",
+    "reload": "Recargar",
+    "more": "Más herramientas",
+    "savePage": "Guardar página…",
+    "devtools": "Herramientas para desarrolladores",
+    "bookmarks": "Mostrar marcadores"
+  },
+  "chat": {
+    "question": "¿Qué facturas están **vencidas**?",
+    "answer": "Hay una vencida:\n\n- `INV-003`, € 350.00, para Acme Ltd",
+    "company": "Empresa",
+    "searched": "Facturas buscadas",
+    "read": "INV-003 leída",
+    "remind": "Enviar un recordatorio",
+    "steps": "{count} pasos",
+    "reminderTitle": "Enviar un recordatorio a Acme Ltd",
+    "to": "Para",
+    "approve": "Aprobar",
+    "deny": "Denegar",
+    "approved": "Aprobado",
+    "denied": "Denegado",
+    "conversation": "Conversación",
+    "message": "Mensaje",
+    "placeholder": "Pregunta lo que quieras…",
+    "send": "Enviar",
+    "stop": "Detener",
+    "context": "Contexto",
+    "invoices": "Facturas",
+    "pin": "Fijar",
+    "unpin": "Desfijar",
+    "remove": "Quitar",
+    "echo": "Has dicho: *{text}*"
+  }
+}

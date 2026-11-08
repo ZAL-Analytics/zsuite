@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Standard",
+    "secondary": "Sekundär",
+    "outline": "Kontur",
+    "ghost": "Transparent",
+    "destructive": "Destruktiv",
+    "link": "Länk",
+    "disabled": "Inaktiverad",
+    "edit": "Redigera",
+    "open": "Öppna",
+    "share": "Dela",
+    "name": "Namn",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "delete": "Ta bort",
+    "invoice": "Faktura"
+  },
+  "button": {
+    "xs": "Extra liten",
+    "sm": "Liten",
+    "lg": "Stor",
+    "add": "Lägg till"
+  },
+  "card": {
+    "title": "Kvartalsrapport",
+    "description": "Klar för granskning sedan i morse.",
+    "content": "Tolv sidor, tre diagram och en sammanfattning för styrelsen."
+  },
+  "checkbox": {
+    "terms": "Godkänn villkoren"
+  },
+  "switch": {
+    "airplane": "Flygplansläge"
+  },
+  "input": {
+    "email": "E-postadress"
+  },
+  "label": {
+    "news": "Skicka nyhetsbrevet till mig"
+  },
+  "textarea": {
+    "note": "Anteckning",
+    "placeholder": "Skriv några rader…"
+  },
+  "separator": {
+    "tagline": "Komponenter för Svelte 5.",
+    "docs": "Dokumentation",
+    "source": "Källkod",
+    "looks": "Utseenden"
+  },
+  "progress": {
+    "upload": "Uppladdning"
+  },
+  "colorDot": {
+    "colour": "Färg"
+  },
+  "tabs": {
+    "account": "Konto",
+    "password": "Lösenord",
+    "accountText": "Ändra ditt namn och din e-post här.",
+    "passwordText": "Välj ett nytt lösenord här.",
+    "overview": "Översikt",
+    "activity": "Aktivitet"
+  },
+  "table": {
+    "caption": "Senaste fakturor.",
+    "status": "Status",
+    "amount": "Belopp",
+    "paid": "Betald",
+    "pending": "Väntande",
+    "overdue": "Förfallen",
+    "total": "Totalt"
+  },
+  "scrollArea": {
+    "releases": "Versioner"
+  },
+  "resizable": {
+    "sidebar": "Sidofält",
+    "content": "Innehåll",
+    "console": "Konsol"
+  },
+  "select": {
+    "placeholder": "Välj en frukt",
+    "fruit": "Frukt",
+    "apple": "Äpple",
+    "banana": "Banan",
+    "cherry": "Körsbär"
+  },
+  "picker": {
+    "size": "Storlek",
+    "small": "Liten",
+    "medium": "Mellan",
+    "large": "Stor",
+    "smallHint": "Upp till 10 personer",
+    "mediumHint": "Upp till 50 personer",
+    "largeHint": "Alla",
+    "tags": "Taggar",
+    "allTags": "Alla taggar",
+    "bug": "Bugg",
+    "idea": "Idé",
+    "urgent": "Brådskande"
+  },
+  "combobox": {
+    "placeholder": "Sök personer…",
+    "empty": "Ingen hittades",
+    "person": "Person",
+    "chosen": "Vald: {name}"
+  },
+  "tooltip": {
+    "trigger": "Hovra över mig",
+    "content": "Sparades för två minuter sedan"
+  },
+  "toast": {
+    "hint": "Montera en Toaster i layouten och anropa sedan toast().",
+    "info": "Info",
+    "error": "Fel",
+    "saved": "Filen har sparats.",
+    "failed": "Uppladdningen misslyckades."
+  },
+  "dialog": {
+    "title": "Redigera profil",
+    "description": "Ändra ditt namn och spara sedan."
+  },
+  "askDialog": {
+    "askName": "Be om ett namn",
+    "askConfirm": "Be om bekräftelse",
+    "renameTitle": "Byt namn på tavlan",
+    "rename": "Byt namn",
+    "required": "Ett namn krävs.",
+    "renamed": "Nytt namn: ”{name}”",
+    "deleteTitle": "Ta bort tavlan?",
+    "deleteText": "Dess kort hamnar i papperskorgen i 30 dagar.",
+    "onlyBoard": "Bara den här tavlan",
+    "withArchive": "Den här tavlan och dess arkiv",
+    "deleted": "Borttagen (alternativ {option})",
+    "option": "Alternativ"
+  },
+  "dropdownMenu": {
+    "open": "Öppna meny",
+    "account": "Mitt konto",
+    "profile": "Profil",
+    "settings": "Inställningar",
+    "grid": "Visa rutnät",
+    "byName": "Sortera efter namn",
+    "byDate": "Sortera efter datum",
+    "email": "E-post",
+    "copyLink": "Kopiera länk",
+    "logout": "Logga ut"
+  },
+  "contextMenu": {
+    "trigger": "Högerklicka här",
+    "back": "Bakåt",
+    "reload": "Läs in igen",
+    "more": "Fler verktyg",
+    "savePage": "Spara sida…",
+    "devtools": "Utvecklarverktyg",
+    "bookmarks": "Visa bokmärken"
+  },
+  "chat": {
+    "question": "Vilka fakturor är **förfallna**?",
+    "answer": "En är förfallen:\n\n- `INV-003`, € 350.00, för Acme Ltd",
+    "company": "Företag",
+    "searched": "Sökte i fakturor",
+    "read": "Läste INV-003",
+    "remind": "Skicka en påminnelse",
+    "steps": "{count} steg",
+    "reminderTitle": "Skicka en påminnelse till Acme Ltd",
+    "to": "Till",
+    "approve": "Godkänn",
+    "deny": "Neka",
+    "approved": "Godkänd",
+    "denied": "Nekad",
+    "conversation": "Konversation",
+    "message": "Meddelande",
+    "placeholder": "Fråga vad som helst…",
+    "send": "Skicka",
+    "stop": "Stoppa",
+    "context": "Kontext",
+    "invoices": "Fakturor",
+    "pin": "Fäst",
+    "unpin": "Lossa",
+    "remove": "Ta bort",
+    "echo": "Du skrev: *{text}*"
+  }
+}

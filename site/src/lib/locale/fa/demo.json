@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "پیش‌فرض",
+    "secondary": "ثانویه",
+    "outline": "دورخط",
+    "ghost": "شفاف",
+    "destructive": "مخرب",
+    "link": "پیوند",
+    "disabled": "غیرفعال",
+    "edit": "ویرایش",
+    "open": "باز کردن",
+    "share": "اشتراک‌گذاری",
+    "name": "نام",
+    "cancel": "لغو",
+    "save": "ذخیره",
+    "delete": "حذف",
+    "invoice": "فاکتور"
+  },
+  "button": {
+    "xs": "خیلی کوچک",
+    "sm": "کوچک",
+    "lg": "بزرگ",
+    "add": "افزودن"
+  },
+  "card": {
+    "title": "گزارش فصلی",
+    "description": "از امروز صبح آمادهٔ بررسی است.",
+    "content": "دوازده صفحه، سه نمودار و یک خلاصه برای هیئت‌مدیره."
+  },
+  "checkbox": {
+    "terms": "شرایط را می‌پذیرم"
+  },
+  "switch": {
+    "airplane": "حالت پرواز"
+  },
+  "input": {
+    "email": "نشانی ایمیل"
+  },
+  "label": {
+    "news": "خبرنامه را برایم بفرست"
+  },
+  "textarea": {
+    "note": "یادداشت",
+    "placeholder": "چند خط بنویسید…"
+  },
+  "separator": {
+    "tagline": "کامپوننت‌هایی برای Svelte 5.",
+    "docs": "مستندات",
+    "source": "کد منبع",
+    "looks": "پوسته‌ها"
+  },
+  "progress": {
+    "upload": "بارگذاری"
+  },
+  "colorDot": {
+    "colour": "رنگ"
+  },
+  "tabs": {
+    "account": "حساب",
+    "password": "گذرواژه",
+    "accountText": "نام و ایمیل خود را اینجا تغییر دهید.",
+    "passwordText": "یک گذرواژهٔ جدید اینجا انتخاب کنید.",
+    "overview": "نمای کلی",
+    "activity": "فعالیت"
+  },
+  "table": {
+    "caption": "فاکتورهای اخیر.",
+    "status": "وضعیت",
+    "amount": "مبلغ",
+    "paid": "پرداخت‌شده",
+    "pending": "در انتظار",
+    "overdue": "سررسیدگذشته",
+    "total": "جمع کل"
+  },
+  "scrollArea": {
+    "releases": "نسخه‌ها"
+  },
+  "resizable": {
+    "sidebar": "نوار کناری",
+    "content": "محتوا",
+    "console": "کنسول"
+  },
+  "select": {
+    "placeholder": "یک میوه انتخاب کنید",
+    "fruit": "میوه",
+    "apple": "سیب",
+    "banana": "موز",
+    "cherry": "گیلاس"
+  },
+  "picker": {
+    "size": "اندازه",
+    "small": "کوچک",
+    "medium": "متوسط",
+    "large": "بزرگ",
+    "smallHint": "تا ۱۰ نفر",
+    "mediumHint": "تا ۵۰ نفر",
+    "largeHint": "همه",
+    "tags": "برچسب‌ها",
+    "allTags": "همهٔ برچسب‌ها",
+    "bug": "باگ",
+    "idea": "ایده",
+    "urgent": "فوری"
+  },
+  "combobox": {
+    "placeholder": "جست‌وجوی افراد…",
+    "empty": "کسی پیدا نشد",
+    "person": "فرد",
+    "chosen": "انتخاب‌شده: {name}"
+  },
+  "tooltip": {
+    "trigger": "نشانگر را اینجا ببرید",
+    "content": "دو دقیقه پیش ذخیره شد"
+  },
+  "toast": {
+    "hint": "یک Toaster در چیدمان قرار دهید، سپس toast() را فراخوانی کنید.",
+    "info": "اطلاعات",
+    "error": "خطا",
+    "saved": "فایل ذخیره شد.",
+    "failed": "بارگذاری ناموفق بود."
+  },
+  "dialog": {
+    "title": "ویرایش نمایه",
+    "description": "نام خود را تغییر دهید، سپس ذخیره کنید."
+  },
+  "askDialog": {
+    "askName": "درخواست نام",
+    "askConfirm": "درخواست تأیید",
+    "renameTitle": "تغییر نام تابلو",
+    "rename": "تغییر نام",
+    "required": "وارد کردن نام الزامی است.",
+    "renamed": "نام به «{name}» تغییر کرد",
+    "deleteTitle": "تابلو حذف شود؟",
+    "deleteText": "کارت‌های آن به مدت ۳۰ روز به سطل زباله می‌روند.",
+    "onlyBoard": "فقط این تابلو",
+    "withArchive": "این تابلو و بایگانی آن",
+    "deleted": "حذف شد (گزینهٔ {option})",
+    "option": "گزینه"
+  },
+  "dropdownMenu": {
+    "open": "باز کردن منو",
+    "account": "حساب من",
+    "profile": "نمایه",
+    "settings": "تنظیمات",
+    "grid": "نمایش شبکه",
+    "byName": "مرتب‌سازی بر اساس نام",
+    "byDate": "مرتب‌سازی بر اساس تاریخ",
+    "email": "ایمیل",
+    "copyLink": "کپی پیوند",
+    "logout": "خروج"
+  },
+  "contextMenu": {
+    "trigger": "اینجا راست‌کلیک کنید",
+    "back": "بازگشت",
+    "reload": "بارگذاری مجدد",
+    "more": "ابزارهای بیشتر",
+    "savePage": "ذخیرهٔ صفحه…",
+    "devtools": "ابزارهای توسعه‌دهنده",
+    "bookmarks": "نمایش نشانک‌ها"
+  },
+  "chat": {
+    "question": "کدام فاکتورها **سررسیدگذشته** هستند؟",
+    "answer": "یکی سررسیدگذشته است:\n\n- `INV-003`، € 350.00، برای Acme Ltd",
+    "company": "شرکت",
+    "searched": "فاکتورها جست‌وجو شد",
+    "read": "INV-003 خوانده شد",
+    "remind": "ارسال یادآوری",
+    "steps": "{count} مرحله",
+    "reminderTitle": "ارسال یادآوری به Acme Ltd",
+    "to": "به",
+    "approve": "تأیید",
+    "deny": "رد",
+    "approved": "تأیید شد",
+    "denied": "رد شد",
+    "conversation": "گفت‌وگو",
+    "message": "پیام",
+    "placeholder": "هر چه می‌خواهید بپرسید…",
+    "send": "ارسال",
+    "stop": "توقف",
+    "context": "زمینه",
+    "invoices": "فاکتورها",
+    "pin": "سنجاق",
+    "unpin": "برداشتن سنجاق",
+    "remove": "حذف",
+    "echo": "گفتید: *{text}*"
+  }
+}

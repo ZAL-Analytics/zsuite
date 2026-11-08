@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from "@zsuite/ui/i18n";
   import { Label } from "@zsuite/ui/label";
   import { Switch } from "@zsuite/ui/switch";
 
@@ -7,5 +8,5 @@
 
 <div class="flex items-center gap-2">
   <Switch id="airplane" bind:checked />
-  <Label for="airplane">Airplane mode is {checked ? "on" : "off"}</Label>
+  <Label for="airplane">{t("demo.switch.airplane")}</Label>
 </div>

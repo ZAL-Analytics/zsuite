@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "默认",
+    "secondary": "次要",
+    "outline": "描边",
+    "ghost": "幽灵",
+    "destructive": "危险",
+    "link": "链接",
+    "disabled": "已禁用",
+    "edit": "编辑",
+    "open": "打开",
+    "share": "分享",
+    "name": "名称",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "invoice": "发票"
+  },
+  "button": {
+    "xs": "特小",
+    "sm": "小",
+    "lg": "大",
+    "add": "添加"
+  },
+  "card": {
+    "title": "季度报告",
+    "description": "今天上午起已可供审阅。",
+    "content": "十二页内容、三张图表，以及一份给董事会的摘要。"
+  },
+  "checkbox": {
+    "terms": "接受条款"
+  },
+  "switch": {
+    "airplane": "飞行模式"
+  },
+  "input": {
+    "email": "电子邮件地址"
+  },
+  "label": {
+    "news": "给我发送新闻通讯"
+  },
+  "textarea": {
+    "note": "备注",
+    "placeholder": "写几行字…"
+  },
+  "separator": {
+    "tagline": "为 Svelte 5 打造的组件。",
+    "docs": "文档",
+    "source": "源代码",
+    "looks": "外观"
+  },
+  "progress": {
+    "upload": "上传"
+  },
+  "colorDot": {
+    "colour": "颜色"
+  },
+  "tabs": {
+    "account": "账户",
+    "password": "密码",
+    "accountText": "在此更改你的姓名和电子邮件。",
+    "passwordText": "在此设置新密码。",
+    "overview": "概览",
+    "activity": "动态"
+  },
+  "table": {
+    "caption": "最近的发票。",
+    "status": "状态",
+    "amount": "金额",
+    "paid": "已支付",
+    "pending": "待处理",
+    "overdue": "已逾期",
+    "total": "合计"
+  },
+  "scrollArea": {
+    "releases": "版本"
+  },
+  "resizable": {
+    "sidebar": "侧边栏",
+    "content": "内容",
+    "console": "控制台"
+  },
+  "select": {
+    "placeholder": "选择一种水果",
+    "fruit": "水果",
+    "apple": "苹果",
+    "banana": "香蕉",
+    "cherry": "樱桃"
+  },
+  "picker": {
+    "size": "规模",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "smallHint": "最多 10 人",
+    "mediumHint": "最多 50 人",
+    "largeHint": "所有人",
+    "tags": "标签",
+    "allTags": "全部标签",
+    "bug": "缺陷",
+    "idea": "想法",
+    "urgent": "紧急"
+  },
+  "combobox": {
+    "placeholder": "搜索人员…",
+    "empty": "未找到任何人",
+    "person": "人员",
+    "chosen": "已选择：{name}"
+  },
+  "tooltip": {
+    "trigger": "将鼠标悬停在此",
+    "content": "两分钟前已保存"
+  },
+  "toast": {
+    "hint": "在布局中挂载一个 Toaster，然后调用 toast()。",
+    "info": "信息",
+    "error": "错误",
+    "saved": "文件已保存。",
+    "failed": "上传失败。"
+  },
+  "dialog": {
+    "title": "编辑个人资料",
+    "description": "修改你的姓名，然后保存。"
+  },
+  "askDialog": {
+    "askName": "询问名称",
+    "askConfirm": "请求确认",
+    "renameTitle": "重命名看板",
+    "rename": "重命名",
+    "required": "名称为必填项。",
+    "renamed": "已重命名为“{name}”",
+    "deleteTitle": "删除看板？",
+    "deleteText": "其卡片将移入回收站并保留 30 天。",
+    "onlyBoard": "仅此看板",
+    "withArchive": "此看板及其归档",
+    "deleted": "已删除（选项 {option}）",
+    "option": "选项"
+  },
+  "dropdownMenu": {
+    "open": "打开菜单",
+    "account": "我的账户",
+    "profile": "个人资料",
+    "settings": "设置",
+    "grid": "显示网格",
+    "byName": "按名称排序",
+    "byDate": "按日期排序",
+    "email": "电子邮件",
+    "copyLink": "复制链接",
+    "logout": "退出登录"
+  },
+  "contextMenu": {
+    "trigger": "在此处右键单击",
+    "back": "返回",
+    "reload": "重新加载",
+    "more": "更多工具",
+    "savePage": "保存页面…",
+    "devtools": "开发者工具",
+    "bookmarks": "显示书签"
+  },
+  "chat": {
+    "question": "哪些发票**已逾期**？",
+    "answer": "有一张已逾期：\n\n- `INV-003`，€ 350.00，客户为 Acme Ltd",
+    "company": "公司",
+    "searched": "已搜索发票",
+    "read": "已读取 INV-003",
+    "remind": "发送提醒",
+    "steps": "{count} 个步骤",
+    "reminderTitle": "向 Acme Ltd 发送提醒",
+    "to": "收件人",
+    "approve": "批准",
+    "deny": "拒绝",
+    "approved": "已批准",
+    "denied": "已拒绝",
+    "conversation": "对话",
+    "message": "消息",
+    "placeholder": "有问题尽管问…",
+    "send": "发送",
+    "stop": "停止",
+    "context": "上下文",
+    "invoices": "发票",
+    "pin": "固定",
+    "unpin": "取消固定",
+    "remove": "移除",
+    "echo": "你说：*{text}*"
+  }
+}

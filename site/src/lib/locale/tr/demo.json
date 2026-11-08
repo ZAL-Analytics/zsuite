@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Varsayılan",
+    "secondary": "İkincil",
+    "outline": "Çerçeveli",
+    "ghost": "Hayalet",
+    "destructive": "Yıkıcı",
+    "link": "Bağlantı",
+    "disabled": "Devre dışı",
+    "edit": "Düzenle",
+    "open": "Aç",
+    "share": "Paylaş",
+    "name": "Ad",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "invoice": "Fatura"
+  },
+  "button": {
+    "xs": "Çok küçük",
+    "sm": "Küçük",
+    "lg": "Büyük",
+    "add": "Ekle"
+  },
+  "card": {
+    "title": "Üç aylık rapor",
+    "description": "Bu sabahtan beri incelemeye hazır.",
+    "content": "Yönetim kurulu için on iki sayfa, üç grafik ve bir özet."
+  },
+  "checkbox": {
+    "terms": "Koşulları kabul ediyorum"
+  },
+  "switch": {
+    "airplane": "Uçak modu"
+  },
+  "input": {
+    "email": "E-posta adresi"
+  },
+  "label": {
+    "news": "Bana bülten gönder"
+  },
+  "textarea": {
+    "note": "Not",
+    "placeholder": "Birkaç satır yazın…"
+  },
+  "separator": {
+    "tagline": "Svelte 5 için bileşenler.",
+    "docs": "Belgeler",
+    "source": "Kaynak",
+    "looks": "Görünümler"
+  },
+  "progress": {
+    "upload": "Yükleme"
+  },
+  "colorDot": {
+    "colour": "Renk"
+  },
+  "tabs": {
+    "account": "Hesap",
+    "password": "Parola",
+    "accountText": "Adınızı ve e-postanızı buradan değiştirin.",
+    "passwordText": "Buradan yeni bir parola seçin.",
+    "overview": "Genel bakış",
+    "activity": "Etkinlik"
+  },
+  "table": {
+    "caption": "Son faturalar.",
+    "status": "Durum",
+    "amount": "Tutar",
+    "paid": "Ödendi",
+    "pending": "Bekliyor",
+    "overdue": "Gecikmiş",
+    "total": "Toplam"
+  },
+  "scrollArea": {
+    "releases": "Sürümler"
+  },
+  "resizable": {
+    "sidebar": "Kenar çubuğu",
+    "content": "İçerik",
+    "console": "Konsol"
+  },
+  "select": {
+    "placeholder": "Bir meyve seçin",
+    "fruit": "Meyve",
+    "apple": "Elma",
+    "banana": "Muz",
+    "cherry": "Kiraz"
+  },
+  "picker": {
+    "size": "Boyut",
+    "small": "Küçük",
+    "medium": "Orta",
+    "large": "Büyük",
+    "smallHint": "En fazla 10 kişi",
+    "mediumHint": "En fazla 50 kişi",
+    "largeHint": "Herkes",
+    "tags": "Etiketler",
+    "allTags": "Tüm etiketler",
+    "bug": "Hata",
+    "idea": "Fikir",
+    "urgent": "Acil"
+  },
+  "combobox": {
+    "placeholder": "Kişi ara…",
+    "empty": "Kimse bulunamadı",
+    "person": "Kişi",
+    "chosen": "Seçilen: {name}"
+  },
+  "tooltip": {
+    "trigger": "Üzerime gelin",
+    "content": "İki dakika önce kaydedildi"
+  },
+  "toast": {
+    "hint": "Düzene bir Toaster yerleştirin, ardından toast() çağırın.",
+    "info": "Bilgi",
+    "error": "Hata",
+    "saved": "Dosya kaydedildi.",
+    "failed": "Yükleme başarısız oldu."
+  },
+  "dialog": {
+    "title": "Profili düzenle",
+    "description": "Adınızı değiştirin, ardından kaydedin."
+  },
+  "askDialog": {
+    "askName": "Ad iste",
+    "askConfirm": "Onay iste",
+    "renameTitle": "Panoyu yeniden adlandır",
+    "rename": "Yeniden adlandır",
+    "required": "Ad gereklidir.",
+    "renamed": "“{name}” olarak yeniden adlandırıldı",
+    "deleteTitle": "Pano silinsin mi?",
+    "deleteText": "Kartları 30 gün boyunca çöp kutusunda kalır.",
+    "onlyBoard": "Yalnızca bu pano",
+    "withArchive": "Bu pano ve arşivi",
+    "deleted": "Silindi (seçenek {option})",
+    "option": "Seçenek"
+  },
+  "dropdownMenu": {
+    "open": "Menüyü aç",
+    "account": "Hesabım",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "grid": "Izgarayı göster",
+    "byName": "Ada göre sırala",
+    "byDate": "Tarihe göre sırala",
+    "email": "E-posta",
+    "copyLink": "Bağlantıyı kopyala",
+    "logout": "Çıkış yap"
+  },
+  "contextMenu": {
+    "trigger": "Buraya sağ tıklayın",
+    "back": "Geri",
+    "reload": "Yeniden yükle",
+    "more": "Diğer araçlar",
+    "savePage": "Sayfayı kaydet…",
+    "devtools": "Geliştirici araçları",
+    "bookmarks": "Yer imlerini göster"
+  },
+  "chat": {
+    "question": "Hangi faturaların **vadesi geçti**?",
+    "answer": "Birinin vadesi geçti:\n\n- `INV-003`, € 350.00, Acme Ltd için",
+    "company": "Şirket",
+    "searched": "Faturalar arandı",
+    "read": "INV-003 okundu",
+    "remind": "Hatırlatma gönder",
+    "steps": "{count} adım",
+    "reminderTitle": "Acme Ltd'ye hatırlatma gönder",
+    "to": "Alıcı",
+    "approve": "Onayla",
+    "deny": "Reddet",
+    "approved": "Onaylandı",
+    "denied": "Reddedildi",
+    "conversation": "Sohbet",
+    "message": "Mesaj",
+    "placeholder": "Bir şey sorun…",
+    "send": "Gönder",
+    "stop": "Durdur",
+    "context": "Bağlam",
+    "invoices": "Faturalar",
+    "pin": "Sabitle",
+    "unpin": "Sabitlemeyi kaldır",
+    "remove": "Kaldır",
+    "echo": "Şunu dediniz: *{text}*"
+  }
+}

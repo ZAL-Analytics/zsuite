@@ -1,58 +1,76 @@
 <script lang="ts">
   import { ApprovalCard, ChatComposer, ChatMessage, ChatMessages, ChatSteps, ContextChip, type ChatStep } from "@zsuite/ui/chat";
+  import { t } from "@zsuite/ui/i18n";
 
   type Line = { id: number; role: "user" | "assistant"; text: string };
 
-  let lines = $state<Line[]>([
-    { id: 1, role: "user", text: "Which invoices are **overdue**?" },
-    { id: 2, role: "assistant", text: "One is overdue:\n\n- `INV-003`, € 350.00, for Acme Ltd" },
-  ]);
+  let sent = $state<Line[]>([]);
   let running = $state(false);
   let pinned = $state(false);
   let approval = $state<"asking" | "approved" | "denied">("asking");
-  const steps: ChatStep[] = [
-    { id: "a", label: "Searched invoices", state: "done" },
-    { id: "b", label: "Read INV-003", state: "done" },
-    { id: "c", label: "Send a reminder", state: "waiting" },
-  ];
+
+  const lines = $derived<Line[]>([
+    { id: 1, role: "user", text: t("demo.chat.question") },
+    { id: 2, role: "assistant", text: t("demo.chat.answer") },
+    ...sent,
+  ]);
+  const steps = $derived<ChatStep[]>([
+    { id: "a", label: t("demo.chat.searched"), state: "done" },
+    { id: "b", label: t("demo.chat.read"), state: "done" },
+    { id: "c", label: t("demo.chat.remind"), state: "waiting" },
+  ]);
 
   function send(text: string) {
-    lines.push({ id: lines.length + 1, role: "user", text });
+    sent.push({ id: sent.length + 3, role: "user", text });
     running = true;
     setTimeout(() => {
-      lines.push({ id: lines.length + 1, role: "assistant", text: `You said: *${text}*` });
+      sent.push({ id: sent.length + 3, role: "assistant", text: t("demo.chat.echo", { text }) });
       running = false;
     }, 600);
   }
 </script>
 
 <div class="flex h-[32rem] flex-col gap-3">
-  <ChatMessages label="Conversation" follow={lines.length} class="min-h-0 flex-1">
+  <ChatMessages label={t("demo.chat.conversation")} follow={lines.length} class="min-h-0 flex-1">
     {#each lines as line (line.id)}
-      <ChatMessage role={line.role} text={line.text} marks={[{ text: "Acme Ltd", label: "Company" }]} />
+      <ChatMessage role={line.role} text={line.text} marks={[{ text: "Acme Ltd", label: t("demo.chat.company") }]} />
     {/each}
-    <ChatSteps {steps} summary="3 steps" />
+    <ChatSteps {steps} summary={t("demo.chat.steps", { count: steps.length })} />
     <ApprovalCard
-      title="Send a reminder to Acme Ltd"
-      fields={[{ label: "Invoice", value: "INV-003" }, { label: "To", value: "billing@acme.example" }]}
+      title={t("demo.chat.reminderTitle")}
+      fields={[
+        { label: t("demo.common.invoice"), value: "INV-003" },
+        { label: t("demo.chat.to"), value: "billing@acme.example" },
+      ]}
       state={approval}
-      labels={{ approve: "Approve", deny: "Deny", approved: "Approved", denied: "Denied" }}
+      labels={{
+        approve: t("demo.chat.approve"),
+        deny: t("demo.chat.deny"),
+        approved: t("demo.chat.approved"),
+        denied: t("demo.chat.denied"),
+      }}
       onapprove={() => (approval = "approved")}
       ondeny={() => (approval = "denied")}
     />
   </ChatMessages>
   <ChatComposer
     {running}
-    labels={{ message: "Message", placeholder: "Ask anything…", send: "Send", stop: "Stop", chips: "Context" }}
+    labels={{
+      message: t("demo.chat.message"),
+      placeholder: t("demo.chat.placeholder"),
+      send: t("demo.chat.send"),
+      stop: t("demo.chat.stop"),
+      chips: t("demo.chat.context"),
+    }}
     onsend={send}
     onstop={() => (running = false)}
   >
     {#snippet chips()}
       <ContextChip
-        label="Invoices"
+        label={t("demo.chat.invoices")}
         count={3}
         {pinned}
-        labels={{ pin: "Pin", unpin: "Unpin", remove: "Remove" }}
+        labels={{ pin: t("demo.chat.pin"), unpin: t("demo.chat.unpin"), remove: t("demo.chat.remove") }}
         onpin={() => (pinned = !pinned)}
         onremove={() => {}}
       />

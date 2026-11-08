@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "デフォルト",
+    "secondary": "セカンダリ",
+    "outline": "アウトライン",
+    "ghost": "ゴースト",
+    "destructive": "破壊的",
+    "link": "リンク",
+    "disabled": "無効",
+    "edit": "編集",
+    "open": "開く",
+    "share": "共有",
+    "name": "名前",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "invoice": "請求書"
+  },
+  "button": {
+    "xs": "極小",
+    "sm": "小",
+    "lg": "大",
+    "add": "追加"
+  },
+  "card": {
+    "title": "四半期レポート",
+    "description": "今朝からレビュー可能です。",
+    "content": "12 ページ、3 つのグラフ、取締役会向けの概要。"
+  },
+  "checkbox": {
+    "terms": "利用規約に同意する"
+  },
+  "switch": {
+    "airplane": "機内モード"
+  },
+  "input": {
+    "email": "メールアドレス"
+  },
+  "label": {
+    "news": "ニュースレターを受け取る"
+  },
+  "textarea": {
+    "note": "メモ",
+    "placeholder": "数行書いてください…"
+  },
+  "separator": {
+    "tagline": "Svelte 5 のためのコンポーネント。",
+    "docs": "ドキュメント",
+    "source": "ソース",
+    "looks": "ルック"
+  },
+  "progress": {
+    "upload": "アップロード"
+  },
+  "colorDot": {
+    "colour": "色"
+  },
+  "tabs": {
+    "account": "アカウント",
+    "password": "パスワード",
+    "accountText": "ここで名前とメールアドレスを変更できます。",
+    "passwordText": "ここで新しいパスワードを設定します。",
+    "overview": "概要",
+    "activity": "アクティビティ"
+  },
+  "table": {
+    "caption": "最近の請求書。",
+    "status": "ステータス",
+    "amount": "金額",
+    "paid": "支払済み",
+    "pending": "保留中",
+    "overdue": "期限超過",
+    "total": "合計"
+  },
+  "scrollArea": {
+    "releases": "リリース"
+  },
+  "resizable": {
+    "sidebar": "サイドバー",
+    "content": "コンテンツ",
+    "console": "コンソール"
+  },
+  "select": {
+    "placeholder": "果物を選択",
+    "fruit": "果物",
+    "apple": "りんご",
+    "banana": "バナナ",
+    "cherry": "さくらんぼ"
+  },
+  "picker": {
+    "size": "規模",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "smallHint": "最大 10 人",
+    "mediumHint": "最大 50 人",
+    "largeHint": "全員",
+    "tags": "タグ",
+    "allTags": "すべてのタグ",
+    "bug": "バグ",
+    "idea": "アイデア",
+    "urgent": "緊急"
+  },
+  "combobox": {
+    "placeholder": "ユーザーを検索…",
+    "empty": "見つかりませんでした",
+    "person": "ユーザー",
+    "chosen": "選択済み：{name}"
+  },
+  "tooltip": {
+    "trigger": "ホバーしてください",
+    "content": "2 分前に保存しました"
+  },
+  "toast": {
+    "hint": "レイアウトに Toaster を 1 つ配置し、toast() を呼び出します。",
+    "info": "情報",
+    "error": "エラー",
+    "saved": "ファイルを保存しました。",
+    "failed": "アップロードに失敗しました。"
+  },
+  "dialog": {
+    "title": "プロフィールを編集",
+    "description": "名前を変更して保存してください。"
+  },
+  "askDialog": {
+    "askName": "名前を尋ねる",
+    "askConfirm": "確認を求める",
+    "renameTitle": "ボード名を変更",
+    "rename": "名前を変更",
+    "required": "名前は必須です。",
+    "renamed": "「{name}」に名前を変更しました",
+    "deleteTitle": "ボードを削除しますか？",
+    "deleteText": "カードはごみ箱に移動し、30 日間保持されます。",
+    "onlyBoard": "このボードのみ",
+    "withArchive": "このボードとそのアーカイブ",
+    "deleted": "削除しました（オプション {option}）",
+    "option": "オプション"
+  },
+  "dropdownMenu": {
+    "open": "メニューを開く",
+    "account": "マイアカウント",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "grid": "グリッドを表示",
+    "byName": "名前で並べ替え",
+    "byDate": "日付で並べ替え",
+    "email": "メール",
+    "copyLink": "リンクをコピー",
+    "logout": "ログアウト"
+  },
+  "contextMenu": {
+    "trigger": "ここを右クリック",
+    "back": "戻る",
+    "reload": "再読み込み",
+    "more": "その他のツール",
+    "savePage": "ページを保存…",
+    "devtools": "デベロッパーツール",
+    "bookmarks": "ブックマークを表示"
+  },
+  "chat": {
+    "question": "**期限超過**の請求書はどれですか？",
+    "answer": "期限超過は 1 件です：\n\n- `INV-003`、€ 350.00、Acme Ltd 宛て",
+    "company": "会社",
+    "searched": "請求書を検索しました",
+    "read": "INV-003 を読み取りました",
+    "remind": "リマインダーを送信",
+    "steps": "{count} ステップ",
+    "reminderTitle": "Acme Ltd にリマインダーを送信",
+    "to": "宛先",
+    "approve": "承認",
+    "deny": "拒否",
+    "approved": "承認済み",
+    "denied": "拒否済み",
+    "conversation": "会話",
+    "message": "メッセージ",
+    "placeholder": "何でも聞いてください…",
+    "send": "送信",
+    "stop": "停止",
+    "context": "コンテキスト",
+    "invoices": "請求書",
+    "pin": "ピン留め",
+    "unpin": "ピン留めを解除",
+    "remove": "削除",
+    "echo": "あなたの発言：*{text}*"
+  }
+}

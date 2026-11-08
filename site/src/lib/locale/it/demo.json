@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Predefinito",
+    "secondary": "Secondario",
+    "outline": "Contorno",
+    "ghost": "Trasparente",
+    "destructive": "Distruttivo",
+    "link": "Link",
+    "disabled": "Disattivato",
+    "edit": "Modifica",
+    "open": "Apri",
+    "share": "Condividi",
+    "name": "Nome",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "delete": "Elimina",
+    "invoice": "Fattura"
+  },
+  "button": {
+    "xs": "Molto piccolo",
+    "sm": "Piccolo",
+    "lg": "Grande",
+    "add": "Aggiungi"
+  },
+  "card": {
+    "title": "Report trimestrale",
+    "description": "Pronto per la revisione da stamattina.",
+    "content": "Dodici pagine, tre grafici e un riepilogo per il consiglio di amministrazione."
+  },
+  "checkbox": {
+    "terms": "Accetta i termini"
+  },
+  "switch": {
+    "airplane": "Modalità aereo"
+  },
+  "input": {
+    "email": "Indirizzo email"
+  },
+  "label": {
+    "news": "Inviami la newsletter"
+  },
+  "textarea": {
+    "note": "Nota",
+    "placeholder": "Scrivi qualche riga…"
+  },
+  "separator": {
+    "tagline": "Componenti per Svelte 5.",
+    "docs": "Documentazione",
+    "source": "Sorgente",
+    "looks": "Temi"
+  },
+  "progress": {
+    "upload": "Caricamento"
+  },
+  "colorDot": {
+    "colour": "Colore"
+  },
+  "tabs": {
+    "account": "Account",
+    "password": "Password",
+    "accountText": "Modifica qui il tuo nome e la tua email.",
+    "passwordText": "Scegli qui una nuova password.",
+    "overview": "Panoramica",
+    "activity": "Attività"
+  },
+  "table": {
+    "caption": "Fatture recenti.",
+    "status": "Stato",
+    "amount": "Importo",
+    "paid": "Pagata",
+    "pending": "In attesa",
+    "overdue": "Scaduta",
+    "total": "Totale"
+  },
+  "scrollArea": {
+    "releases": "Versioni"
+  },
+  "resizable": {
+    "sidebar": "Barra laterale",
+    "content": "Contenuto",
+    "console": "Console"
+  },
+  "select": {
+    "placeholder": "Scegli un frutto",
+    "fruit": "Frutto",
+    "apple": "Mela",
+    "banana": "Banana",
+    "cherry": "Ciliegia"
+  },
+  "picker": {
+    "size": "Dimensione",
+    "small": "Piccola",
+    "medium": "Media",
+    "large": "Grande",
+    "smallHint": "Fino a 10 persone",
+    "mediumHint": "Fino a 50 persone",
+    "largeHint": "Tutti",
+    "tags": "Tag",
+    "allTags": "Tutti i tag",
+    "bug": "Bug",
+    "idea": "Idea",
+    "urgent": "Urgente"
+  },
+  "combobox": {
+    "placeholder": "Cerca persone…",
+    "empty": "Nessuno trovato",
+    "person": "Persona",
+    "chosen": "Selezionato: {name}"
+  },
+  "tooltip": {
+    "trigger": "Passa il mouse qui",
+    "content": "Salvato due minuti fa"
+  },
+  "toast": {
+    "hint": "Monta un solo Toaster nel layout, poi chiama toast().",
+    "info": "Info",
+    "error": "Errore",
+    "saved": "Il file è stato salvato.",
+    "failed": "Il caricamento non è riuscito."
+  },
+  "dialog": {
+    "title": "Modifica profilo",
+    "description": "Modifica il tuo nome, poi salva."
+  },
+  "askDialog": {
+    "askName": "Chiedi un nome",
+    "askConfirm": "Chiedi conferma",
+    "renameTitle": "Rinomina bacheca",
+    "rename": "Rinomina",
+    "required": "Il nome è obbligatorio.",
+    "renamed": "Rinominata in “{name}”",
+    "deleteTitle": "Eliminare la bacheca?",
+    "deleteText": "Le sue schede finiscono nel cestino per 30 giorni.",
+    "onlyBoard": "Solo questa bacheca",
+    "withArchive": "Questa bacheca e il suo archivio",
+    "deleted": "Eliminata (opzione {option})",
+    "option": "Opzione"
+  },
+  "dropdownMenu": {
+    "open": "Apri menu",
+    "account": "Il mio account",
+    "profile": "Profilo",
+    "settings": "Impostazioni",
+    "grid": "Mostra griglia",
+    "byName": "Ordina per nome",
+    "byDate": "Ordina per data",
+    "email": "Email",
+    "copyLink": "Copia link",
+    "logout": "Esci"
+  },
+  "contextMenu": {
+    "trigger": "Fai clic destro qui",
+    "back": "Indietro",
+    "reload": "Ricarica",
+    "more": "Altri strumenti",
+    "savePage": "Salva pagina…",
+    "devtools": "Strumenti per sviluppatori",
+    "bookmarks": "Mostra segnalibri"
+  },
+  "chat": {
+    "question": "Quali fatture sono **scadute**?",
+    "answer": "Una è scaduta:\n\n- `INV-003`, € 350.00, per Acme Ltd",
+    "company": "Azienda",
+    "searched": "Fatture cercate",
+    "read": "Letta INV-003",
+    "remind": "Invia un promemoria",
+    "steps": "{count} passaggi",
+    "reminderTitle": "Invia un promemoria ad Acme Ltd",
+    "to": "A",
+    "approve": "Approva",
+    "deny": "Rifiuta",
+    "approved": "Approvato",
+    "denied": "Rifiutato",
+    "conversation": "Conversazione",
+    "message": "Messaggio",
+    "placeholder": "Chiedi qualsiasi cosa…",
+    "send": "Invia",
+    "stop": "Interrompi",
+    "context": "Contesto",
+    "invoices": "Fatture",
+    "pin": "Fissa",
+    "unpin": "Sblocca",
+    "remove": "Rimuovi",
+    "echo": "Hai detto: *{text}*"
+  }
+}

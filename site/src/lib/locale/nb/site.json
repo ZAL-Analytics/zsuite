@@ -1,0 +1,10 @@
+{
+  "intro": "Svelte 5-komponenter på Bits UI med støtte for høyre-til-venstre-skrift, designtokens og kjøretiden for .zth-utseender.",
+  "hint": "Velg et utseende, et språk og lys eller mørk modus øverst for å se hver komponent i hver variant.",
+  "preview": "Forhåndsvisning",
+  "code": "Kode",
+  "look": "Utseende",
+  "language": "Språk",
+  "dark": "Slå mørk modus av/på",
+  "close": "Lukk"
+}

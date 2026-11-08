@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "افتراضي",
+    "secondary": "ثانوي",
+    "outline": "محدَّد",
+    "ghost": "شفاف",
+    "destructive": "تدميري",
+    "link": "رابط",
+    "disabled": "معطَّل",
+    "edit": "تعديل",
+    "open": "فتح",
+    "share": "مشاركة",
+    "name": "الاسم",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "invoice": "فاتورة"
+  },
+  "button": {
+    "xs": "صغير جدًا",
+    "sm": "صغير",
+    "lg": "كبير",
+    "add": "إضافة"
+  },
+  "card": {
+    "title": "التقرير الفصلي",
+    "description": "جاهز للمراجعة منذ هذا الصباح.",
+    "content": "اثنتا عشرة صفحة وثلاثة مخططات وملخص لمجلس الإدارة."
+  },
+  "checkbox": {
+    "terms": "أوافق على الشروط"
+  },
+  "switch": {
+    "airplane": "وضع الطيران"
+  },
+  "input": {
+    "email": "البريد الإلكتروني"
+  },
+  "label": {
+    "news": "أرسل لي النشرة الإخبارية"
+  },
+  "textarea": {
+    "note": "ملاحظة",
+    "placeholder": "اكتب بضعة أسطر…"
+  },
+  "separator": {
+    "tagline": "مكوّنات لـ Svelte 5.",
+    "docs": "التوثيق",
+    "source": "المصدر",
+    "looks": "المظاهر"
+  },
+  "progress": {
+    "upload": "الرفع"
+  },
+  "colorDot": {
+    "colour": "اللون"
+  },
+  "tabs": {
+    "account": "الحساب",
+    "password": "كلمة المرور",
+    "accountText": "غيّر اسمك وبريدك الإلكتروني هنا.",
+    "passwordText": "اختر كلمة مرور جديدة هنا.",
+    "overview": "نظرة عامة",
+    "activity": "النشاط"
+  },
+  "table": {
+    "caption": "الفواتير الأخيرة.",
+    "status": "الحالة",
+    "amount": "المبلغ",
+    "paid": "مدفوعة",
+    "pending": "قيد الانتظار",
+    "overdue": "متأخرة",
+    "total": "الإجمالي"
+  },
+  "scrollArea": {
+    "releases": "الإصدارات"
+  },
+  "resizable": {
+    "sidebar": "الشريط الجانبي",
+    "content": "المحتوى",
+    "console": "وحدة التحكم"
+  },
+  "select": {
+    "placeholder": "اختر فاكهة",
+    "fruit": "الفاكهة",
+    "apple": "تفاح",
+    "banana": "موز",
+    "cherry": "كرز"
+  },
+  "picker": {
+    "size": "الحجم",
+    "small": "صغير",
+    "medium": "متوسط",
+    "large": "كبير",
+    "smallHint": "حتى 10 أشخاص",
+    "mediumHint": "حتى 50 شخصًا",
+    "largeHint": "الجميع",
+    "tags": "الوسوم",
+    "allTags": "كل الوسوم",
+    "bug": "خلل",
+    "idea": "فكرة",
+    "urgent": "عاجل"
+  },
+  "combobox": {
+    "placeholder": "ابحث عن أشخاص…",
+    "empty": "لم يُعثر على أحد",
+    "person": "شخص",
+    "chosen": "المختار: {name}"
+  },
+  "tooltip": {
+    "trigger": "مرّر المؤشر هنا",
+    "content": "حُفظ قبل دقيقتين"
+  },
+  "toast": {
+    "hint": "ضع Toaster واحدًا في التخطيط، ثم استدعِ toast().",
+    "info": "معلومة",
+    "error": "خطأ",
+    "saved": "حُفظ الملف.",
+    "failed": "فشل الرفع."
+  },
+  "dialog": {
+    "title": "تعديل الملف الشخصي",
+    "description": "غيّر اسمك، ثم احفظ."
+  },
+  "askDialog": {
+    "askName": "طلب اسم",
+    "askConfirm": "طلب تأكيد",
+    "renameTitle": "إعادة تسمية اللوحة",
+    "rename": "إعادة تسمية",
+    "required": "الاسم مطلوب.",
+    "renamed": "أُعيدت التسمية إلى «{name}»",
+    "deleteTitle": "حذف اللوحة؟",
+    "deleteText": "تنتقل بطاقاتها إلى سلة المهملات لمدة 30 يومًا.",
+    "onlyBoard": "هذه اللوحة فقط",
+    "withArchive": "هذه اللوحة وأرشيفها",
+    "deleted": "حُذفت (الخيار {option})",
+    "option": "الخيار"
+  },
+  "dropdownMenu": {
+    "open": "فتح القائمة",
+    "account": "حسابي",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "grid": "إظهار الشبكة",
+    "byName": "ترتيب حسب الاسم",
+    "byDate": "ترتيب حسب التاريخ",
+    "email": "البريد الإلكتروني",
+    "copyLink": "نسخ الرابط",
+    "logout": "تسجيل الخروج"
+  },
+  "contextMenu": {
+    "trigger": "انقر بزر الفأرة الأيمن هنا",
+    "back": "رجوع",
+    "reload": "إعادة التحميل",
+    "more": "أدوات إضافية",
+    "savePage": "حفظ الصفحة…",
+    "devtools": "أدوات المطوّرين",
+    "bookmarks": "إظهار الإشارات المرجعية"
+  },
+  "chat": {
+    "question": "ما الفواتير **المتأخرة**؟",
+    "answer": "فاتورة واحدة متأخرة:\n\n- `INV-003`، € 350.00، لـ Acme Ltd",
+    "company": "الشركة",
+    "searched": "تم البحث في الفواتير",
+    "read": "تمت قراءة INV-003",
+    "remind": "إرسال تذكير",
+    "steps": "{count} خطوات",
+    "reminderTitle": "إرسال تذكير إلى Acme Ltd",
+    "to": "إلى",
+    "approve": "موافقة",
+    "deny": "رفض",
+    "approved": "تمت الموافقة",
+    "denied": "مرفوض",
+    "conversation": "المحادثة",
+    "message": "الرسالة",
+    "placeholder": "اسأل عن أي شيء…",
+    "send": "إرسال",
+    "stop": "إيقاف",
+    "context": "السياق",
+    "invoices": "الفواتير",
+    "pin": "تثبيت",
+    "unpin": "إلغاء التثبيت",
+    "remove": "إزالة",
+    "echo": "قلتَ: *{text}*"
+  }
+}

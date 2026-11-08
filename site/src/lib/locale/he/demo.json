@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "ברירת מחדל",
+    "secondary": "משני",
+    "outline": "מתאר",
+    "ghost": "שקוף",
+    "destructive": "הרסני",
+    "link": "קישור",
+    "disabled": "מושבת",
+    "edit": "עריכה",
+    "open": "פתיחה",
+    "share": "שיתוף",
+    "name": "שם",
+    "cancel": "ביטול",
+    "save": "שמירה",
+    "delete": "מחיקה",
+    "invoice": "חשבונית"
+  },
+  "button": {
+    "xs": "קטן מאוד",
+    "sm": "קטן",
+    "lg": "גדול",
+    "add": "הוספה"
+  },
+  "card": {
+    "title": "דוח רבעוני",
+    "description": "מוכן לבדיקה מהבוקר.",
+    "content": "שנים־עשר עמודים, שלושה תרשימים וסיכום עבור ההנהלה."
+  },
+  "checkbox": {
+    "terms": "אני מקבל/ת את התנאים"
+  },
+  "switch": {
+    "airplane": "מצב טיסה"
+  },
+  "input": {
+    "email": "כתובת אימייל"
+  },
+  "label": {
+    "news": "שלחו לי את הניוזלטר"
+  },
+  "textarea": {
+    "note": "הערה",
+    "placeholder": "כתבו כמה שורות…"
+  },
+  "separator": {
+    "tagline": "רכיבים עבור Svelte 5.",
+    "docs": "תיעוד",
+    "source": "קוד מקור",
+    "looks": "מראות"
+  },
+  "progress": {
+    "upload": "העלאה"
+  },
+  "colorDot": {
+    "colour": "צבע"
+  },
+  "tabs": {
+    "account": "חשבון",
+    "password": "סיסמה",
+    "accountText": "כאן אפשר לשנות את השם והאימייל שלך.",
+    "passwordText": "כאן בוחרים סיסמה חדשה.",
+    "overview": "סקירה כללית",
+    "activity": "פעילות"
+  },
+  "table": {
+    "caption": "חשבוניות אחרונות.",
+    "status": "סטטוס",
+    "amount": "סכום",
+    "paid": "שולם",
+    "pending": "ממתין",
+    "overdue": "באיחור",
+    "total": "סה״כ"
+  },
+  "scrollArea": {
+    "releases": "גרסאות"
+  },
+  "resizable": {
+    "sidebar": "סרגל צד",
+    "content": "תוכן",
+    "console": "מסוף"
+  },
+  "select": {
+    "placeholder": "בחרו פרי",
+    "fruit": "פרי",
+    "apple": "תפוח",
+    "banana": "בננה",
+    "cherry": "דובדבן"
+  },
+  "picker": {
+    "size": "גודל",
+    "small": "קטן",
+    "medium": "בינוני",
+    "large": "גדול",
+    "smallHint": "עד 10 אנשים",
+    "mediumHint": "עד 50 אנשים",
+    "largeHint": "כולם",
+    "tags": "תגיות",
+    "allTags": "כל התגיות",
+    "bug": "באג",
+    "idea": "רעיון",
+    "urgent": "דחוף"
+  },
+  "combobox": {
+    "placeholder": "חיפוש אנשים…",
+    "empty": "לא נמצא אף אחד",
+    "person": "אדם",
+    "chosen": "נבחר: {name}"
+  },
+  "tooltip": {
+    "trigger": "רחפו מעליי",
+    "content": "נשמר לפני שתי דקות"
+  },
+  "toast": {
+    "hint": "הציבו Toaster אחד בפריסה, ואז קראו ל־toast().",
+    "info": "מידע",
+    "error": "שגיאה",
+    "saved": "הקובץ נשמר.",
+    "failed": "ההעלאה נכשלה."
+  },
+  "dialog": {
+    "title": "עריכת פרופיל",
+    "description": "שנו את השם ואז שמרו."
+  },
+  "askDialog": {
+    "askName": "בקשת שם",
+    "askConfirm": "בקשת אישור",
+    "renameTitle": "שינוי שם הלוח",
+    "rename": "שינוי שם",
+    "required": "יש להזין שם.",
+    "renamed": "השם שונה ל־„{name}”",
+    "deleteTitle": "למחוק את הלוח?",
+    "deleteText": "הכרטיסים שלו יועברו לסל המחזור למשך 30 יום.",
+    "onlyBoard": "רק הלוח הזה",
+    "withArchive": "הלוח הזה והארכיון שלו",
+    "deleted": "נמחק (אפשרות {option})",
+    "option": "אפשרות"
+  },
+  "dropdownMenu": {
+    "open": "פתיחת תפריט",
+    "account": "החשבון שלי",
+    "profile": "פרופיל",
+    "settings": "הגדרות",
+    "grid": "הצגת רשת",
+    "byName": "מיון לפי שם",
+    "byDate": "מיון לפי תאריך",
+    "email": "אימייל",
+    "copyLink": "העתקת קישור",
+    "logout": "התנתקות"
+  },
+  "contextMenu": {
+    "trigger": "לחצו כאן לחיצה ימנית",
+    "back": "חזרה",
+    "reload": "טעינה מחדש",
+    "more": "כלים נוספים",
+    "savePage": "שמירת הדף…",
+    "devtools": "כלים למפתחים",
+    "bookmarks": "הצגת סימניות"
+  },
+  "chat": {
+    "question": "אילו חשבוניות **באיחור**?",
+    "answer": "אחת באיחור:\n\n- `INV-003`, € 350.00, עבור Acme Ltd",
+    "company": "חברה",
+    "searched": "חיפוש בחשבוניות",
+    "read": "נקרא INV-003",
+    "remind": "שליחת תזכורת",
+    "steps": "{count} שלבים",
+    "reminderTitle": "שליחת תזכורת ל־Acme Ltd",
+    "to": "אל",
+    "approve": "אישור",
+    "deny": "דחייה",
+    "approved": "אושר",
+    "denied": "נדחה",
+    "conversation": "שיחה",
+    "message": "הודעה",
+    "placeholder": "שאלו כל דבר…",
+    "send": "שליחה",
+    "stop": "עצירה",
+    "context": "הקשר",
+    "invoices": "חשבוניות",
+    "pin": "הצמדה",
+    "unpin": "ביטול הצמדה",
+    "remove": "הסרה",
+    "echo": "אמרת: *{text}*"
+  }
+}

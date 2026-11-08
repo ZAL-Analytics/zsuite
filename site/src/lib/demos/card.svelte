@@ -1,17 +1,18 @@
 <script lang="ts">
   import { Button } from "@zsuite/ui/button";
   import * as Card from "@zsuite/ui/card";
+  import { t } from "@zsuite/ui/i18n";
 </script>
 
 <Card.Root class="max-w-sm">
   <Card.Header>
-    <Card.Title>Quarterly report</Card.Title>
-    <Card.Description>Ready for review since this morning.</Card.Description>
-    <Card.Action><Button variant="ghost" size="sm">Edit</Button></Card.Action>
+    <Card.Title>{t("demo.card.title")}</Card.Title>
+    <Card.Description>{t("demo.card.description")}</Card.Description>
+    <Card.Action><Button variant="ghost" size="sm">{t("demo.common.edit")}</Button></Card.Action>
   </Card.Header>
-  <Card.Content class="text-sm">Twelve pages, three charts and a summary for the board.</Card.Content>
+  <Card.Content class="text-sm">{t("demo.card.content")}</Card.Content>
   <Card.Footer class="gap-2">
-    <Button size="sm">Open</Button>
-    <Button size="sm" variant="outline">Share</Button>
+    <Button size="sm">{t("demo.common.open")}</Button>
+    <Button size="sm" variant="outline">{t("demo.common.share")}</Button>
   </Card.Footer>
 </Card.Root>

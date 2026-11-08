@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Standaard",
+    "secondary": "Secundair",
+    "outline": "Omlijnd",
+    "ghost": "Ghost",
+    "destructive": "Destructief",
+    "link": "Link",
+    "disabled": "Uitgeschakeld",
+    "edit": "Bewerken",
+    "open": "Openen",
+    "share": "Delen",
+    "name": "Naam",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "invoice": "Factuur"
+  },
+  "button": {
+    "xs": "Extra klein",
+    "sm": "Klein",
+    "lg": "Groot",
+    "add": "Toevoegen"
+  },
+  "card": {
+    "title": "Kwartaalrapport",
+    "description": "Sinds vanochtend klaar voor review.",
+    "content": "Twaalf pagina’s, drie grafieken en een samenvatting voor het bestuur."
+  },
+  "checkbox": {
+    "terms": "Accepteer de voorwaarden"
+  },
+  "switch": {
+    "airplane": "Vliegtuigmodus"
+  },
+  "input": {
+    "email": "E-mailadres"
+  },
+  "label": {
+    "news": "Stuur mij de nieuwsbrief"
+  },
+  "textarea": {
+    "note": "Notitie",
+    "placeholder": "Schrijf een paar regels…"
+  },
+  "separator": {
+    "tagline": "Componenten voor Svelte 5.",
+    "docs": "Docs",
+    "source": "Broncode",
+    "looks": "Looks"
+  },
+  "progress": {
+    "upload": "Uploaden"
+  },
+  "colorDot": {
+    "colour": "Kleur"
+  },
+  "tabs": {
+    "account": "Account",
+    "password": "Wachtwoord",
+    "accountText": "Wijzig hier je naam en e-mailadres.",
+    "passwordText": "Kies hier een nieuw wachtwoord.",
+    "overview": "Overzicht",
+    "activity": "Activiteit"
+  },
+  "table": {
+    "caption": "Recente facturen.",
+    "status": "Status",
+    "amount": "Bedrag",
+    "paid": "Betaald",
+    "pending": "In behandeling",
+    "overdue": "Achterstallig",
+    "total": "Totaal"
+  },
+  "scrollArea": {
+    "releases": "Releases"
+  },
+  "resizable": {
+    "sidebar": "Zijbalk",
+    "content": "Inhoud",
+    "console": "Console"
+  },
+  "select": {
+    "placeholder": "Kies een fruitsoort",
+    "fruit": "Fruit",
+    "apple": "Appel",
+    "banana": "Banaan",
+    "cherry": "Kers"
+  },
+  "picker": {
+    "size": "Grootte",
+    "small": "Klein",
+    "medium": "Middel",
+    "large": "Groot",
+    "smallHint": "Tot 10 personen",
+    "mediumHint": "Tot 50 personen",
+    "largeHint": "Iedereen",
+    "tags": "Tags",
+    "allTags": "Alle tags",
+    "bug": "Bug",
+    "idea": "Idee",
+    "urgent": "Urgent"
+  },
+  "combobox": {
+    "placeholder": "Zoek personen…",
+    "empty": "Niemand gevonden",
+    "person": "Persoon",
+    "chosen": "Gekozen: {name}"
+  },
+  "tooltip": {
+    "trigger": "Beweeg hierover",
+    "content": "Twee minuten geleden opgeslagen"
+  },
+  "toast": {
+    "hint": "Plaats één Toaster in de layout en roep daarna toast() aan.",
+    "info": "Info",
+    "error": "Fout",
+    "saved": "Het bestand is opgeslagen.",
+    "failed": "Het uploaden is mislukt."
+  },
+  "dialog": {
+    "title": "Profiel bewerken",
+    "description": "Wijzig je naam en sla daarna op."
+  },
+  "askDialog": {
+    "askName": "Vraag om een naam",
+    "askConfirm": "Vraag om bevestiging",
+    "renameTitle": "Bord hernoemen",
+    "rename": "Hernoemen",
+    "required": "Een naam is verplicht.",
+    "renamed": "Hernoemd naar ‘{name}’",
+    "deleteTitle": "Bord verwijderen?",
+    "deleteText": "De kaarten gaan 30 dagen naar de prullenbak.",
+    "onlyBoard": "Alleen dit bord",
+    "withArchive": "Dit bord en het archief ervan",
+    "deleted": "Verwijderd (optie {option})",
+    "option": "Optie"
+  },
+  "dropdownMenu": {
+    "open": "Menu openen",
+    "account": "Mijn account",
+    "profile": "Profiel",
+    "settings": "Instellingen",
+    "grid": "Raster tonen",
+    "byName": "Sorteren op naam",
+    "byDate": "Sorteren op datum",
+    "email": "E-mail",
+    "copyLink": "Link kopiëren",
+    "logout": "Afmelden"
+  },
+  "contextMenu": {
+    "trigger": "Klik hier met rechts",
+    "back": "Terug",
+    "reload": "Opnieuw laden",
+    "more": "Meer hulpmiddelen",
+    "savePage": "Pagina opslaan…",
+    "devtools": "Ontwikkelaarstools",
+    "bookmarks": "Bladwijzers tonen"
+  },
+  "chat": {
+    "question": "Welke facturen zijn **achterstallig**?",
+    "answer": "Er is er één achterstallig:\n\n- `INV-003`, € 350.00, voor Acme Ltd",
+    "company": "Bedrijf",
+    "searched": "Facturen doorzocht",
+    "read": "INV-003 gelezen",
+    "remind": "Herinnering sturen",
+    "steps": "{count} stappen",
+    "reminderTitle": "Herinnering sturen naar Acme Ltd",
+    "to": "Aan",
+    "approve": "Goedkeuren",
+    "deny": "Weigeren",
+    "approved": "Goedgekeurd",
+    "denied": "Geweigerd",
+    "conversation": "Gesprek",
+    "message": "Bericht",
+    "placeholder": "Vraag iets…",
+    "send": "Versturen",
+    "stop": "Stoppen",
+    "context": "Context",
+    "invoices": "Facturen",
+    "pin": "Vastzetten",
+    "unpin": "Losmaken",
+    "remove": "Verwijderen",
+    "echo": "Je zei: *{text}*"
+  }
+}

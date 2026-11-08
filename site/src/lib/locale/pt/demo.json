@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Padrão",
+    "secondary": "Secundário",
+    "outline": "Contorno",
+    "ghost": "Fantasma",
+    "destructive": "Destrutivo",
+    "link": "Link",
+    "disabled": "Desativado",
+    "edit": "Editar",
+    "open": "Abrir",
+    "share": "Partilhar",
+    "name": "Nome",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "invoice": "Fatura"
+  },
+  "button": {
+    "xs": "Muito pequeno",
+    "sm": "Pequeno",
+    "lg": "Grande",
+    "add": "Adicionar"
+  },
+  "card": {
+    "title": "Relatório trimestral",
+    "description": "Pronto para revisão desde esta manhã.",
+    "content": "Doze páginas, três gráficos e um resumo para a administração."
+  },
+  "checkbox": {
+    "terms": "Aceitar os termos"
+  },
+  "switch": {
+    "airplane": "Modo de voo"
+  },
+  "input": {
+    "email": "Endereço de e-mail"
+  },
+  "label": {
+    "news": "Enviar-me a newsletter"
+  },
+  "textarea": {
+    "note": "Nota",
+    "placeholder": "Escreva algumas linhas…"
+  },
+  "separator": {
+    "tagline": "Componentes para Svelte 5.",
+    "docs": "Documentação",
+    "source": "Código-fonte",
+    "looks": "Estilos"
+  },
+  "progress": {
+    "upload": "Envio"
+  },
+  "colorDot": {
+    "colour": "Cor"
+  },
+  "tabs": {
+    "account": "Conta",
+    "password": "Palavra-passe",
+    "accountText": "Altere aqui o seu nome e e-mail.",
+    "passwordText": "Escolha aqui uma nova palavra-passe.",
+    "overview": "Visão geral",
+    "activity": "Atividade"
+  },
+  "table": {
+    "caption": "Faturas recentes.",
+    "status": "Estado",
+    "amount": "Montante",
+    "paid": "Paga",
+    "pending": "Pendente",
+    "overdue": "Em atraso",
+    "total": "Total"
+  },
+  "scrollArea": {
+    "releases": "Versões"
+  },
+  "resizable": {
+    "sidebar": "Barra lateral",
+    "content": "Conteúdo",
+    "console": "Consola"
+  },
+  "select": {
+    "placeholder": "Escolha uma fruta",
+    "fruit": "Fruta",
+    "apple": "Maçã",
+    "banana": "Banana",
+    "cherry": "Cereja"
+  },
+  "picker": {
+    "size": "Tamanho",
+    "small": "Pequeno",
+    "medium": "Médio",
+    "large": "Grande",
+    "smallHint": "Até 10 pessoas",
+    "mediumHint": "Até 50 pessoas",
+    "largeHint": "Todos",
+    "tags": "Etiquetas",
+    "allTags": "Todas as etiquetas",
+    "bug": "Erro",
+    "idea": "Ideia",
+    "urgent": "Urgente"
+  },
+  "combobox": {
+    "placeholder": "Pesquisar pessoas…",
+    "empty": "Ninguém encontrado",
+    "person": "Pessoa",
+    "chosen": "Escolhido: {name}"
+  },
+  "tooltip": {
+    "trigger": "Passe o cursor",
+    "content": "Guardado há dois minutos"
+  },
+  "toast": {
+    "hint": "Monte um Toaster no layout e depois chame toast().",
+    "info": "Informação",
+    "error": "Erro",
+    "saved": "O ficheiro foi guardado.",
+    "failed": "O envio falhou."
+  },
+  "dialog": {
+    "title": "Editar perfil",
+    "description": "Altere o seu nome e depois guarde."
+  },
+  "askDialog": {
+    "askName": "Pedir um nome",
+    "askConfirm": "Pedir confirmação",
+    "renameTitle": "Mudar o nome do quadro",
+    "rename": "Mudar o nome",
+    "required": "O nome é obrigatório.",
+    "renamed": "Nome alterado para “{name}”",
+    "deleteTitle": "Eliminar o quadro?",
+    "deleteText": "Os seus cartões vão para o lixo durante 30 dias.",
+    "onlyBoard": "Apenas este quadro",
+    "withArchive": "Este quadro e o seu arquivo",
+    "deleted": "Eliminado (opção {option})",
+    "option": "Opção"
+  },
+  "dropdownMenu": {
+    "open": "Abrir menu",
+    "account": "A minha conta",
+    "profile": "Perfil",
+    "settings": "Definições",
+    "grid": "Mostrar grelha",
+    "byName": "Ordenar por nome",
+    "byDate": "Ordenar por data",
+    "email": "E-mail",
+    "copyLink": "Copiar link",
+    "logout": "Terminar sessão"
+  },
+  "contextMenu": {
+    "trigger": "Clique aqui com o botão direito",
+    "back": "Voltar",
+    "reload": "Recarregar",
+    "more": "Mais ferramentas",
+    "savePage": "Guardar página…",
+    "devtools": "Ferramentas de programador",
+    "bookmarks": "Mostrar marcadores"
+  },
+  "chat": {
+    "question": "Que faturas estão **em atraso**?",
+    "answer": "Há uma em atraso:\n\n- `INV-003`, € 350.00, para Acme Ltd",
+    "company": "Empresa",
+    "searched": "Faturas pesquisadas",
+    "read": "INV-003 lida",
+    "remind": "Enviar um lembrete",
+    "steps": "{count} passos",
+    "reminderTitle": "Enviar um lembrete à Acme Ltd",
+    "to": "Para",
+    "approve": "Aprovar",
+    "deny": "Recusar",
+    "approved": "Aprovado",
+    "denied": "Recusado",
+    "conversation": "Conversa",
+    "message": "Mensagem",
+    "placeholder": "Pergunte o que quiser…",
+    "send": "Enviar",
+    "stop": "Parar",
+    "context": "Contexto",
+    "invoices": "Faturas",
+    "pin": "Fixar",
+    "unpin": "Desafixar",
+    "remove": "Remover",
+    "echo": "Disse: *{text}*"
+  }
+}

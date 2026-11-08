@@ -1,0 +1,10 @@
+{
+  "intro": "Componentes Svelte 5 sobre Bits UI com suporte para escrita da direita para a esquerda, design tokens e o runtime para os estilos .zth.",
+  "hint": "Escolha um estilo, um idioma e o modo claro ou escuro no topo para ver cada componente em cada um.",
+  "preview": "Pré-visualização",
+  "code": "Código",
+  "look": "Estilo",
+  "language": "Idioma",
+  "dark": "Alternar modo escuro",
+  "close": "Fechar"
+}

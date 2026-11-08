@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Default",
+    "secondary": "Secondary",
+    "outline": "Outline",
+    "ghost": "Ghost",
+    "destructive": "Destructive",
+    "link": "Link",
+    "disabled": "Disabled",
+    "edit": "Edit",
+    "open": "Open",
+    "share": "Share",
+    "name": "Name",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "invoice": "Invoice"
+  },
+  "button": {
+    "xs": "Extra small",
+    "sm": "Small",
+    "lg": "Large",
+    "add": "Add"
+  },
+  "card": {
+    "title": "Quarterly report",
+    "description": "Ready for review since this morning.",
+    "content": "Twelve pages, three charts and a summary for the board."
+  },
+  "checkbox": {
+    "terms": "Accept the terms"
+  },
+  "switch": {
+    "airplane": "Airplane mode"
+  },
+  "input": {
+    "email": "Email address"
+  },
+  "label": {
+    "news": "Send me the newsletter"
+  },
+  "textarea": {
+    "note": "Note",
+    "placeholder": "Write a few lines…"
+  },
+  "separator": {
+    "tagline": "Components for Svelte 5.",
+    "docs": "Docs",
+    "source": "Source",
+    "looks": "Looks"
+  },
+  "progress": {
+    "upload": "Upload"
+  },
+  "colorDot": {
+    "colour": "Colour"
+  },
+  "tabs": {
+    "account": "Account",
+    "password": "Password",
+    "accountText": "Change your name and email here.",
+    "passwordText": "Pick a new password here.",
+    "overview": "Overview",
+    "activity": "Activity"
+  },
+  "table": {
+    "caption": "Recent invoices.",
+    "status": "Status",
+    "amount": "Amount",
+    "paid": "Paid",
+    "pending": "Pending",
+    "overdue": "Overdue",
+    "total": "Total"
+  },
+  "scrollArea": {
+    "releases": "Releases"
+  },
+  "resizable": {
+    "sidebar": "Sidebar",
+    "content": "Content",
+    "console": "Console"
+  },
+  "select": {
+    "placeholder": "Pick a fruit",
+    "fruit": "Fruit",
+    "apple": "Apple",
+    "banana": "Banana",
+    "cherry": "Cherry"
+  },
+  "picker": {
+    "size": "Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "smallHint": "Up to 10 people",
+    "mediumHint": "Up to 50 people",
+    "largeHint": "Everyone",
+    "tags": "Tags",
+    "allTags": "All tags",
+    "bug": "Bug",
+    "idea": "Idea",
+    "urgent": "Urgent"
+  },
+  "combobox": {
+    "placeholder": "Search people…",
+    "empty": "Nobody found",
+    "person": "Person",
+    "chosen": "Chosen: {name}"
+  },
+  "tooltip": {
+    "trigger": "Hover me",
+    "content": "Saved two minutes ago"
+  },
+  "toast": {
+    "hint": "Mount one Toaster in the layout, then call toast().",
+    "info": "Info",
+    "error": "Error",
+    "saved": "The file was saved.",
+    "failed": "The upload failed."
+  },
+  "dialog": {
+    "title": "Edit profile",
+    "description": "Change your name, then save."
+  },
+  "askDialog": {
+    "askName": "Ask for a name",
+    "askConfirm": "Ask to confirm",
+    "renameTitle": "Rename board",
+    "rename": "Rename",
+    "required": "A name is required.",
+    "renamed": "Renamed to “{name}”",
+    "deleteTitle": "Delete board?",
+    "deleteText": "Its cards go to the bin for 30 days.",
+    "onlyBoard": "Only this board",
+    "withArchive": "This board and its archive",
+    "deleted": "Deleted (option {option})",
+    "option": "Option"
+  },
+  "dropdownMenu": {
+    "open": "Open menu",
+    "account": "My account",
+    "profile": "Profile",
+    "settings": "Settings",
+    "grid": "Show grid",
+    "byName": "Sort by name",
+    "byDate": "Sort by date",
+    "email": "Email",
+    "copyLink": "Copy link",
+    "logout": "Log out"
+  },
+  "contextMenu": {
+    "trigger": "Right-click here",
+    "back": "Back",
+    "reload": "Reload",
+    "more": "More tools",
+    "savePage": "Save page…",
+    "devtools": "Developer tools",
+    "bookmarks": "Show bookmarks"
+  },
+  "chat": {
+    "question": "Which invoices are **overdue**?",
+    "answer": "One is overdue:\n\n- `INV-003`, € 350.00, for Acme Ltd",
+    "company": "Company",
+    "searched": "Searched invoices",
+    "read": "Read INV-003",
+    "remind": "Send a reminder",
+    "steps": "{count} steps",
+    "reminderTitle": "Send a reminder to Acme Ltd",
+    "to": "To",
+    "approve": "Approve",
+    "deny": "Deny",
+    "approved": "Approved",
+    "denied": "Denied",
+    "conversation": "Conversation",
+    "message": "Message",
+    "placeholder": "Ask anything…",
+    "send": "Send",
+    "stop": "Stop",
+    "context": "Context",
+    "invoices": "Invoices",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "remove": "Remove",
+    "echo": "You said: *{text}*"
+  }
+}

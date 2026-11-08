@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Par défaut",
+    "secondary": "Secondaire",
+    "outline": "Contour",
+    "ghost": "Fantôme",
+    "destructive": "Destructif",
+    "link": "Lien",
+    "disabled": "Désactivé",
+    "edit": "Modifier",
+    "open": "Ouvrir",
+    "share": "Partager",
+    "name": "Nom",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "invoice": "Facture"
+  },
+  "button": {
+    "xs": "Très petit",
+    "sm": "Petit",
+    "lg": "Grand",
+    "add": "Ajouter"
+  },
+  "card": {
+    "title": "Rapport trimestriel",
+    "description": "Prêt pour relecture depuis ce matin.",
+    "content": "Douze pages, trois graphiques et un résumé pour le conseil d’administration."
+  },
+  "checkbox": {
+    "terms": "Accepter les conditions"
+  },
+  "switch": {
+    "airplane": "Mode avion"
+  },
+  "input": {
+    "email": "Adresse e-mail"
+  },
+  "label": {
+    "news": "M’envoyer la newsletter"
+  },
+  "textarea": {
+    "note": "Note",
+    "placeholder": "Écrivez quelques lignes…"
+  },
+  "separator": {
+    "tagline": "Composants pour Svelte 5.",
+    "docs": "Docs",
+    "source": "Source",
+    "looks": "Thèmes"
+  },
+  "progress": {
+    "upload": "Envoi"
+  },
+  "colorDot": {
+    "colour": "Couleur"
+  },
+  "tabs": {
+    "account": "Compte",
+    "password": "Mot de passe",
+    "accountText": "Modifiez votre nom et votre e-mail ici.",
+    "passwordText": "Choisissez un nouveau mot de passe ici.",
+    "overview": "Vue d’ensemble",
+    "activity": "Activité"
+  },
+  "table": {
+    "caption": "Factures récentes.",
+    "status": "Statut",
+    "amount": "Montant",
+    "paid": "Payée",
+    "pending": "En attente",
+    "overdue": "En retard",
+    "total": "Total"
+  },
+  "scrollArea": {
+    "releases": "Versions"
+  },
+  "resizable": {
+    "sidebar": "Barre latérale",
+    "content": "Contenu",
+    "console": "Console"
+  },
+  "select": {
+    "placeholder": "Choisissez un fruit",
+    "fruit": "Fruit",
+    "apple": "Pomme",
+    "banana": "Banane",
+    "cherry": "Cerise"
+  },
+  "picker": {
+    "size": "Taille",
+    "small": "Petite",
+    "medium": "Moyenne",
+    "large": "Grande",
+    "smallHint": "Jusqu’à 10 personnes",
+    "mediumHint": "Jusqu’à 50 personnes",
+    "largeHint": "Tout le monde",
+    "tags": "Étiquettes",
+    "allTags": "Toutes les étiquettes",
+    "bug": "Bug",
+    "idea": "Idée",
+    "urgent": "Urgent"
+  },
+  "combobox": {
+    "placeholder": "Rechercher des personnes…",
+    "empty": "Personne trouvé",
+    "person": "Personne",
+    "chosen": "Choisi : {name}"
+  },
+  "tooltip": {
+    "trigger": "Survolez-moi",
+    "content": "Enregistré il y a deux minutes"
+  },
+  "toast": {
+    "hint": "Montez un seul Toaster dans la mise en page, puis appelez toast().",
+    "info": "Info",
+    "error": "Erreur",
+    "saved": "Le fichier a été enregistré.",
+    "failed": "L’envoi a échoué."
+  },
+  "dialog": {
+    "title": "Modifier le profil",
+    "description": "Modifiez votre nom, puis enregistrez."
+  },
+  "askDialog": {
+    "askName": "Demander un nom",
+    "askConfirm": "Demander une confirmation",
+    "renameTitle": "Renommer le tableau",
+    "rename": "Renommer",
+    "required": "Un nom est obligatoire.",
+    "renamed": "Renommé en « {name} »",
+    "deleteTitle": "Supprimer le tableau ?",
+    "deleteText": "Ses cartes vont à la corbeille pendant 30 jours.",
+    "onlyBoard": "Ce tableau uniquement",
+    "withArchive": "Ce tableau et son archive",
+    "deleted": "Supprimé (option {option})",
+    "option": "Option"
+  },
+  "dropdownMenu": {
+    "open": "Ouvrir le menu",
+    "account": "Mon compte",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "grid": "Afficher la grille",
+    "byName": "Trier par nom",
+    "byDate": "Trier par date",
+    "email": "E-mail",
+    "copyLink": "Copier le lien",
+    "logout": "Se déconnecter"
+  },
+  "contextMenu": {
+    "trigger": "Clic droit ici",
+    "back": "Retour",
+    "reload": "Actualiser",
+    "more": "Plus d’outils",
+    "savePage": "Enregistrer la page…",
+    "devtools": "Outils de développement",
+    "bookmarks": "Afficher les favoris"
+  },
+  "chat": {
+    "question": "Quelles factures sont **en retard** ?",
+    "answer": "Une seule est en retard :\n\n- `INV-003`, € 350.00, pour Acme Ltd",
+    "company": "Entreprise",
+    "searched": "Factures recherchées",
+    "read": "INV-003 lue",
+    "remind": "Envoyer un rappel",
+    "steps": "{count} étapes",
+    "reminderTitle": "Envoyer un rappel à Acme Ltd",
+    "to": "À",
+    "approve": "Approuver",
+    "deny": "Refuser",
+    "approved": "Approuvé",
+    "denied": "Refusé",
+    "conversation": "Conversation",
+    "message": "Message",
+    "placeholder": "Posez une question…",
+    "send": "Envoyer",
+    "stop": "Arrêter",
+    "context": "Contexte",
+    "invoices": "Factures",
+    "pin": "Épingler",
+    "unpin": "Désépingler",
+    "remove": "Retirer",
+    "echo": "Vous avez dit : *{text}*"
+  }
+}

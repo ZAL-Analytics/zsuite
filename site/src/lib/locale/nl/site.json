@@ -1,0 +1,10 @@
+{
+  "intro": "Svelte 5-componenten op Bits UI met ondersteuning voor rechts-naar-links, design tokens en de runtime voor .zth-looks.",
+  "hint": "Kies bovenaan een look, een taal en de lichte of donkere modus om elk component in elk ervan te zien.",
+  "preview": "Voorbeeld",
+  "code": "Code",
+  "look": "Look",
+  "language": "Taal",
+  "dark": "Donkere modus aan/uit",
+  "close": "Sluiten"
+}

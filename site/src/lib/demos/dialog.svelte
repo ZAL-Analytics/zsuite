@@ -1,6 +1,7 @@
 <script lang="ts">
   import { Button, buttonVariants } from "@zsuite/ui/button";
   import * as Dialog from "@zsuite/ui/dialog";
+  import { t } from "@zsuite/ui/i18n";
   import { Input } from "@zsuite/ui/input";
   import { Label } from "@zsuite/ui/label";
 
@@ -8,19 +9,19 @@
 </script>
 
 <Dialog.Root bind:open>
-  <Dialog.Trigger class={buttonVariants({ variant: "outline" })}>Edit profile</Dialog.Trigger>
-  <Dialog.Content>
+  <Dialog.Trigger class={buttonVariants({ variant: "outline" })}>{t("demo.dialog.title")}</Dialog.Trigger>
+  <Dialog.Content closeLabel={t("site.close")}>
     <Dialog.Header>
-      <Dialog.Title>Edit profile</Dialog.Title>
-      <Dialog.Description>Change your name, then save.</Dialog.Description>
+      <Dialog.Title>{t("demo.dialog.title")}</Dialog.Title>
+      <Dialog.Description>{t("demo.dialog.description")}</Dialog.Description>
     </Dialog.Header>
     <div class="grid gap-2">
-      <Label for="dialog-name">Name</Label>
+      <Label for="dialog-name">{t("demo.common.name")}</Label>
       <Input id="dialog-name" value="Jane Doe" />
     </div>
     <Dialog.Footer>
-      <Dialog.Close class={buttonVariants({ variant: "outline" })}>Cancel</Dialog.Close>
-      <Button onclick={() => (open = false)}>Save</Button>
+      <Dialog.Close class={buttonVariants({ variant: "outline" })}>{t("demo.common.cancel")}</Dialog.Close>
+      <Button onclick={() => (open = false)}>{t("demo.common.save")}</Button>
     </Dialog.Footer>
   </Dialog.Content>
 </Dialog.Root>

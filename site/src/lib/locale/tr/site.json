@@ -1,0 +1,10 @@
+{
+  "intro": "Bits UI üzerine kurulu, sağdan sola yazım desteği, tasarım token'ları ve .zth görünümleri için çalışma zamanı sunan Svelte 5 bileşenleri.",
+  "hint": "Her bileşeni hepsinde görmek için üst kısımdan bir görünüm, bir dil ve açık ya da koyu mod seçin.",
+  "preview": "Önizleme",
+  "code": "Kod",
+  "look": "Görünüm",
+  "language": "Dil",
+  "dark": "Koyu modu aç/kapat",
+  "close": "Kapat"
+}

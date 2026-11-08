@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "預設",
+    "secondary": "次要",
+    "outline": "外框",
+    "ghost": "幽靈",
+    "destructive": "危險",
+    "link": "連結",
+    "disabled": "已停用",
+    "edit": "編輯",
+    "open": "開啟",
+    "share": "分享",
+    "name": "名稱",
+    "cancel": "取消",
+    "save": "儲存",
+    "delete": "刪除",
+    "invoice": "發票"
+  },
+  "button": {
+    "xs": "特小",
+    "sm": "小",
+    "lg": "大",
+    "add": "新增"
+  },
+  "card": {
+    "title": "季度報告",
+    "description": "今天早上起已可供審閱。",
+    "content": "十二頁內容、三張圖表，以及一份給董事會的摘要。"
+  },
+  "checkbox": {
+    "terms": "接受條款"
+  },
+  "switch": {
+    "airplane": "飛航模式"
+  },
+  "input": {
+    "email": "電子郵件地址"
+  },
+  "label": {
+    "news": "寄送電子報給我"
+  },
+  "textarea": {
+    "note": "備註",
+    "placeholder": "寫幾行字…"
+  },
+  "separator": {
+    "tagline": "為 Svelte 5 打造的元件。",
+    "docs": "文件",
+    "source": "原始碼",
+    "looks": "外觀"
+  },
+  "progress": {
+    "upload": "上傳"
+  },
+  "colorDot": {
+    "colour": "顏色"
+  },
+  "tabs": {
+    "account": "帳戶",
+    "password": "密碼",
+    "accountText": "在此變更你的姓名和電子郵件。",
+    "passwordText": "在此設定新密碼。",
+    "overview": "總覽",
+    "activity": "動態"
+  },
+  "table": {
+    "caption": "最近的發票。",
+    "status": "狀態",
+    "amount": "金額",
+    "paid": "已付款",
+    "pending": "待處理",
+    "overdue": "已逾期",
+    "total": "總計"
+  },
+  "scrollArea": {
+    "releases": "版本"
+  },
+  "resizable": {
+    "sidebar": "側邊欄",
+    "content": "內容",
+    "console": "主控台"
+  },
+  "select": {
+    "placeholder": "選擇一種水果",
+    "fruit": "水果",
+    "apple": "蘋果",
+    "banana": "香蕉",
+    "cherry": "櫻桃"
+  },
+  "picker": {
+    "size": "規模",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "smallHint": "最多 10 人",
+    "mediumHint": "最多 50 人",
+    "largeHint": "所有人",
+    "tags": "標籤",
+    "allTags": "所有標籤",
+    "bug": "錯誤",
+    "idea": "點子",
+    "urgent": "緊急"
+  },
+  "combobox": {
+    "placeholder": "搜尋人員…",
+    "empty": "找不到任何人",
+    "person": "人員",
+    "chosen": "已選擇：{name}"
+  },
+  "tooltip": {
+    "trigger": "將滑鼠移到這裡",
+    "content": "兩分鐘前已儲存"
+  },
+  "toast": {
+    "hint": "在版面配置中掛載一個 Toaster，然後呼叫 toast()。",
+    "info": "資訊",
+    "error": "錯誤",
+    "saved": "檔案已儲存。",
+    "failed": "上傳失敗。"
+  },
+  "dialog": {
+    "title": "編輯個人資料",
+    "description": "修改你的姓名，然後儲存。"
+  },
+  "askDialog": {
+    "askName": "詢問名稱",
+    "askConfirm": "要求確認",
+    "renameTitle": "重新命名看板",
+    "rename": "重新命名",
+    "required": "名稱為必填。",
+    "renamed": "已重新命名為「{name}」",
+    "deleteTitle": "要刪除看板嗎？",
+    "deleteText": "其卡片會移至垃圾桶並保留 30 天。",
+    "onlyBoard": "僅此看板",
+    "withArchive": "此看板及其封存",
+    "deleted": "已刪除（選項 {option}）",
+    "option": "選項"
+  },
+  "dropdownMenu": {
+    "open": "開啟選單",
+    "account": "我的帳戶",
+    "profile": "個人資料",
+    "settings": "設定",
+    "grid": "顯示格線",
+    "byName": "依名稱排序",
+    "byDate": "依日期排序",
+    "email": "電子郵件",
+    "copyLink": "複製連結",
+    "logout": "登出"
+  },
+  "contextMenu": {
+    "trigger": "在此按右鍵",
+    "back": "返回",
+    "reload": "重新載入",
+    "more": "更多工具",
+    "savePage": "儲存網頁…",
+    "devtools": "開發人員工具",
+    "bookmarks": "顯示書籤"
+  },
+  "chat": {
+    "question": "哪些發票**已逾期**？",
+    "answer": "有一張已逾期：\n\n- `INV-003`，€ 350.00，客戶為 Acme Ltd",
+    "company": "公司",
+    "searched": "已搜尋發票",
+    "read": "已讀取 INV-003",
+    "remind": "傳送提醒",
+    "steps": "{count} 個步驟",
+    "reminderTitle": "傳送提醒給 Acme Ltd",
+    "to": "收件者",
+    "approve": "核准",
+    "deny": "拒絕",
+    "approved": "已核准",
+    "denied": "已拒絕",
+    "conversation": "對話",
+    "message": "訊息",
+    "placeholder": "有問題儘管問…",
+    "send": "傳送",
+    "stop": "停止",
+    "context": "脈絡",
+    "invoices": "發票",
+    "pin": "釘選",
+    "unpin": "取消釘選",
+    "remove": "移除",
+    "echo": "你說：*{text}*"
+  }
+}

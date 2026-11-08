@@ -1,0 +1,10 @@
+{
+  "intro": "Composants Svelte 5 basés sur Bits UI, avec prise en charge de l’écriture de droite à gauche, des design tokens et le moteur d’exécution pour les thèmes .zth.",
+  "hint": "Choisissez un thème, une langue et le mode clair ou sombre en haut pour voir chaque composant dans chacun d’eux.",
+  "preview": "Aperçu",
+  "code": "Code",
+  "look": "Thème",
+  "language": "Langue",
+  "dark": "Activer/désactiver le mode sombre",
+  "close": "Fermer"
+}

@@ -1,0 +1,186 @@
+{
+  "common": {
+    "default": "Standard",
+    "secondary": "Sekundær",
+    "outline": "Omriss",
+    "ghost": "Gjennomsiktig",
+    "destructive": "Destruktiv",
+    "link": "Lenke",
+    "disabled": "Deaktivert",
+    "edit": "Rediger",
+    "open": "Åpne",
+    "share": "Del",
+    "name": "Navn",
+    "cancel": "Avbryt",
+    "save": "Lagre",
+    "delete": "Slett",
+    "invoice": "Faktura"
+  },
+  "button": {
+    "xs": "Ekstra liten",
+    "sm": "Liten",
+    "lg": "Stor",
+    "add": "Legg til"
+  },
+  "card": {
+    "title": "Kvartalsrapport",
+    "description": "Klar for gjennomgang siden i morges.",
+    "content": "Tolv sider, tre diagrammer og et sammendrag for styret."
+  },
+  "checkbox": {
+    "terms": "Godta vilkårene"
+  },
+  "switch": {
+    "airplane": "Flymodus"
+  },
+  "input": {
+    "email": "E-postadresse"
+  },
+  "label": {
+    "news": "Send meg nyhetsbrevet"
+  },
+  "textarea": {
+    "note": "Notat",
+    "placeholder": "Skriv noen linjer…"
+  },
+  "separator": {
+    "tagline": "Komponenter for Svelte 5.",
+    "docs": "Dokumentasjon",
+    "source": "Kildekode",
+    "looks": "Utseender"
+  },
+  "progress": {
+    "upload": "Opplasting"
+  },
+  "colorDot": {
+    "colour": "Farge"
+  },
+  "tabs": {
+    "account": "Konto",
+    "password": "Passord",
+    "accountText": "Endre navn og e-post her.",
+    "passwordText": "Velg et nytt passord her.",
+    "overview": "Oversikt",
+    "activity": "Aktivitet"
+  },
+  "table": {
+    "caption": "Nylige fakturaer.",
+    "status": "Status",
+    "amount": "Beløp",
+    "paid": "Betalt",
+    "pending": "Venter",
+    "overdue": "Forfalt",
+    "total": "Totalt"
+  },
+  "scrollArea": {
+    "releases": "Utgivelser"
+  },
+  "resizable": {
+    "sidebar": "Sidepanel",
+    "content": "Innhold",
+    "console": "Konsoll"
+  },
+  "select": {
+    "placeholder": "Velg en frukt",
+    "fruit": "Frukt",
+    "apple": "Eple",
+    "banana": "Banan",
+    "cherry": "Kirsebær"
+  },
+  "picker": {
+    "size": "Størrelse",
+    "small": "Liten",
+    "medium": "Middels",
+    "large": "Stor",
+    "smallHint": "Opptil 10 personer",
+    "mediumHint": "Opptil 50 personer",
+    "largeHint": "Alle",
+    "tags": "Etiketter",
+    "allTags": "Alle etiketter",
+    "bug": "Feil",
+    "idea": "Idé",
+    "urgent": "Haster"
+  },
+  "combobox": {
+    "placeholder": "Søk etter personer…",
+    "empty": "Fant ingen",
+    "person": "Person",
+    "chosen": "Valgt: {name}"
+  },
+  "tooltip": {
+    "trigger": "Hold musen over meg",
+    "content": "Lagret for to minutter siden"
+  },
+  "toast": {
+    "hint": "Monter én Toaster i oppsettet, og kall deretter toast().",
+    "info": "Info",
+    "error": "Feil",
+    "saved": "Filen ble lagret.",
+    "failed": "Opplastingen mislyktes."
+  },
+  "dialog": {
+    "title": "Rediger profil",
+    "description": "Endre navnet ditt, og lagre."
+  },
+  "askDialog": {
+    "askName": "Be om et navn",
+    "askConfirm": "Be om bekreftelse",
+    "renameTitle": "Gi tavlen nytt navn",
+    "rename": "Gi nytt navn",
+    "required": "Navn er påkrevd.",
+    "renamed": "Nytt navn: «{name}»",
+    "deleteTitle": "Slette tavlen?",
+    "deleteText": "Kortene havner i papirkurven i 30 dager.",
+    "onlyBoard": "Bare denne tavlen",
+    "withArchive": "Denne tavlen og arkivet",
+    "deleted": "Slettet (alternativ {option})",
+    "option": "Alternativ"
+  },
+  "dropdownMenu": {
+    "open": "Åpne meny",
+    "account": "Min konto",
+    "profile": "Profil",
+    "settings": "Innstillinger",
+    "grid": "Vis rutenett",
+    "byName": "Sorter etter navn",
+    "byDate": "Sorter etter dato",
+    "email": "E-post",
+    "copyLink": "Kopier lenke",
+    "logout": "Logg ut"
+  },
+  "contextMenu": {
+    "trigger": "Høyreklikk her",
+    "back": "Tilbake",
+    "reload": "Last inn på nytt",
+    "more": "Flere verktøy",
+    "savePage": "Lagre side…",
+    "devtools": "Utviklerverktøy",
+    "bookmarks": "Vis bokmerker"
+  },
+  "chat": {
+    "question": "Hvilke fakturaer har **forfalt**?",
+    "answer": "Én har forfalt:\n\n- `INV-003`, € 350.00, for Acme Ltd",
+    "company": "Firma",
+    "searched": "Søkte i fakturaer",
+    "read": "Leste INV-003",
+    "remind": "Send en påminnelse",
+    "steps": "{count} trinn",
+    "reminderTitle": "Send en påminnelse til Acme Ltd",
+    "to": "Til",
+    "approve": "Godkjenn",
+    "deny": "Avslå",
+    "approved": "Godkjent",
+    "denied": "Avslått",
+    "conversation": "Samtale",
+    "message": "Melding",
+    "placeholder": "Spør om hva som helst…",
+    "send": "Send",
+    "stop": "Stopp",
+    "context": "Kontekst",
+    "invoices": "Fakturaer",
+    "pin": "Fest",
+    "unpin": "Løsne",
+    "remove": "Fjern",
+    "echo": "Du sa: *{text}*"
+  }
+}

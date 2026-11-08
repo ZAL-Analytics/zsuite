@@ -1,22 +1,18 @@
 <script lang="ts">
+  import { t } from "@zsuite/ui/i18n";
   import * as Select from "@zsuite/ui/select";
 
-  const fruits = [
-    { value: "apple", label: "Apple" },
-    { value: "banana", label: "Banana" },
-    { value: "cherry", label: "Cherry" },
-  ];
+  const fruits = ["apple", "banana", "cherry"];
   let value = $state("banana");
-  const label = $derived(fruits.find((fruit) => fruit.value === value)?.label ?? "Pick a fruit");
 </script>
 
 <Select.Root type="single" bind:value>
-  <Select.Trigger class="w-48">{label}</Select.Trigger>
+  <Select.Trigger class="w-48">{value ? t(`demo.select.${value}`) : t("demo.select.placeholder")}</Select.Trigger>
   <Select.Content>
     <Select.Group>
-      <Select.GroupHeading>Fruit</Select.GroupHeading>
-      {#each fruits as fruit (fruit.value)}
-        <Select.Item value={fruit.value} label={fruit.label}>{fruit.label}</Select.Item>
+      <Select.GroupHeading>{t("demo.select.fruit")}</Select.GroupHeading>
+      {#each fruits as fruit (fruit)}
+        <Select.Item value={fruit} label={t(`demo.select.${fruit}`)}>{t(`demo.select.${fruit}`)}</Select.Item>
       {/each}
     </Select.Group>
   </Select.Content>
