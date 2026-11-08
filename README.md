@@ -3,6 +3,9 @@
 Shared building blocks for ZAL Analytics desktop apps (Tauri 2 + SvelteKit), first used by
 [znote](https://github.com/ZAL-Analytics/znote).
 
+**Showcase:** https://zal-analytics.github.io/zsuite/ — every `@zsuite/ui` component, in every look,
+in 21 languages, light and dark, with its source.
+
 | Part | What it is |
 |---|---|
 | [`packages/ui`](packages/ui) | `@zsuite/ui`: Svelte 5 components (shadcn-svelte on Bits UI, with right-to-left support), the design tokens, the runtime that applies a `.zth` look, and `@zsuite/ui/i18n` (locales, `t`, `register`). |

@@ -4,9 +4,6 @@ Svelte 5 components on Bits UI with right-to-left support, design tokens, the ru
 looks and a small i18n helper. Every component takes its visible text as props, so apps translate it
 their own way.
 
-**Showcase:** https://zal-analytics.github.io/zsuite/ — every component, in every look, in 21 languages,
-light and dark, with its source.
-
 ## Install
 
 ```sh
