@@ -44,5 +44,18 @@
     "phone": "Oddzwonić",
     "mail": "E-mail",
     "users": "Spotkanie"
+  },
+  "tabGroups": {
+    "tabs": "Karty",
+    "close": "Zamknij kartę",
+    "newGroup": "Nowa grupa",
+    "addTo": "Dodaj do grupy",
+    "ungroup": "Usuń z grupy",
+    "rename": "Zmień nazwę grupy",
+    "dissolve": "Rozgrupuj",
+    "closeGroup": "Zamknij grupę",
+    "fold": "Zwiń lub rozwiń",
+    "name": "Grupa {number}",
+    "hint": "Przeciągnij kartę, aby ją przenieść, upuść ją na grupę, aby ją dodać. Prawy przycisk po więcej; kliknij grupę, aby ją zwinąć."
   }
 }

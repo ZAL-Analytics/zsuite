@@ -80,5 +80,22 @@
     "viewer": "Może wyświetlać",
     "editor": "Może edytować",
     "manager": "Może zarządzać"
+  },
+  "multi": {
+    "title": "Miasta",
+    "all": "Wszystkie",
+    "none": "Żadne",
+    "search": "Szukaj na liście",
+    "shown": "Pokazane: {names}"
+  },
+  "range": {
+    "title": "Zmieniono",
+    "from": "Od",
+    "to": "Do",
+    "clear": "Wyczyść",
+    "any": "Kiedykolwiek",
+    "year": "Ostatni rok",
+    "five": "Ostatnie 5 lat",
+    "shown": "Od {from} do {to}"
   }
 }

@@ -80,5 +80,22 @@
     "viewer": "Kan visa",
     "editor": "Kan redigera",
     "manager": "Kan hantera"
+  },
+  "multi": {
+    "title": "Städer",
+    "all": "Alla",
+    "none": "Inga",
+    "search": "Sök i listan",
+    "shown": "Visas: {names}"
+  },
+  "range": {
+    "title": "Ändrad",
+    "from": "Från",
+    "to": "Till",
+    "clear": "Rensa",
+    "any": "När som helst",
+    "year": "Senaste året",
+    "five": "Senaste 5 åren",
+    "shown": "Från {from} till {to}"
   }
 }

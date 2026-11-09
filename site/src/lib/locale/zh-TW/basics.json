@@ -44,5 +44,18 @@
     "phone": "回電",
     "mail": "電子郵件",
     "users": "會議"
+  },
+  "tabGroups": {
+    "tabs": "分頁",
+    "close": "關閉分頁",
+    "newGroup": "新增群組",
+    "addTo": "加入群組",
+    "ungroup": "從群組移除",
+    "rename": "重新命名群組",
+    "dissolve": "取消群組",
+    "closeGroup": "關閉群組",
+    "fold": "摺疊或展開",
+    "name": "群組 {number}",
+    "hint": "拖曳分頁即可移動，放到群組上即可加入。按右鍵查看更多；點擊群組可摺疊。"
   }
 }

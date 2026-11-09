@@ -197,5 +197,16 @@
     "close": "Lukk",
     "resize": "Endre panelets bredde",
     "noContext": "Ingen kontekst"
+  },
+  "rowButton": {
+    "inbox": "Innboks",
+    "drafts": "Utkast",
+    "archive": "Arkiv",
+    "trash": "Papirkurv"
+  },
+  "popover": {
+    "open": "Detaljer",
+    "title": "Åpningstider",
+    "text": "Mandag til fredag, 9:00 til 17:00."
   }
 }

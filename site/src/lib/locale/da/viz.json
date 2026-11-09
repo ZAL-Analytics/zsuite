@@ -41,5 +41,12 @@
     "print": "Trykning",
     "deliver": "Lever til butikkerne",
     "survey": "Kundeundersøgelse"
+  },
+  "network": {
+    "layout": "Placér igen",
+    "fit": "Vis alt",
+    "graph": "Netværk af opdigtede projekter. Klik på en knude for at udvide den.",
+    "picked": "Valgt: {name}",
+    "none": "Klik på en knude for at udvide netværket."
   }
 }

@@ -44,5 +44,18 @@
     "phone": "Devolver la llamada",
     "mail": "Correo",
     "users": "Reunión"
+  },
+  "tabGroups": {
+    "tabs": "Pestañas",
+    "close": "Cerrar pestaña",
+    "newGroup": "Nuevo grupo",
+    "addTo": "Añadir al grupo",
+    "ungroup": "Quitar del grupo",
+    "rename": "Cambiar nombre del grupo",
+    "dissolve": "Desagrupar",
+    "closeGroup": "Cerrar grupo",
+    "fold": "Plegar o desplegar",
+    "name": "Grupo {number}",
+    "hint": "Arrastra una pestaña para moverla y suéltala sobre un grupo para añadirla. Clic derecho para más; haz clic en un grupo para plegarlo."
   }
 }

@@ -197,5 +197,16 @@
     "close": "Fermer",
     "resize": "Redimensionner le panneau",
     "noContext": "Aucun contexte"
+  },
+  "rowButton": {
+    "inbox": "Boîte de réception",
+    "drafts": "Brouillons",
+    "archive": "Archives",
+    "trash": "Corbeille"
+  },
+  "popover": {
+    "open": "Détails",
+    "title": "Horaires d’ouverture",
+    "text": "Du lundi au vendredi, de 9 h à 17 h."
   }
 }

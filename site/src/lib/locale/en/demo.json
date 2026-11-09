@@ -197,5 +197,16 @@
     "close": "Close",
     "resize": "Resize panel",
     "noContext": "No context"
+  },
+  "rowButton": {
+    "inbox": "Inbox",
+    "drafts": "Drafts",
+    "archive": "Archive",
+    "trash": "Trash"
+  },
+  "popover": {
+    "open": "Details",
+    "title": "Opening hours",
+    "text": "Monday to Friday, 9:00 to 17:00."
   }
 }

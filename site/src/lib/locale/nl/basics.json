@@ -44,5 +44,18 @@
     "phone": "Terugbellen",
     "mail": "E-mail",
     "users": "Overleg"
+  },
+  "tabGroups": {
+    "tabs": "Tabbladen",
+    "close": "Tabblad sluiten",
+    "newGroup": "Nieuwe groep",
+    "addTo": "Toevoegen aan groep",
+    "ungroup": "Uit groep halen",
+    "rename": "Groep hernoemen",
+    "dissolve": "Groep opheffen",
+    "closeGroup": "Groep sluiten",
+    "fold": "In- of uitklappen",
+    "name": "Groep {number}",
+    "hint": "Sleep een tabblad om het te verplaatsen, zet het op een groep om het toe te voegen. Rechtsklik voor meer; klik op een groep om hem in te klappen."
   }
 }

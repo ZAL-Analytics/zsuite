@@ -41,5 +41,12 @@
     "print": "Drukgang",
     "deliver": "Bij de winkels bezorgen",
     "survey": "Klantenonderzoek"
+  },
+  "network": {
+    "layout": "Opnieuw schikken",
+    "fit": "Alles tonen",
+    "graph": "Netwerk van verzonnen projecten. Klik op een knoop om hem te laten groeien.",
+    "picked": "Gekozen: {name}",
+    "none": "Klik op een knoop om het netwerk te laten groeien."
   }
 }

@@ -44,5 +44,18 @@
     "phone": "Ligar de volta",
     "mail": "E-mail",
     "users": "Reunião"
+  },
+  "tabGroups": {
+    "tabs": "Separadores",
+    "close": "Fechar separador",
+    "newGroup": "Novo grupo",
+    "addTo": "Adicionar ao grupo",
+    "ungroup": "Remover do grupo",
+    "rename": "Mudar o nome do grupo",
+    "dissolve": "Desagrupar",
+    "closeGroup": "Fechar grupo",
+    "fold": "Recolher ou expandir",
+    "name": "Grupo {number}",
+    "hint": "Arraste um separador para o mover e largue-o num grupo para o adicionar. Clique direito para mais; clique num grupo para o recolher."
   }
 }

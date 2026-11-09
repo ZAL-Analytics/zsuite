@@ -80,5 +80,22 @@
     "viewer": "閲覧可",
     "editor": "編集可",
     "manager": "管理可"
+  },
+  "multi": {
+    "title": "都市",
+    "all": "すべて",
+    "none": "なし",
+    "search": "リストを検索",
+    "shown": "表示中: {names}"
+  },
+  "range": {
+    "title": "変更日",
+    "from": "開始",
+    "to": "終了",
+    "clear": "クリア",
+    "any": "すべての期間",
+    "year": "過去1年",
+    "five": "過去5年",
+    "shown": "{from} から {to}"
   }
 }

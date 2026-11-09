@@ -64,5 +64,15 @@
     "drag": "Przeciągnij po słowach, aby je zaznaczyć",
     "selected": "Zaznaczono: {text}",
     "nothing": "Jeszcze nic nie zaznaczono."
+  },
+  "source": {
+    "text": "Tekst",
+    "original": "Oryginał",
+    "empty": "Brak tekstu na tej stronie.",
+    "unavailable": "Brak podglądu tego pliku.",
+    "loading": "Ładowanie…",
+    "previous": "Poprzednia strona",
+    "next": "Następna strona",
+    "page": "Strona {page} z {pages}"
   }
 }

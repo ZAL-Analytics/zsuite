@@ -42,17 +42,21 @@ import { rootStyle, fontFaces, logoOf, type Look } from "@zsuite/ui/look";
 
 Each is imported from `@zsuite/ui/<name>`:
 
-- **Basics:** button, badge, card, input, label, textarea, checkbox, switch, select, picker, combobox,
-  color-dot, separator, progress, loading, tooltip, toast, scroll-area, resizable, tabs, table
+- **Basics:** button, row-button, badge, card, input, label, textarea, checkbox, switch, select,
+  multi-select, picker, combobox, date-range, color-dot, separator, progress, loading, tooltip, toast,
+  scroll-area, resizable, tabs, tab-groups, table
 - **Overlays and menus:** dialog, ask-dialog, popover, dropdown-menu, context-menu, row-actions
 - **App shell:** app-shell, app-switcher, app-menu, app-icon, user-menu, notification-bell,
   theme-toggle, language-picker, breadcrumb, width-handle
 - **People and labels:** avatar, tag-badge, priority-icon, icon-picker
 - **Data:** schema-form, data-table, share-dialog
-- **Visualisation:** graph, charts, timeline, kanban
+- **Visualisation:** graph, network, charts, timeline, kanban
 - **Writing:** markdown-editor, comments, checklist, chat
 - **Files:** file-explorer, file-picker, file-preview, file-drop, selection, rename-field, transfers,
-  page-overlay
+  page-overlay, source-view
+
+`row-button` is one full-width row in a list or picker: icon, label, a note at the end. `selected`
+marks the current row; size and padding take a `class`, like every other component.
 
 ## Looks
 

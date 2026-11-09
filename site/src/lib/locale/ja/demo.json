@@ -197,5 +197,16 @@
     "close": "閉じる",
     "resize": "パネルの幅を変更",
     "noContext": "コンテキストなし"
+  },
+  "rowButton": {
+    "inbox": "受信トレイ",
+    "drafts": "下書き",
+    "archive": "アーカイブ",
+    "trash": "ゴミ箱"
+  },
+  "popover": {
+    "open": "詳細",
+    "title": "営業時間",
+    "text": "月曜日から金曜日、9:00～17:00。"
   }
 }

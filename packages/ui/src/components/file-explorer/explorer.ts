@@ -28,8 +28,30 @@ export function totalSize(items: Pick<ExplorerItem, "size">[]): number {
   return items.reduce((sum, item) => sum + (item.size ?? 0), 0);
 }
 
+const EXTENSIONS: Record<string, string> = {
+  pdf: "pdf",
+  png: "image", jpg: "image", jpeg: "image", gif: "image", webp: "image", heic: "image", tif: "image", tiff: "image", bmp: "image",
+  txt: "text", md: "text", csv: "text", json: "text", xml: "text", log: "text",
+  doc: "word", docx: "word", odt: "word", rtf: "word",
+  ppt: "slides", pptx: "slides", odp: "slides",
+  xls: "sheet", xlsx: "sheet", xlsm: "sheet", ods: "sheet",
+  msg: "mail", eml: "mail",
+};
+
+export function typeOfName(name: string): string {
+  const dot = name.lastIndexOf(".");
+  return dot < 0 ? "other" : (EXTENSIONS[name.slice(dot + 1).toLowerCase()] ?? "other");
+}
+
 if (import.meta.vitest) {
   const { test, expect } = import.meta.vitest;
+
+  test("a file name tells its type", () => {
+    expect(typeOfName("Offerte.PDF")).toBe("pdf");
+    expect(typeOfName("mail.msg")).toBe("mail");
+    expect(typeOfName("lijst.xlsx")).toBe("sheet");
+    expect(typeOfName("zonder")).toBe("other");
+  });
 
   test("a new folder gets a free name", () => {
     expect(freeName("New folder", ["Quotes"])).toBe("New folder");

@@ -44,5 +44,18 @@
     "phone": "Richiamare",
     "mail": "Email",
     "users": "Riunione"
+  },
+  "tabGroups": {
+    "tabs": "Schede",
+    "close": "Chiudi scheda",
+    "newGroup": "Nuovo gruppo",
+    "addTo": "Aggiungi al gruppo",
+    "ungroup": "Rimuovi dal gruppo",
+    "rename": "Rinomina gruppo",
+    "dissolve": "Separa",
+    "closeGroup": "Chiudi gruppo",
+    "fold": "Comprimi o espandi",
+    "name": "Gruppo {number}",
+    "hint": "Trascina una scheda per spostarla, rilasciala su un gruppo per aggiungerla. Clic destro per altro; fai clic su un gruppo per comprimerlo."
   }
 }

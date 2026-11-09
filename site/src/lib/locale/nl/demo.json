@@ -197,5 +197,16 @@
     "close": "Sluiten",
     "resize": "Paneelbreedte aanpassen",
     "noContext": "Geen context"
+  },
+  "rowButton": {
+    "inbox": "Inbox",
+    "drafts": "Concepten",
+    "archive": "Archief",
+    "trash": "Prullenbak"
+  },
+  "popover": {
+    "open": "Details",
+    "title": "Openingstijden",
+    "text": "Maandag tot en met vrijdag, 9:00 tot 17:00."
   }
 }

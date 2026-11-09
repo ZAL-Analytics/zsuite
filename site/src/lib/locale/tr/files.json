@@ -64,5 +64,15 @@
     "drag": "Seçmek için sözcüklerin üzerinde sürükleyin",
     "selected": "Seçili: {text}",
     "nothing": "Henüz bir şey seçilmedi."
+  },
+  "source": {
+    "text": "Metin",
+    "original": "Orijinal",
+    "empty": "Bu sayfada metin yok.",
+    "unavailable": "Bu dosyanın görünümü yok.",
+    "loading": "Yükleniyor…",
+    "previous": "Önceki sayfa",
+    "next": "Sonraki sayfa",
+    "page": "Sayfa {page} / {pages}"
   }
 }

@@ -41,5 +41,12 @@
     "print": "Druckauflage",
     "deliver": "An die Läden liefern",
     "survey": "Kundenumfrage"
+  },
+  "network": {
+    "layout": "Neu anordnen",
+    "fit": "Alles zeigen",
+    "graph": "Netz erfundener Projekte. Klicken Sie auf einen Knoten, um ihn wachsen zu lassen.",
+    "picked": "Gewählt: {name}",
+    "none": "Klicken Sie auf einen Knoten, um das Netz wachsen zu lassen."
   }
 }

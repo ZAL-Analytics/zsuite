@@ -41,5 +41,12 @@
     "print": "Tryckning",
     "deliver": "Leverera till butikerna",
     "survey": "Kundundersökning"
+  },
+  "network": {
+    "layout": "Ordna om",
+    "fit": "Visa allt",
+    "graph": "Nätverk av påhittade projekt. Klicka på en nod för att utöka den.",
+    "picked": "Vald: {name}",
+    "none": "Klicka på en nod för att utöka nätverket."
   }
 }

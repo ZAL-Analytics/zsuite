@@ -80,5 +80,22 @@
     "viewer": "Kan se",
     "editor": "Kan redigere",
     "manager": "Kan administrere"
+  },
+  "multi": {
+    "title": "Byer",
+    "all": "Alle",
+    "none": "Ingen",
+    "search": "Søg i listen",
+    "shown": "Vist: {names}"
+  },
+  "range": {
+    "title": "Ændret",
+    "from": "Fra",
+    "to": "Til",
+    "clear": "Ryd",
+    "any": "Når som helst",
+    "year": "Sidste år",
+    "five": "Sidste 5 år",
+    "shown": "Fra {from} til {to}"
   }
 }

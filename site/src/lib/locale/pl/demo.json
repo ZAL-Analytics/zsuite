@@ -197,5 +197,16 @@
     "close": "Zamknij",
     "resize": "Zmień szerokość panelu",
     "noContext": "Brak kontekstu"
+  },
+  "rowButton": {
+    "inbox": "Odebrane",
+    "drafts": "Wersje robocze",
+    "archive": "Archiwum",
+    "trash": "Kosz"
+  },
+  "popover": {
+    "open": "Szczegóły",
+    "title": "Godziny otwarcia",
+    "text": "Od poniedziałku do piątku, 9:00–17:00."
   }
 }

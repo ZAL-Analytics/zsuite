@@ -80,5 +80,22 @@
     "viewer": "Can view",
     "editor": "Can edit",
     "manager": "Can manage"
+  },
+  "multi": {
+    "title": "Cities",
+    "all": "All",
+    "none": "None",
+    "search": "Search the list",
+    "shown": "Showing: {names}"
+  },
+  "range": {
+    "title": "Changed",
+    "from": "From",
+    "to": "To",
+    "clear": "Clear",
+    "any": "Any time",
+    "year": "Last year",
+    "five": "Last 5 years",
+    "shown": "From {from} to {to}"
   }
 }

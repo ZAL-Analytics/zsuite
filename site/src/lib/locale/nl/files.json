@@ -64,5 +64,15 @@
     "drag": "Sleep over woorden om ze te selecteren",
     "selected": "Geselecteerd: {text}",
     "nothing": "Nog niets geselecteerd."
+  },
+  "source": {
+    "text": "Tekst",
+    "original": "Origineel",
+    "empty": "Geen tekst op deze pagina.",
+    "unavailable": "Geen weergave van dit bestand.",
+    "loading": "Laden…",
+    "previous": "Vorige pagina",
+    "next": "Volgende pagina",
+    "page": "Pagina {page} van {pages}"
   }
 }

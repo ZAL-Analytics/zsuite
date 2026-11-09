@@ -64,5 +64,15 @@
     "drag": "Dra over ord for å merke dem",
     "selected": "Merket: {text}",
     "nothing": "Ingenting merket ennå."
+  },
+  "source": {
+    "text": "Tekst",
+    "original": "Original",
+    "empty": "Ingen tekst på denne siden.",
+    "unavailable": "Ingen visning av denne filen.",
+    "loading": "Laster…",
+    "previous": "Forrige side",
+    "next": "Neste side",
+    "page": "Side {page} av {pages}"
   }
 }

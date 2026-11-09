@@ -197,5 +197,16 @@
     "close": "Schließen",
     "resize": "Panelbreite ändern",
     "noContext": "Kein Kontext"
+  },
+  "rowButton": {
+    "inbox": "Posteingang",
+    "drafts": "Entwürfe",
+    "archive": "Archiv",
+    "trash": "Papierkorb"
+  },
+  "popover": {
+    "open": "Details",
+    "title": "Öffnungszeiten",
+    "text": "Montag bis Freitag, 9:00 bis 17:00 Uhr."
   }
 }

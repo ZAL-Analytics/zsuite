@@ -44,5 +44,18 @@
     "phone": "Zurückrufen",
     "mail": "E-Mail",
     "users": "Besprechung"
+  },
+  "tabGroups": {
+    "tabs": "Tabs",
+    "close": "Tab schließen",
+    "newGroup": "Neue Gruppe",
+    "addTo": "Zu Gruppe hinzufügen",
+    "ungroup": "Aus Gruppe entfernen",
+    "rename": "Gruppe umbenennen",
+    "dissolve": "Gruppierung aufheben",
+    "closeGroup": "Gruppe schließen",
+    "fold": "Ein- oder ausklappen",
+    "name": "Gruppe {number}",
+    "hint": "Ziehen Sie einen Tab, um ihn zu verschieben, und legen Sie ihn auf eine Gruppe, um ihn hinzuzufügen. Rechtsklick für mehr; Klick auf eine Gruppe klappt sie ein."
   }
 }

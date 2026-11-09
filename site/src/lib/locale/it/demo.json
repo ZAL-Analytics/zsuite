@@ -197,5 +197,16 @@
     "close": "Chiudi",
     "resize": "Ridimensiona il pannello",
     "noContext": "Nessun contesto"
+  },
+  "rowButton": {
+    "inbox": "Posta in arrivo",
+    "drafts": "Bozze",
+    "archive": "Archivio",
+    "trash": "Cestino"
+  },
+  "popover": {
+    "open": "Dettagli",
+    "title": "Orari di apertura",
+    "text": "Dal lunedì al venerdì, dalle 9:00 alle 17:00."
   }
 }

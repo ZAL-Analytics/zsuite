@@ -41,5 +41,12 @@
     "print": "Print run",
     "deliver": "Deliver to the shops",
     "survey": "Customer survey"
+  },
+  "network": {
+    "layout": "Lay out again",
+    "fit": "Show all",
+    "graph": "Network of made-up projects. Click a node to grow it.",
+    "picked": "Picked: {name}",
+    "none": "Click a node to grow the network."
   }
 }

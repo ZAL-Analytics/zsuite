@@ -64,5 +64,15 @@
     "drag": "単語の上をドラッグして選択",
     "selected": "選択中: {text}",
     "nothing": "まだ何も選択されていません。"
+  },
+  "source": {
+    "text": "テキスト",
+    "original": "原本",
+    "empty": "このページにはテキストがありません。",
+    "unavailable": "このファイルは表示できません。",
+    "loading": "読み込み中…",
+    "previous": "前のページ",
+    "next": "次のページ",
+    "page": "{pages} ページ中 {page} ページ"
   }
 }

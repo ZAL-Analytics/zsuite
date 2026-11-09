@@ -64,5 +64,15 @@
     "drag": "Træk hen over ord for at markere dem",
     "selected": "Markeret: {text}",
     "nothing": "Intet markeret endnu."
+  },
+  "source": {
+    "text": "Tekst",
+    "original": "Original",
+    "empty": "Ingen tekst på denne side.",
+    "unavailable": "Ingen visning af denne fil.",
+    "loading": "Indlæser…",
+    "previous": "Forrige side",
+    "next": "Næste side",
+    "page": "Side {page} af {pages}"
   }
 }

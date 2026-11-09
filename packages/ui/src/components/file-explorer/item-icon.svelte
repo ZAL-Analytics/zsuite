@@ -9,7 +9,7 @@
   import type { Component } from "svelte";
   import type { ExplorerItem } from "./types.js";
 
-  let { item, size = "sm", picture = false }: { item: Pick<ExplorerItem, "type" | "thumbnail">; size?: "sm" | "md" | "lg"; picture?: boolean } = $props();
+  let { item, size = "sm", picture = false }: { item: Pick<ExplorerItem, "type" | "thumbnail">; size?: "xs" | "sm" | "md" | "lg"; picture?: boolean } = $props();
 
   const ICONS: Record<string, Component<{ class?: string; strokeWidth?: number; "aria-hidden"?: "true" }>> = {
     folder: Folder,
@@ -32,12 +32,12 @@
   };
   const Icon = $derived(ICONS[item.type] ?? FileIcon);
   const tone = $derived(TONES[item.type] ?? "text-muted-foreground");
-  const box = $derived(size === "lg" ? "size-28" : size === "md" ? "size-16" : "size-5");
+  const box = $derived(size === "lg" ? "size-28" : size === "md" ? "size-16" : size === "xs" ? "size-3.5" : "size-5");
   let broken = $state(false);
 </script>
 
 {#if picture && item.thumbnail && !broken}
   <img src={item.thumbnail} alt="" loading="lazy" class="{box} rounded-sm border border-border bg-white object-contain object-top" onerror={() => (broken = true)} />
 {:else}
-  <Icon class="{box} shrink-0 {tone}" strokeWidth={size === "sm" ? 2 : 1.25} aria-hidden="true" />
+  <Icon class="{box} shrink-0 {tone}" strokeWidth={size === "sm" || size === "xs" ? 2 : 1.25} aria-hidden="true" />
 {/if}

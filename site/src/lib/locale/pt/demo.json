@@ -197,5 +197,16 @@
     "close": "Fechar",
     "resize": "Redimensionar painel",
     "noContext": "Sem contexto"
+  },
+  "rowButton": {
+    "inbox": "Caixa de entrada",
+    "drafts": "Rascunhos",
+    "archive": "Arquivo",
+    "trash": "Lixo"
+  },
+  "popover": {
+    "open": "Detalhes",
+    "title": "Horário",
+    "text": "De segunda a sexta, das 9:00 às 17:00."
   }
 }

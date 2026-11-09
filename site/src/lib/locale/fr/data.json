@@ -80,5 +80,22 @@
     "viewer": "Peut consulter",
     "editor": "Peut modifier",
     "manager": "Peut gérer"
+  },
+  "multi": {
+    "title": "Villes",
+    "all": "Toutes",
+    "none": "Aucune",
+    "search": "Rechercher dans la liste",
+    "shown": "Affiché : {names}"
+  },
+  "range": {
+    "title": "Modifié",
+    "from": "Du",
+    "to": "Au",
+    "clear": "Effacer",
+    "any": "N’importe quand",
+    "year": "Dernière année",
+    "five": "5 dernières années",
+    "shown": "Du {from} au {to}"
   }
 }

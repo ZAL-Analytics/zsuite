@@ -64,5 +64,15 @@
     "drag": "Dra över ord för att markera dem",
     "selected": "Markerat: {text}",
     "nothing": "Inget markerat än."
+  },
+  "source": {
+    "text": "Text",
+    "original": "Original",
+    "empty": "Ingen text på den här sidan.",
+    "unavailable": "Ingen visning av den här filen.",
+    "loading": "Laddar…",
+    "previous": "Föregående sida",
+    "next": "Nästa sida",
+    "page": "Sida {page} av {pages}"
   }
 }

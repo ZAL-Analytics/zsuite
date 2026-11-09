@@ -80,5 +80,22 @@
     "viewer": "Görüntüleyebilir",
     "editor": "Düzenleyebilir",
     "manager": "Yönetebilir"
+  },
+  "multi": {
+    "title": "Şehirler",
+    "all": "Tümü",
+    "none": "Hiçbiri",
+    "search": "Listede ara",
+    "shown": "Gösterilen: {names}"
+  },
+  "range": {
+    "title": "Değiştirildi",
+    "from": "Başlangıç",
+    "to": "Bitiş",
+    "clear": "Temizle",
+    "any": "Her zaman",
+    "year": "Son bir yıl",
+    "five": "Son 5 yıl",
+    "shown": "{from} – {to}"
   }
 }

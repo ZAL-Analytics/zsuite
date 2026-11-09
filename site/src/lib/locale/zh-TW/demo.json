@@ -197,5 +197,16 @@
     "close": "關閉",
     "resize": "調整面板寬度",
     "noContext": "無內容脈絡"
+  },
+  "rowButton": {
+    "inbox": "收件匣",
+    "drafts": "草稿",
+    "archive": "封存",
+    "trash": "垃圾桶"
+  },
+  "popover": {
+    "open": "詳細資訊",
+    "title": "營業時間",
+    "text": "週一至週五，9:00 至 17:00。"
   }
 }

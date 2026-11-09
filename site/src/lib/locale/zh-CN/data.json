@@ -80,5 +80,22 @@
     "viewer": "可查看",
     "editor": "可编辑",
     "manager": "可管理"
+  },
+  "multi": {
+    "title": "城市",
+    "all": "全部",
+    "none": "无",
+    "search": "在列表中搜索",
+    "shown": "显示：{names}"
+  },
+  "range": {
+    "title": "修改时间",
+    "from": "从",
+    "to": "到",
+    "clear": "清除",
+    "any": "任何时间",
+    "year": "最近一年",
+    "five": "最近 5 年",
+    "shown": "从 {from} 到 {to}"
   }
 }

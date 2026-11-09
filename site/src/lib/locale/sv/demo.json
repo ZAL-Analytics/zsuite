@@ -197,5 +197,16 @@
     "close": "Stäng",
     "resize": "Ändra panelens bredd",
     "noContext": "Ingen kontext"
+  },
+  "rowButton": {
+    "inbox": "Inkorg",
+    "drafts": "Utkast",
+    "archive": "Arkiv",
+    "trash": "Papperskorg"
+  },
+  "popover": {
+    "open": "Detaljer",
+    "title": "Öppettider",
+    "text": "Måndag till fredag, 9:00 till 17:00."
   }
 }

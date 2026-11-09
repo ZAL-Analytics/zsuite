@@ -80,5 +80,22 @@
     "viewer": "Kann ansehen",
     "editor": "Kann bearbeiten",
     "manager": "Kann verwalten"
+  },
+  "multi": {
+    "title": "Städte",
+    "all": "Alle",
+    "none": "Keine",
+    "search": "In der Liste suchen",
+    "shown": "Angezeigt: {names}"
+  },
+  "range": {
+    "title": "Geändert",
+    "from": "Von",
+    "to": "Bis",
+    "clear": "Löschen",
+    "any": "Jederzeit",
+    "year": "Letztes Jahr",
+    "five": "Letzte 5 Jahre",
+    "shown": "Von {from} bis {to}"
   }
 }

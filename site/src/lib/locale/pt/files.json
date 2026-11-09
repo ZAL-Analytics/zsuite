@@ -64,5 +64,15 @@
     "drag": "Arraste sobre as palavras para as selecionar",
     "selected": "Selecionado: {text}",
     "nothing": "Ainda nada selecionado."
+  },
+  "source": {
+    "text": "Texto",
+    "original": "Original",
+    "empty": "Sem texto nesta página.",
+    "unavailable": "Sem pré-visualização deste ficheiro.",
+    "loading": "A carregar…",
+    "previous": "Página anterior",
+    "next": "Página seguinte",
+    "page": "Página {page} de {pages}"
   }
 }

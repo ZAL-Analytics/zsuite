@@ -44,5 +44,18 @@
     "phone": "Call back",
     "mail": "Email",
     "users": "Meeting"
+  },
+  "tabGroups": {
+    "tabs": "Tabs",
+    "close": "Close tab",
+    "newGroup": "New group",
+    "addTo": "Add to group",
+    "ungroup": "Remove from group",
+    "rename": "Rename group",
+    "dissolve": "Ungroup",
+    "closeGroup": "Close group",
+    "fold": "Fold or unfold",
+    "name": "Group {number}",
+    "hint": "Drag a tab to move it, drop it on a group to add it. Right-click for more; click a group to fold it."
   }
 }

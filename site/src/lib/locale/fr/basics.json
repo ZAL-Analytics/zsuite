@@ -44,5 +44,18 @@
     "phone": "Rappeler",
     "mail": "E-mail",
     "users": "Réunion"
+  },
+  "tabGroups": {
+    "tabs": "Onglets",
+    "close": "Fermer l’onglet",
+    "newGroup": "Nouveau groupe",
+    "addTo": "Ajouter au groupe",
+    "ungroup": "Retirer du groupe",
+    "rename": "Renommer le groupe",
+    "dissolve": "Dissocier",
+    "closeGroup": "Fermer le groupe",
+    "fold": "Replier ou déplier",
+    "name": "Groupe {number}",
+    "hint": "Faites glisser un onglet pour le déplacer, déposez-le sur un groupe pour l’y ajouter. Clic droit pour plus ; cliquez sur un groupe pour le replier."
   }
 }

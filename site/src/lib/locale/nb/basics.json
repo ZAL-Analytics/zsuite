@@ -44,5 +44,18 @@
     "phone": "Ring tilbake",
     "mail": "E-post",
     "users": "Møte"
+  },
+  "tabGroups": {
+    "tabs": "Faner",
+    "close": "Lukk fane",
+    "newGroup": "Ny gruppe",
+    "addTo": "Legg til i gruppe",
+    "ungroup": "Fjern fra gruppe",
+    "rename": "Gi gruppen nytt navn",
+    "dissolve": "Oppløs gruppe",
+    "closeGroup": "Lukk gruppe",
+    "fold": "Slå sammen eller ut",
+    "name": "Gruppe {number}",
+    "hint": "Dra en fane for å flytte den, slipp den på en gruppe for å legge den til. Høyreklikk for mer; klikk på en gruppe for å slå den sammen."
   }
 }

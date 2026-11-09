@@ -44,5 +44,18 @@
     "phone": "Ring tillbaka",
     "mail": "E-post",
     "users": "Möte"
+  },
+  "tabGroups": {
+    "tabs": "Flikar",
+    "close": "Stäng flik",
+    "newGroup": "Ny grupp",
+    "addTo": "Lägg till i grupp",
+    "ungroup": "Ta bort från grupp",
+    "rename": "Byt namn på grupp",
+    "dissolve": "Dela upp grupp",
+    "closeGroup": "Stäng grupp",
+    "fold": "Fäll ihop eller ut",
+    "name": "Grupp {number}",
+    "hint": "Dra en flik för att flytta den, släpp den på en grupp för att lägga till den. Högerklicka för mer; klicka på en grupp för att fälla ihop den."
   }
 }

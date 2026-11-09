@@ -41,5 +41,12 @@
     "print": "Trykking",
     "deliver": "Levere til butikkene",
     "survey": "Kundeundersøkelse"
+  },
+  "network": {
+    "layout": "Ordne på nytt",
+    "fit": "Vis alt",
+    "graph": "Nettverk av oppdiktede prosjekter. Klikk på en node for å utvide den.",
+    "picked": "Valgt: {name}",
+    "none": "Klikk på en node for å utvide nettverket."
   }
 }

@@ -64,5 +64,15 @@
     "drag": "拖曳劃過文字即可選取",
     "selected": "已選取：{text}",
     "nothing": "尚未選取任何內容。"
+  },
+  "source": {
+    "text": "文字",
+    "original": "原件",
+    "empty": "此頁沒有文字。",
+    "unavailable": "無法檢視此檔案。",
+    "loading": "載入中…",
+    "previous": "上一頁",
+    "next": "下一頁",
+    "page": "第 {page} 頁，共 {pages} 頁"
   }
 }

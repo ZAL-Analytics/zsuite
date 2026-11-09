@@ -41,5 +41,12 @@
     "print": "Tiratura",
     "deliver": "Consegnare ai negozi",
     "survey": "Sondaggio clienti"
+  },
+  "network": {
+    "layout": "Riorganizza",
+    "fit": "Mostra tutto",
+    "graph": "Rete di progetti inventati. Fai clic su un nodo per espanderlo.",
+    "picked": "Scelto: {name}",
+    "none": "Fai clic su un nodo per espandere la rete."
   }
 }

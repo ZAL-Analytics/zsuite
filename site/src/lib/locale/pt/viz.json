@@ -41,5 +41,12 @@
     "print": "Tiragem",
     "deliver": "Entregar nas lojas",
     "survey": "Inquérito a clientes"
+  },
+  "network": {
+    "layout": "Reorganizar",
+    "fit": "Mostrar tudo",
+    "graph": "Rede de projetos fictícios. Clique num nó para o expandir.",
+    "picked": "Escolhido: {name}",
+    "none": "Clique num nó para expandir a rede."
   }
 }

@@ -64,5 +64,15 @@
     "drag": "Drag across words to select them",
     "selected": "Selected: {text}",
     "nothing": "Nothing selected yet."
+  },
+  "source": {
+    "text": "Text",
+    "original": "Original",
+    "empty": "No text on this page.",
+    "unavailable": "No view of this file.",
+    "loading": "Loading…",
+    "previous": "Previous page",
+    "next": "Next page",
+    "page": "Page {page} of {pages}"
   }
 }

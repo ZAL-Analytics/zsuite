@@ -197,5 +197,16 @@
     "close": "关闭",
     "resize": "调整面板宽度",
     "noContext": "无上下文"
+  },
+  "rowButton": {
+    "inbox": "收件箱",
+    "drafts": "草稿",
+    "archive": "归档",
+    "trash": "回收站"
+  },
+  "popover": {
+    "open": "详情",
+    "title": "营业时间",
+    "text": "周一至周五，9:00 至 17:00。"
   }
 }

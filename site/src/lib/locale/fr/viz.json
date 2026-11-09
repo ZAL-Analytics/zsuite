@@ -41,5 +41,12 @@
     "print": "Impression",
     "deliver": "Livrer aux magasins",
     "survey": "Enquête clients"
+  },
+  "network": {
+    "layout": "Réorganiser",
+    "fit": "Tout afficher",
+    "graph": "Réseau de projets fictifs. Cliquez sur un nœud pour l'étendre.",
+    "picked": "Choisi : {name}",
+    "none": "Cliquez sur un nœud pour étendre le réseau."
   }
 }

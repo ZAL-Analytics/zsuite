@@ -197,5 +197,16 @@
     "close": "Kapat",
     "resize": "Panel genişliğini değiştir",
     "noContext": "Bağlam yok"
+  },
+  "rowButton": {
+    "inbox": "Gelen kutusu",
+    "drafts": "Taslaklar",
+    "archive": "Arşiv",
+    "trash": "Çöp kutusu"
+  },
+  "popover": {
+    "open": "Ayrıntılar",
+    "title": "Çalışma saatleri",
+    "text": "Pazartesiden cumaya, 9:00–17:00."
   }
 }

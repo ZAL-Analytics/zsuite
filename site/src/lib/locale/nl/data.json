@@ -80,5 +80,22 @@
     "viewer": "Kan bekijken",
     "editor": "Kan bewerken",
     "manager": "Kan beheren"
+  },
+  "multi": {
+    "title": "Steden",
+    "all": "Alles",
+    "none": "Niets",
+    "search": "Zoek in de lijst",
+    "shown": "Getoond: {names}"
+  },
+  "range": {
+    "title": "Gewijzigd",
+    "from": "Van",
+    "to": "Tot",
+    "clear": "Wissen",
+    "any": "Altijd",
+    "year": "Laatste jaar",
+    "five": "Laatste 5 jaar",
+    "shown": "Van {from} tot {to}"
   }
 }

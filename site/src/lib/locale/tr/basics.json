@@ -44,5 +44,18 @@
     "phone": "Geri ara",
     "mail": "E-posta",
     "users": "Toplantı"
+  },
+  "tabGroups": {
+    "tabs": "Sekmeler",
+    "close": "Sekmeyi kapat",
+    "newGroup": "Yeni grup",
+    "addTo": "Gruba ekle",
+    "ungroup": "Gruptan çıkar",
+    "rename": "Grubu yeniden adlandır",
+    "dissolve": "Grubu dağıt",
+    "closeGroup": "Grubu kapat",
+    "fold": "Daralt veya genişlet",
+    "name": "Grup {number}",
+    "hint": "Taşımak için bir sekmeyi sürükleyin, eklemek için bir grubun üzerine bırakın. Daha fazlası için sağ tıklayın; daraltmak için bir gruba tıklayın."
   }
 }

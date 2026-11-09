@@ -197,5 +197,16 @@
     "close": "Cerrar",
     "resize": "Cambiar el ancho del panel",
     "noContext": "Sin contexto"
+  },
+  "rowButton": {
+    "inbox": "Bandeja de entrada",
+    "drafts": "Borradores",
+    "archive": "Archivo",
+    "trash": "Papelera"
+  },
+  "popover": {
+    "open": "Detalles",
+    "title": "Horario",
+    "text": "De lunes a viernes, de 9:00 a 17:00."
   }
 }

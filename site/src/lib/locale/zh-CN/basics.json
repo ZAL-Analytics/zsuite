@@ -44,5 +44,18 @@
     "phone": "回电",
     "mail": "电子邮件",
     "users": "会议"
+  },
+  "tabGroups": {
+    "tabs": "标签页",
+    "close": "关闭标签页",
+    "newGroup": "新建组",
+    "addTo": "添加到组",
+    "ungroup": "从组中移除",
+    "rename": "重命名组",
+    "dissolve": "取消分组",
+    "closeGroup": "关闭组",
+    "fold": "折叠或展开",
+    "name": "组 {number}",
+    "hint": "拖动标签页以移动，放到某个组上即可加入。右键查看更多；点击组可折叠。"
   }
 }

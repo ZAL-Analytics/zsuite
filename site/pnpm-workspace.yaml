@@ -1,2 +1,4 @@
 packages:
   - .
+minimumReleaseAgeExclude:
+  - sigma@4.0.5
