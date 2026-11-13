@@ -55,5 +55,13 @@
     "tent": "Çadır",
     "boots": "Yürüyüş botları",
     "torch": "El feneri"
+  },
+  "code": {
+    "label": "Sorgu",
+    "placeholder": "Bir sorgu yazın, Ctrl+Enter çalıştırır",
+    "hint": "Adları tamamlamak için yazın; bilinmeyen etiketin altı çizilir.",
+    "unknown": "Bilinmeyen etiket: {name}",
+    "run": "Çalıştır",
+    "ran": "Çalıştırıldı: {lines} satır"
   }
 }

@@ -55,5 +55,13 @@
     "tent": "テント",
     "boots": "登山靴",
     "torch": "懐中電灯"
+  },
+  "code": {
+    "label": "クエリ",
+    "placeholder": "クエリを書き、Ctrl+Enter で実行",
+    "hint": "入力すると名前を補完します。不明なラベルには下線が付きます。",
+    "unknown": "不明なラベル: {name}",
+    "run": "実行",
+    "ran": "実行しました: {lines} 行"
   }
 }

@@ -3,7 +3,9 @@
 	import Graph from "graphology";
 	import type Sigma from "sigma";
 	import type FA2Layout from "graphology-layout-forceatlas2/worker";
+	import Expand from "@lucide/svelte/icons/expand";
 	import Maximize from "@lucide/svelte/icons/maximize";
+	import Shrink from "@lucide/svelte/icons/shrink";
 	import RefreshCw from "@lucide/svelte/icons/refresh-cw";
 	import type { Snippet } from "svelte";
 	import { cn } from "../../utils.js";
@@ -42,6 +44,13 @@
 	const MARGIN = 1.35;
 
 	let box: HTMLDivElement | undefined = $state();
+	let root: HTMLDivElement | undefined = $state();
+	let full = $state(false);
+
+	function toggleFull() {
+		if (document.fullscreenElement) void document.exitFullscreen();
+		else void root?.requestFullscreen();
+	}
 	let renderer: Sigma<NodeData, EdgeData> | null = null;
 	let layout: FA2Layout | null = null;
 	let timer: ReturnType<typeof setTimeout> | undefined;
@@ -310,7 +319,9 @@
 	});
 </script>
 
-<div data-slot="network" class={cn("relative min-h-64 overflow-hidden", className)}>
+<svelte:document onfullscreenchange={() => (full = document.fullscreenElement === root)} />
+
+<div bind:this={root} data-slot="network" class={cn("relative min-h-64 overflow-hidden [&:fullscreen]:bg-background", className)}>
 	<div bind:this={box} role="img" aria-label={labels.graph} class="absolute inset-0 rounded-md"></div>
 	{#if hover}
 		<div class="pointer-events-none absolute z-10 max-w-64 rounded-md border border-border bg-popover px-2 py-1 text-xs text-popover-foreground shadow-md" style:left={`${hover.x + 14}px`} style:top={`${hover.y + 14}px`}>
@@ -323,5 +334,10 @@
 		{@render status?.()}
 		<button type="button" class="rounded-md border border-border bg-background p-1.5 text-foreground outline-none hover:bg-accent focus-visible:ring-3 focus-visible:ring-ring/50" title={labels.layout} aria-label={labels.layout} onclick={() => run(RELAYOUT_MS)}><RefreshCw class="size-4" /></button>
 		<button type="button" class="rounded-md border border-border bg-background p-1.5 text-foreground outline-none hover:bg-accent focus-visible:ring-3 focus-visible:ring-ring/50" title={labels.fit} aria-label={labels.fit} onclick={fit}><Maximize class="size-4" /></button>
+		{#if labels.fullscreen}
+			<button type="button" class="rounded-md border border-border bg-background p-1.5 text-foreground outline-none hover:bg-accent focus-visible:ring-3 focus-visible:ring-ring/50" title={labels.fullscreen} aria-label={labels.fullscreen} aria-pressed={full} onclick={toggleFull}>
+				{#if full}<Shrink class="size-4" />{:else}<Expand class="size-4" />{/if}
+			</button>
+		{/if}
 	</div>
 </div>

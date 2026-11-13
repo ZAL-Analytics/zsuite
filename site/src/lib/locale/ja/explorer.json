@@ -109,5 +109,16 @@
     "hint": "名前をクリックし、Enter で保存、Escape でキャンセルします。",
     "file": "Quarterly report.pdf",
     "saved": "{name} として保存しました"
+  },
+  "tree": {
+    "label": "ファイル",
+    "hint": "右クリックでその他の操作、F2 で名前を変更。",
+    "newFile": "新しいファイル",
+    "newFolder": "新しいフォルダー",
+    "rename": "名前を変更",
+    "delete": "削除",
+    "name": "名前",
+    "opened": "開きました: {name}",
+    "empty": "空です。右クリックでファイルを追加。"
   }
 }

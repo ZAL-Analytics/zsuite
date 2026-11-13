@@ -55,5 +55,13 @@
     "tent": "Tenda",
     "boots": "Scarponi da trekking",
     "torch": "Torcia"
+  },
+  "code": {
+    "label": "Query",
+    "placeholder": "Scrivi una query, Ctrl+Invio la esegue",
+    "hint": "Digita per completare i nomi; un’etichetta sconosciuta viene sottolineata.",
+    "unknown": "Etichetta sconosciuta: {name}",
+    "run": "Esegui",
+    "ran": "Eseguita: {lines} righe"
   }
 }

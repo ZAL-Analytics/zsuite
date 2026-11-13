@@ -109,5 +109,16 @@
     "hint": "Clicca sul nome, poi premi Invio per salvare o Esc per annullare.",
     "file": "Quarterly report.pdf",
     "saved": "Salvato come {name}"
+  },
+  "tree": {
+    "label": "File",
+    "hint": "Clic destro per altro; F2 rinomina.",
+    "newFile": "Nuovo file",
+    "newFolder": "Nuova cartella",
+    "rename": "Rinomina",
+    "delete": "Elimina",
+    "name": "Nome",
+    "opened": "Aperto: {name}",
+    "empty": "Vuoto. Clic destro per aggiungere un file."
   }
 }

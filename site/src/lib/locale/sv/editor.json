@@ -55,5 +55,13 @@
     "tent": "Tält",
     "boots": "Vandringskängor",
     "torch": "Ficklampa"
+  },
+  "code": {
+    "label": "Fråga",
+    "placeholder": "Skriv en fråga, Ctrl+Enter kör den",
+    "hint": "Skriv för att komplettera namn; en okänd etikett stryks under.",
+    "unknown": "Okänd etikett: {name}",
+    "run": "Kör",
+    "ran": "Körd: {lines} rader"
   }
 }

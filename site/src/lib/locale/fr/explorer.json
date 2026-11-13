@@ -109,5 +109,16 @@
     "hint": "Cliquez sur le nom, puis appuyez sur Entrée pour enregistrer ou Échap pour annuler.",
     "file": "Rapport trimestriel.pdf",
     "saved": "Enregistré sous {name}"
+  },
+  "tree": {
+    "label": "Fichiers",
+    "hint": "Clic droit pour plus ; F2 renomme.",
+    "newFile": "Nouveau fichier",
+    "newFolder": "Nouveau dossier",
+    "rename": "Renommer",
+    "delete": "Supprimer",
+    "name": "Nom",
+    "opened": "Ouvert : {name}",
+    "empty": "Vide. Clic droit pour ajouter un fichier."
   }
 }

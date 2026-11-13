@@ -55,5 +55,13 @@
     "tent": "Tente",
     "boots": "Chaussures de randonnée",
     "torch": "Lampe de poche"
+  },
+  "code": {
+    "label": "Requête",
+    "placeholder": "Écrivez une requête, Ctrl+Entrée l’exécute",
+    "hint": "Tapez pour compléter les noms ; une étiquette inconnue est soulignée.",
+    "unknown": "Étiquette inconnue : {name}",
+    "run": "Exécuter",
+    "ran": "Exécutée : {lines} lignes"
   }
 }

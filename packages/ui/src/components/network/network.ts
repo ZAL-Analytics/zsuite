@@ -3,7 +3,7 @@ export type NetworkPattern = "solid" | "dashed" | "dotted";
 // `icon` is an image URL (a data: URL works); its shape is drawn in the node colour instead of `shape`.
 export type NetworkNode = { id: string; label: string; color: string; size?: number; shape?: NetworkShape; icon?: string; strong?: boolean; hidden?: boolean; near?: string; hint?: string };
 export type NetworkEdge = { id: string; from: string; to: string; color?: string; pattern?: NetworkPattern; arrow?: boolean; hint?: string; hidden?: boolean; strong?: boolean };
-export type NetworkLabels = { layout: string; fit: string; graph: string };
+export type NetworkLabels = { layout: string; fit: string; graph: string; fullscreen?: string };
 export type Point = { x: number; y: number };
 
 export const SPREAD = 120;

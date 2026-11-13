@@ -112,5 +112,16 @@
     "hint": "לחצו על השם, ואז Enter לשמירה או Escape לביטול.",
     "file": "Quarterly report.pdf",
     "saved": "נשמר בשם {name}"
+  },
+  "tree": {
+    "label": "קבצים",
+    "hint": "לחיצה ימנית לעוד; F2 משנה שם.",
+    "newFile": "קובץ חדש",
+    "newFolder": "תיקייה חדשה",
+    "rename": "שינוי שם",
+    "delete": "מחיקה",
+    "name": "שם",
+    "opened": "נפתח: {name}",
+    "empty": "ריק. לחיצה ימנית להוספת קובץ."
   }
 }

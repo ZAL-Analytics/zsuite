@@ -47,6 +47,7 @@
     "fit": "Mostrar todo",
     "graph": "Red de proyectos ficticios. Haz clic en un nodo para ampliarlo.",
     "picked": "Elegido: {name}",
-    "none": "Haz clic en un nodo para ampliar la red."
+    "none": "Haz clic en un nodo para ampliar la red.",
+    "fullscreen": "Pantalla completa"
   }
 }

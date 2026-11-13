@@ -109,5 +109,16 @@
     "hint": "Klick auf den Namen und drück dann Enter zum Speichern oder Esc zum Abbrechen.",
     "file": "Quartalsbericht.pdf",
     "saved": "Gespeichert als {name}"
+  },
+  "tree": {
+    "label": "Dateien",
+    "hint": "Rechtsklick für mehr; F2 benennt um.",
+    "newFile": "Neue Datei",
+    "newFolder": "Neuer Ordner",
+    "rename": "Umbenennen",
+    "delete": "Löschen",
+    "name": "Name",
+    "opened": "Geöffnet: {name}",
+    "empty": "Leer. Rechtsklick, um eine Datei hinzuzufügen."
   }
 }

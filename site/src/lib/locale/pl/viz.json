@@ -47,6 +47,7 @@
     "fit": "Pokaż wszystko",
     "graph": "Sieć zmyślonych projektów. Kliknij węzeł, aby go rozwinąć.",
     "picked": "Wybrano: {name}",
-    "none": "Kliknij węzeł, aby rozwinąć sieć."
+    "none": "Kliknij węzeł, aby rozwinąć sieć.",
+    "fullscreen": "Pełny ekran"
   }
 }

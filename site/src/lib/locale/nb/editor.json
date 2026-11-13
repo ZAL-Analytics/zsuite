@@ -55,5 +55,13 @@
     "tent": "Telt",
     "boots": "Fjellstøvler",
     "torch": "Lommelykt"
+  },
+  "code": {
+    "label": "Spørring",
+    "placeholder": "Skriv en spørring, Ctrl+Enter kjører den",
+    "hint": "Skriv for å fullføre navn; en ukjent etikett understrekes.",
+    "unknown": "Ukjent etikett: {name}",
+    "run": "Kjør",
+    "ran": "Kjørt: {lines} linjer"
   }
 }

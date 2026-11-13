@@ -55,5 +55,13 @@
     "tent": "Tent",
     "boots": "Wandelschoenen",
     "torch": "Zaklamp"
+  },
+  "code": {
+    "label": "Query",
+    "placeholder": "Schrijf een query, Ctrl+Enter voert hem uit",
+    "hint": "Typ om namen aan te vullen; een onbekend label wordt onderstreept.",
+    "unknown": "Onbekend label: {name}",
+    "run": "Uitvoeren",
+    "ran": "Uitgevoerd: {lines} regels"
   }
 }

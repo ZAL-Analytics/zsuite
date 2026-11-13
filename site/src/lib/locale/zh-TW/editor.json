@@ -55,5 +55,13 @@
     "tent": "帳篷",
     "boots": "登山鞋",
     "torch": "手電筒"
+  },
+  "code": {
+    "label": "查詢",
+    "placeholder": "撰寫查詢，Ctrl+Enter 執行",
+    "hint": "輸入即可補全名稱；未知標籤會加底線。",
+    "unknown": "未知標籤：{name}",
+    "run": "執行",
+    "ran": "已執行：{lines} 行"
   }
 }

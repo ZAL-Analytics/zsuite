@@ -35,5 +35,5 @@
 
 <div class="grid gap-3">
   <p class="text-sm text-muted-foreground">{picked ? t("viz.network.picked", { name }) : t("viz.network.none")}</p>
-  <Network class="h-96 rounded-lg border border-border bg-muted/30" {nodes} {edges} selected={picked ? [picked] : []} labels={{ layout: t("viz.network.layout"), fit: t("viz.network.fit"), graph: t("viz.network.graph") }} onselect={(id) => grow(id)} focus={picked} />
+  <Network class="h-96 rounded-lg border border-border bg-muted/30" {nodes} {edges} selected={picked ? [picked] : []} labels={{ layout: t("viz.network.layout"), fit: t("viz.network.fit"), graph: t("viz.network.graph"), fullscreen: t("viz.network.fullscreen") }} onselect={(id) => grow(id)} focus={picked} />
 </div>

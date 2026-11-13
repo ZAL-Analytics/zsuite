@@ -115,5 +115,16 @@
     "hint": "Kliknij nazwę, a potem naciśnij Enter, aby zapisać, lub Escape, aby anulować.",
     "file": "Quarterly report.pdf",
     "saved": "Zapisano jako {name}"
+  },
+  "tree": {
+    "label": "Pliki",
+    "hint": "Kliknij prawym, aby zobaczyć więcej; F2 zmienia nazwę.",
+    "newFile": "Nowy plik",
+    "newFolder": "Nowy folder",
+    "rename": "Zmień nazwę",
+    "delete": "Usuń",
+    "name": "Nazwa",
+    "opened": "Otwarto: {name}",
+    "empty": "Pusto. Kliknij prawym, aby dodać plik."
   }
 }

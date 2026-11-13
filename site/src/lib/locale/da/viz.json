@@ -47,6 +47,7 @@
     "fit": "Vis alt",
     "graph": "Netværk af opdigtede projekter. Klik på en knude for at udvide den.",
     "picked": "Valgt: {name}",
-    "none": "Klik på en knude for at udvide netværket."
+    "none": "Klik på en knude for at udvide netværket.",
+    "fullscreen": "Fuld skærm"
   }
 }

@@ -55,5 +55,13 @@
     "tent": "Tent",
     "boots": "Hiking boots",
     "torch": "Torch"
+  },
+  "code": {
+    "label": "Query",
+    "placeholder": "Write a query, Ctrl+Enter runs it",
+    "hint": "Type to complete names; an unknown label is underlined.",
+    "unknown": "Unknown label: {name}",
+    "run": "Run",
+    "ran": "Ran: {lines} lines"
   }
 }

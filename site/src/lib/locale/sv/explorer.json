@@ -109,5 +109,16 @@
     "hint": "Klicka på namnet och tryck sedan Enter för att spara eller Escape för att avbryta.",
     "file": "Quarterly report.pdf",
     "saved": "Sparad som {name}"
+  },
+  "tree": {
+    "label": "Filer",
+    "hint": "Högerklicka för mer; F2 byter namn.",
+    "newFile": "Ny fil",
+    "newFolder": "Ny mapp",
+    "rename": "Byt namn",
+    "delete": "Ta bort",
+    "name": "Namn",
+    "opened": "Öppnad: {name}",
+    "empty": "Tom. Högerklicka för att lägga till en fil."
   }
 }

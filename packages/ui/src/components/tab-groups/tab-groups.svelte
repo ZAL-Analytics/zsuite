@@ -2,6 +2,12 @@
   import type { Snippet } from "svelte";
   import ChevronDown from "@lucide/svelte/icons/chevron-down";
   import ChevronRight from "@lucide/svelte/icons/chevron-right";
+  import FoldVertical from "@lucide/svelte/icons/fold-vertical";
+  import FolderInput from "@lucide/svelte/icons/folder-input";
+  import FolderMinus from "@lucide/svelte/icons/folder-minus";
+  import Group from "@lucide/svelte/icons/group";
+  import PencilLine from "@lucide/svelte/icons/pencil-line";
+  import Ungroup from "@lucide/svelte/icons/ungroup";
   import X from "@lucide/svelte/icons/x";
   import * as ContextMenu from "../context-menu/index.js";
   import { RenameField } from "../rename-field/index.js";
@@ -108,10 +114,10 @@
     <ContextMenu.Root>
       <ContextMenu.Trigger>{#snippet child({ props })}<div {...props} class="flex">{@render tabItem(tab)}</div>{/snippet}</ContextMenu.Trigger>
       <ContextMenu.Content class="w-56">
-        <ContextMenu.Item onSelect={() => newGroup(tab.id)}>{labels.newGroup}</ContextMenu.Item>
+        <ContextMenu.Item onSelect={() => newGroup(tab.id)}><Group />{labels.newGroup}</ContextMenu.Item>
         {#if groups.some((group) => group.name !== tab.group)}
           <ContextMenu.Sub>
-            <ContextMenu.SubTrigger>{labels.addTo}</ContextMenu.SubTrigger>
+            <ContextMenu.SubTrigger class="gap-2"><FolderInput />{labels.addTo}</ContextMenu.SubTrigger>
             <ContextMenu.SubContent>
               {#each groups.filter((group) => group.name !== tab.group) as group (group.name)}
                 <ContextMenu.Item onSelect={() => change(joined(tabs, tab.id, group.name))}>{group.name}</ContextMenu.Item>
@@ -119,9 +125,9 @@
             </ContextMenu.SubContent>
           </ContextMenu.Sub>
         {/if}
-        {#if tab.group}<ContextMenu.Item onSelect={() => change(moved(tabs, tab.id, null, null))}>{labels.ungroup}</ContextMenu.Item>{/if}
+        {#if tab.group}<ContextMenu.Item onSelect={() => change(moved(tabs, tab.id, null, null))}><FolderMinus />{labels.ungroup}</ContextMenu.Item>{/if}
         <ContextMenu.Separator />
-        <ContextMenu.Item onSelect={() => onclose([tab.id])}>{labels.close}</ContextMenu.Item>
+        <ContextMenu.Item onSelect={() => onclose([tab.id])}><X />{labels.close}</ContextMenu.Item>
       </ContextMenu.Content>
     </ContextMenu.Root>
   {/if}
@@ -149,11 +155,11 @@
             {/snippet}
           </ContextMenu.Trigger>
           <ContextMenu.Content class="w-56">
-            <ContextMenu.Item onSelect={() => setGroup(group.name, { folded: !group.folded })}>{labels.fold}</ContextMenu.Item>
-            <ContextMenu.Item onSelect={() => (renaming = group.name)}>{labels.rename}</ContextMenu.Item>
-            <ContextMenu.Item onSelect={() => change(tabs.map((tab) => (tab.group === group.name ? { ...tab, group: null } : tab)))}>{labels.dissolve}</ContextMenu.Item>
+            <ContextMenu.Item onSelect={() => setGroup(group.name, { folded: !group.folded })}><FoldVertical />{labels.fold}</ContextMenu.Item>
+            <ContextMenu.Item onSelect={() => (renaming = group.name)}><PencilLine />{labels.rename}</ContextMenu.Item>
+            <ContextMenu.Item onSelect={() => change(tabs.map((tab) => (tab.group === group.name ? { ...tab, group: null } : tab)))}><Ungroup />{labels.dissolve}</ContextMenu.Item>
             <ContextMenu.Separator />
-            <ContextMenu.Item onSelect={() => onclose(ids)}>{labels.closeGroup}</ContextMenu.Item>
+            <ContextMenu.Item onSelect={() => onclose(ids)}><X />{labels.closeGroup}</ContextMenu.Item>
           </ContextMenu.Content>
         </ContextMenu.Root>
         {#each shown as tab (tab.id)}{@render tabMenu(tab)}{/each}

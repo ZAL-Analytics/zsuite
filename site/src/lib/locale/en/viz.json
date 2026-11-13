@@ -47,6 +47,7 @@
     "fit": "Show all",
     "graph": "Network of made-up projects. Click a node to grow it.",
     "picked": "Picked: {name}",
-    "none": "Click a node to grow the network."
+    "none": "Click a node to grow the network.",
+    "fullscreen": "Full screen"
   }
 }

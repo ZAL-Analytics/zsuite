@@ -55,5 +55,13 @@
     "tent": "Tienda de campaña",
     "boots": "Botas de montaña",
     "torch": "Linterna"
+  },
+  "code": {
+    "label": "Consulta",
+    "placeholder": "Escribe una consulta, Ctrl+Intro la ejecuta",
+    "hint": "Escribe para completar nombres; una etiqueta desconocida se subraya.",
+    "unknown": "Etiqueta desconocida: {name}",
+    "run": "Ejecutar",
+    "ran": "Ejecutada: {lines} líneas"
   }
 }

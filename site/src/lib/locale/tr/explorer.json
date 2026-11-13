@@ -109,5 +109,16 @@
     "hint": "Ada tıklayın, kaydetmek için Enter'a, iptal etmek için Escape'e basın.",
     "file": "Quarterly report.pdf",
     "saved": "{name} olarak kaydedildi"
+  },
+  "tree": {
+    "label": "Dosyalar",
+    "hint": "Daha fazlası için sağ tıklayın; F2 yeniden adlandırır.",
+    "newFile": "Yeni dosya",
+    "newFolder": "Yeni klasör",
+    "rename": "Yeniden adlandır",
+    "delete": "Sil",
+    "name": "Ad",
+    "opened": "Açıldı: {name}",
+    "empty": "Boş. Dosya eklemek için sağ tıklayın."
   }
 }
