@@ -109,5 +109,16 @@
     "hint": "Haz clic en el nombre y pulsa Intro para guardar o Esc para cancelar.",
     "file": "Informe trimestral.pdf",
     "saved": "Guardado como {name}"
+  },
+  "tree": {
+    "label": "Archivos",
+    "hint": "Clic derecho para más; F2 cambia el nombre.",
+    "newFile": "Archivo nuevo",
+    "newFolder": "Carpeta nueva",
+    "rename": "Cambiar nombre",
+    "delete": "Eliminar",
+    "name": "Nombre",
+    "opened": "Abierto: {name}",
+    "empty": "Vacío. Clic derecho para añadir un archivo."
   }
 }

@@ -55,5 +55,13 @@
     "tent": "Zelt",
     "boots": "Wanderschuhe",
     "torch": "Taschenlampe"
+  },
+  "code": {
+    "label": "Abfrage",
+    "placeholder": "Abfrage schreiben, Strg+Enter führt sie aus",
+    "hint": "Tippen ergänzt Namen; ein unbekanntes Label wird unterstrichen.",
+    "unknown": "Unbekanntes Label: {name}",
+    "run": "Ausführen",
+    "ran": "Ausgeführt: {lines} Zeilen"
   }
 }

@@ -55,5 +55,13 @@
     "tent": "帐篷",
     "boots": "登山靴",
     "torch": "手电筒"
+  },
+  "code": {
+    "label": "查询",
+    "placeholder": "编写查询，Ctrl+Enter 运行",
+    "hint": "输入即可补全名称；未知标签会加下划线。",
+    "unknown": "未知标签：{name}",
+    "run": "运行",
+    "ran": "已运行：{lines} 行"
   }
 }

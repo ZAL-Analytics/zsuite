@@ -47,6 +47,7 @@
     "fit": "Visa allt",
     "graph": "Nätverk av påhittade projekt. Klicka på en nod för att utöka den.",
     "picked": "Vald: {name}",
-    "none": "Klicka på en nod för att utöka nätverket."
+    "none": "Klicka på en nod för att utöka nätverket.",
+    "fullscreen": "Helskärm"
   }
 }

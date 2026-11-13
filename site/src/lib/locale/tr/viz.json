@@ -47,6 +47,7 @@
     "fit": "Tümünü göster",
     "graph": "Uydurma projelerden oluşan ağ. Genişletmek için bir düğüme tıklayın.",
     "picked": "Seçilen: {name}",
-    "none": "Ağı genişletmek için bir düğüme tıklayın."
+    "none": "Ağı genişletmek için bir düğüme tıklayın.",
+    "fullscreen": "Tam ekran"
   }
 }

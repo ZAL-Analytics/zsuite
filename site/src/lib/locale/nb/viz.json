@@ -47,6 +47,7 @@
     "fit": "Vis alt",
     "graph": "Nettverk av oppdiktede prosjekter. Klikk på en node for å utvide den.",
     "picked": "Valgt: {name}",
-    "none": "Klikk på en node for å utvide nettverket."
+    "none": "Klikk på en node for å utvide nettverket.",
+    "fullscreen": "Fullskjerm"
   }
 }

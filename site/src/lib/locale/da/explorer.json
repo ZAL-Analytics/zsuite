@@ -109,5 +109,16 @@
     "hint": "Klik på navnet, og tryk derefter på Enter for at gemme eller Escape for at annullere.",
     "file": "Quarterly report.pdf",
     "saved": "Gemt som {name}"
+  },
+  "tree": {
+    "label": "Filer",
+    "hint": "Højreklik for mere; F2 omdøber.",
+    "newFile": "Ny fil",
+    "newFolder": "Ny mappe",
+    "rename": "Omdøb",
+    "delete": "Slet",
+    "name": "Navn",
+    "opened": "Åbnet: {name}",
+    "empty": "Tom. Højreklik for at tilføje en fil."
   }
 }

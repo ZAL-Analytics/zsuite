@@ -109,5 +109,16 @@
     "hint": "Clique no nome e prima Enter para guardar ou Escape para cancelar.",
     "file": "Relatório trimestral.pdf",
     "saved": "Guardado como {name}"
+  },
+  "tree": {
+    "label": "Arquivos",
+    "hint": "Clique direito para mais; F2 renomeia.",
+    "newFile": "Novo arquivo",
+    "newFolder": "Nova pasta",
+    "rename": "Renomear",
+    "delete": "Excluir",
+    "name": "Nome",
+    "opened": "Aberto: {name}",
+    "empty": "Vazio. Clique direito para adicionar um arquivo."
   }
 }

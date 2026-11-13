@@ -47,6 +47,7 @@
     "fit": "Tout afficher",
     "graph": "Réseau de projets fictifs. Cliquez sur un nœud pour l'étendre.",
     "picked": "Choisi : {name}",
-    "none": "Cliquez sur un nœud pour étendre le réseau."
+    "none": "Cliquez sur un nœud pour étendre le réseau.",
+    "fullscreen": "Plein écran"
   }
 }

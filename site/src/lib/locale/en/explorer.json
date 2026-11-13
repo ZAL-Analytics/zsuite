@@ -39,9 +39,31 @@
     "selected_one": "{count} selected",
     "selected_other": "{count} selected",
     "dropHere": "Drop to upload into {name}",
-    "types": { "folder": "Folder", "pdf": "PDF", "sheet": "Spreadsheet", "image": "Image", "text": "Text", "slides": "Slides", "file": "File" },
-    "sorts": { "name": "Name A to Z", "-name": "Name Z to A", "updated_at": "Oldest first", "-updated_at": "Newest first", "size": "Smallest first", "-size": "Largest first", "kind": "Type A to Z", "-kind": "Type Z to A" },
-    "views": { "details": "Details", "list": "List", "icons": "Icons", "large": "Large icons" }
+    "types": {
+      "folder": "Folder",
+      "pdf": "PDF",
+      "sheet": "Spreadsheet",
+      "image": "Image",
+      "text": "Text",
+      "slides": "Slides",
+      "file": "File"
+    },
+    "sorts": {
+      "name": "Name A to Z",
+      "-name": "Name Z to A",
+      "updated_at": "Oldest first",
+      "-updated_at": "Newest first",
+      "size": "Smallest first",
+      "-size": "Largest first",
+      "kind": "Type A to Z",
+      "-kind": "Type Z to A"
+    },
+    "views": {
+      "details": "Details",
+      "list": "List",
+      "icons": "Icons",
+      "large": "Large icons"
+    }
   },
   "demo": {
     "app": "Files",
@@ -87,5 +109,16 @@
     "hint": "Click the name, then press Enter to save or Escape to cancel.",
     "file": "Quarterly report.pdf",
     "saved": "Saved as {name}"
+  },
+  "tree": {
+    "label": "Files",
+    "hint": "Right-click for more; F2 renames.",
+    "newFile": "New file",
+    "newFolder": "New folder",
+    "rename": "Rename",
+    "delete": "Delete",
+    "name": "Name",
+    "opened": "Opened: {name}",
+    "empty": "Empty. Right-click to add a file."
   }
 }

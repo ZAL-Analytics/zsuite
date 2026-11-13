@@ -109,5 +109,16 @@
     "hint": "Klikk på navnet, og trykk Enter for å lagre eller Escape for å avbryte.",
     "file": "Quarterly report.pdf",
     "saved": "Lagret som {name}"
+  },
+  "tree": {
+    "label": "Filer",
+    "hint": "Høyreklikk for mer; F2 gir nytt navn.",
+    "newFile": "Ny fil",
+    "newFolder": "Ny mappe",
+    "rename": "Gi nytt navn",
+    "delete": "Slett",
+    "name": "Navn",
+    "opened": "Åpnet: {name}",
+    "empty": "Tom. Høyreklikk for å legge til en fil."
   }
 }

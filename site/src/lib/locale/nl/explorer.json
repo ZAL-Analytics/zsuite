@@ -109,5 +109,16 @@
     "hint": "Klik op de naam en druk op Enter om op te slaan of Escape om te annuleren.",
     "file": "Kwartaalrapport.pdf",
     "saved": "Opgeslagen als {name}"
+  },
+  "tree": {
+    "label": "Bestanden",
+    "hint": "Rechtsklik voor meer; F2 hernoemt.",
+    "newFile": "Nieuw bestand",
+    "newFolder": "Nieuwe map",
+    "rename": "Hernoemen",
+    "delete": "Verwijderen",
+    "name": "Naam",
+    "opened": "Geopend: {name}",
+    "empty": "Leeg. Rechtsklik om een bestand toe te voegen."
   }
 }

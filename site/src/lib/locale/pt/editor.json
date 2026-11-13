@@ -55,5 +55,13 @@
     "tent": "Tenda",
     "boots": "Botas de caminhada",
     "torch": "Lanterna"
+  },
+  "code": {
+    "label": "Consulta",
+    "placeholder": "Escreva uma consulta, Ctrl+Enter executa",
+    "hint": "Digite para completar nomes; um rótulo desconhecido é sublinhado.",
+    "unknown": "Rótulo desconhecido: {name}",
+    "run": "Executar",
+    "ran": "Executada: {lines} linhas"
   }
 }

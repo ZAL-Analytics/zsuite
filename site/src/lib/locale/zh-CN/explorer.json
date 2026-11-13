@@ -109,5 +109,16 @@
     "hint": "点击名称，然后按 Enter 保存或按 Escape 取消。",
     "file": "Quarterly report.pdf",
     "saved": "已另存为 {name}"
+  },
+  "tree": {
+    "label": "文件",
+    "hint": "右键查看更多；F2 重命名。",
+    "newFile": "新建文件",
+    "newFolder": "新建文件夹",
+    "rename": "重命名",
+    "delete": "删除",
+    "name": "名称",
+    "opened": "已打开：{name}",
+    "empty": "空。右键添加文件。"
   }
 }

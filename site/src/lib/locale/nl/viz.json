@@ -47,6 +47,7 @@
     "fit": "Alles tonen",
     "graph": "Netwerk van verzonnen projecten. Klik op een knoop om hem te laten groeien.",
     "picked": "Gekozen: {name}",
-    "none": "Klik op een knoop om het netwerk te laten groeien."
+    "none": "Klik op een knoop om het netwerk te laten groeien.",
+    "fullscreen": "Volledig scherm"
   }
 }

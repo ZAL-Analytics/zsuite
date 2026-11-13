@@ -55,5 +55,13 @@
     "tent": "Namiot",
     "boots": "Buty trekkingowe",
     "torch": "Latarka"
+  },
+  "code": {
+    "label": "Zapytanie",
+    "placeholder": "Napisz zapytanie, Ctrl+Enter je uruchamia",
+    "hint": "Pisz, aby uzupełniać nazwy; nieznana etykieta jest podkreślana.",
+    "unknown": "Nieznana etykieta: {name}",
+    "run": "Uruchom",
+    "ran": "Uruchomiono: {lines} wierszy"
   }
 }
