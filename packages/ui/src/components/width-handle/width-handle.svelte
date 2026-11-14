@@ -34,9 +34,13 @@
 		const stop = () => {
 			handle.removeEventListener("pointermove", move);
 			handle.removeEventListener("pointerup", stop);
+			handle.removeEventListener("pointercancel", stop);
+			handle.removeEventListener("lostpointercapture", stop);
 		};
 		handle.addEventListener("pointermove", move);
 		handle.addEventListener("pointerup", stop);
+		handle.addEventListener("pointercancel", stop);
+		handle.addEventListener("lostpointercapture", stop);
 	}
 
 	function key(event: KeyboardEvent & { currentTarget: HTMLElement }) {

@@ -179,6 +179,10 @@
 	});
 
 	$effect(() => {
+		if (editor && editor.isEditable !== editable) editor.setEditable(editable, false);
+	});
+
+	$effect(() => {
 		if (!editor || value === shown) return;
 		shown = value;
 		editor.commands.setContent(value, { contentType: "markdown" });

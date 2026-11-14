@@ -41,10 +41,10 @@ function gap(value: number, low: number, high: number): number {
 
 export function wordAt(words: Word[], point: Point): number | null {
 	let best: number | null = null;
-	let distance = Infinity;
+	let [down, across] = [Infinity, Infinity];
 	words.forEach((word, index) => {
-		const away = gap(point.x, word[2], word[4]) + 10 * gap(point.y, word[3], word[5]);
-		if (away < distance) [best, distance] = [index, away];
+		const [y, x] = [gap(point.y, word[3], word[5]), gap(point.x, word[2], word[4])];
+		if (y < down || (y === down && x < across)) [best, down, across] = [index, y, x];
 	});
 	return best;
 }
@@ -83,6 +83,8 @@ if (import.meta.vitest) {
 		expect(wordAt(words, { x: 0.5, y: 0.11 })).toBe(2);
 		expect(wordAt(words, { x: 0.12, y: 0.25 })).toBe(3);
 		expect(wordAt([], { x: 0.5, y: 0.5 })).toBeNull();
+		const close: Word[] = [...words.slice(0, 3), [13, 17, 0.6, 0.13, 0.7, 0.15]];
+		expect(wordAt(close, { x: 0.65, y: 0.11 })).toBe(2);
 		expect(spanBetween(words, 3, 1)).toEqual({ start: 4, end: 17 });
 	});
 
